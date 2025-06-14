@@ -192,12 +192,12 @@ class RankingPage {
             
             // Determine rank class for top 3
             let rankClass = '';
-            if (player.rank === 1) rankClass = 'rank-1';
-            else if (player.rank === 2) rankClass = 'rank-2';
-            else if (player.rank === 3) rankClass = 'rank-3';
+            if (player.division_rank === 1) rankClass = 'rank-1';
+            else if (player.division_rank === 2) rankClass = 'rank-2';
+            else if (player.division_rank === 3) rankClass = 'rank-3';
 
             row.innerHTML = `
-                <td><span class="rank-number ${rankClass}">${player.rank}</span></td>
+                <td><span class="rank-number ${rankClass}">${player.division_rank}</span></td>
                 <td>
                     <div class="player-name">${player.first_name} ${player.last_name}</div>
                     ${player.alias ? `<div class="player-alias">(${player.alias})</div>` : ''}
