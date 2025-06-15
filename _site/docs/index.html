@@ -1,0 +1,103 @@
+<section class="hero">
+    <div class="container">
+        <h2 class="hero-title">Rankingsystem för svenska IPSC-skyttar</h2>
+        <p class="hero-subtitle">
+            Ett rankingsystem med målet att vara så transparent och rättvist som möjligt
+        </p>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-number" id="total-players">-</span>
+                <span class="stat-label">Aktiva skyttar</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number" id="total-matches">-</span>
+                <span class="stat-label">Matcher analyserade</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">7</span>
+                <span class="stat-label">Divisioner</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="rankings" class="rankings">
+    <div class="container">
+        <h2 class="section-title">Rankings per division</h2>
+        <div class="division-grid">
+            <div class="division-card" data-division="combined">
+                <h3>Combined</h3>
+                <p>Kombinerad ranking över alla divisioner</p>
+                <span class="player-count" id="count-combined">-</span>
+            </div>
+            <div class="division-card" data-division="classic">
+                <h3>Classic</h3>
+                <p>Classic division ranking</p>
+                <span class="player-count" id="count-classic">-</span>
+            </div>
+            <div class="division-card" data-division="open">
+                <h3>Open</h3>
+                <p>Open division ranking</p>
+                <span class="player-count" id="count-open">-</span>
+            </div>
+            <div class="division-card" data-division="production">
+                <h3>Production</h3>
+                <p>Production division ranking</p>
+                <span class="player-count" id="count-production">-</span>
+            </div>
+            <div class="division-card" data-division="production_optics">
+                <h3>Production Optics</h3>
+                <p>Production Optics division ranking</p>
+                <span class="player-count" id="count-production-optics">-</span>
+            </div>
+            <div class="division-card" data-division="standard">
+                <h3>Standard</h3>
+                <p>Standard division ranking</p>
+                <span class="player-count" id="count-standard">-</span>
+            </div>
+            <div class="division-card" data-division="revolver">
+                <h3>Revolver</h3>
+                <p>Revolver division ranking</p>
+                <span class="player-count" id="count-revolver">-</span>
+            </div>
+            <div class="division-card" data-division="pistol_caliber_carbine">
+                <h3>Pistol Caliber Carbine</h3>
+                <p>PCC division ranking</p>
+                <span class="player-count" id="count-pcc">-</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">Om rankingsystemet</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>OpenSkill-algoritm</h3>
+                <p>Systemet använder OpenSkill, en modern rankingalgoritm som är speciellt anpassad för tävlingar med flera deltagare. Den tar hänsyn till både prestanda och osäkerhet.</p>
+            </div>
+            <div class="about-card">
+                <h3>Konservativ rating</h3>
+                <p>För att undvika att nya spelare med få matcher får för hög ranking används den 20:e percentilen som rankingpoäng. Detta ger en mer rättvis bedömning.</p>
+            </div>
+            <div class="about-card">
+                <h3>Inaktivitetsjustering</h3>
+                <p>Skyttar som inte tävlat på länge får gradvis ökad osäkerhet, vilket påverkar deras ranking. Detta säkerställer att aktiva skyttar värderas högre.</p>
+            </div>
+            <div class="about-card">
+                <h3>Matchnivåjustering</h3>
+                <p>Matcher på olika nivåer (L2-L5) vägs olika tungt. Högre nivåmatcher har större påverkan på rankingen än lägre nivåmatcher.</p>
+            </div>
+        </div>
+        
+        <div class="methodology">
+            <h3>Metodologi</h3>
+            <ul>
+                <li><strong>Datakällor:</strong> L2+ matcher från SSI</li>
+                <li><strong>Transparens:</strong> Öppen källkod och tydlig dokumentation</li>
+                <li><strong>Rättvisa:</strong> Samma algoritm för alla skyttar och divisioner</li>
+            </ul>
+        </div>
+    </div>
+</section>
