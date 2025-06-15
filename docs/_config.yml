@@ -1,8 +1,8 @@
 # GitHub Pages configuration for Svenska IPSC Ranking
 title: Svenska IPSC Ranking
 description: Rankingsystem för svenska IPSC-skyttar baserat på OpenSkill-algoritm
-url: https://your-username.github.io
-baseurl: /ipsc-ranking
+url: https://ipsc-ranking.com
+baseurl: /
 
 # Build settings
 markdown: kramdown
@@ -29,10 +29,7 @@ plugins:
 
 # SEO settings
 lang: sv
-author: IPSC Ranking Team
-twitter:
-  username: ipsc_ranking
-  card: summary
+author: Jonas Emilsson
 
 # Social links
-github_username: your-username
+github_username: jemilsson

@@ -5,20 +5,11 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-   packages = with pkgs; [
+  packages = with pkgs; [
     git
     zlib  # Add zlib for numpy
     quarto  # Add Quarto for presentations and documentation
   ];
-
-  # https://devenv.sh/languages/
-  # languages.rust.enable = true;
-
-  # https://devenv.sh/processes/
-  # processes.cargo-watch.exec = "cargo-watch";
-
-  # https://devenv.sh/services/
-  # services.postgres.enable = true;
 
   # https://devenv.sh/languages/
   languages.python = {
@@ -30,30 +21,35 @@
   languages.python.venv.enable = true;
   languages.python.venv.requirements = ./requirements.txt;
 
+  # Ruby for Jekyll with proper gem management
+  languages.ruby = {
+    enable = true;
+    package = pkgs.ruby;
+    bundler.enable = true;  # Enable bundler
+  };
+
   # https://devenv.sh/scripts/
   scripts.hello.exec = ''
     echo hello from $GREET
   '';
 
+  scripts.serve-docs.exec = ''
+    cd docs && bundle exec jekyll serve --host 0.0.0.0 --port 4000
+  '';
+
+  scripts.setup-jekyll.exec = ''
+    cd docs && bundle install
+  '';
+
   enterShell = ''
     hello
     git --version
+    echo "Run 'setup-jekyll' to install Jekyll dependencies"
   '';
-
-  # https://devenv.sh/tasks/
-  # tasks = {
-  #   "myproj:setup".exec = "mytool build";
-  #   "devenv:enterShell".after = [ "myproj:setup" ];
-  # };
 
   # https://devenv.sh/tests/
   enterTest = ''
     echo "Running tests"
     git --version | grep --color=auto "${pkgs.git.version}"
   '';
-
-  # https://devenv.sh/git-hooks/
-  # git-hooks.hooks.shellcheck.enable = true;
-
-  # See full reference at https://devenv.sh/reference/options/
 }
