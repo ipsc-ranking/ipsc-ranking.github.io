@@ -1,0 +1,117 @@
+{
+  "match_id": 6360,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/6360/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/6360/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/6360/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/6360/div/hg12/",
+      "name": "Classic"
+    }
+  ],
+  "match_url": "/event/22/6360/",
+  "match_title": "KDS Sunday Walk of Shame - results",
+  "match_level": "Level II",
+  "match_date": "2017-12-10T11:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 292.0349,
+      "first_name": "Ståle",
+      "last_name": "Kvalheim",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OFS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 86.79,
+      "match_points": 253.4598,
+      "first_name": "Kristian",
+      "last_name": "Hjelkrem",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "KDS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 78.43,
+      "match_points": 229.0537,
+      "first_name": "Håkon",
+      "last_name": "Laksberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "laxen",
+      "club": "KDS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 74.65,
+      "match_points": 218.0166,
+      "first_name": "Jon",
+      "last_name": "Ørsund",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Kds"
+    },
+    {
+      "position": 5,
+      "match_percentage": 49.11,
+      "match_points": 143.4063,
+      "first_name": "Atle",
+      "last_name": "Bjerke",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "KDS"
+    },
+    {
+      "position": 6,
+      "match_percentage": 30.27,
+      "match_points": 88.3866,
+      "first_name": "Olaf",
+      "last_name": "Isaksen",
+      "division": "Classic+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "fatchance",
+      "club": "KDS"
+    }
+  ]
+}

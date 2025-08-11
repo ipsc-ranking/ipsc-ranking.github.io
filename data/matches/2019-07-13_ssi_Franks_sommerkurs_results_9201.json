@@ -1,0 +1,68 @@
+{
+  "match_id": 9201,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/9201/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/9201/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/9201/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/9201/",
+  "match_title": "Franks sommerkurs - results",
+  "match_level": "Level II",
+  "match_date": "2019-07-13T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 395.728,
+      "first_name": "John",
+      "last_name": "Dervaa",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 95.99,
+      "match_points": 379.8437,
+      "first_name": "Nicolas",
+      "last_name": "Kvedalen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 91.53,
+      "match_points": 362.228,
+      "first_name": "Vegard",
+      "last_name": "Holum",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    }
+  ]
+}

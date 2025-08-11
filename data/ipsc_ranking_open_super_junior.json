@@ -1,0 +1,89 @@
+[
+  {
+    "player_id": "hugo_rinaldo_SWE_open",
+    "first_name": "Hugo",
+    "last_name": "Rinaldo",
+    "alias": "",
+    "region": "SWE",
+    "mu": 47.86741157616147,
+    "sigma": 2.914524866696914,
+    "conservative_rating": 45.414485562573084,
+    "ordinal": 39.123836976070734,
+    "matches_played": 73,
+    "rank": 50,
+    "percentage_of_best": 100.0,
+    "division": "Open",
+    "division_matches": 31,
+    "categories": [
+      "Super Junior",
+      "Junior"
+    ],
+    "category": "Super Junior",
+    "category_rank": 1
+  },
+  {
+    "player_id": "ida_rinaldo_SWE_open",
+    "first_name": "Ida",
+    "last_name": "Rinaldo",
+    "alias": "rinaldosuperjr",
+    "region": "SWE",
+    "mu": 30.66406810238388,
+    "sigma": 4.269223294824536,
+    "conservative_rating": 27.07099912659543,
+    "ordinal": 17.85639821791027,
+    "matches_played": 33,
+    "rank": 492,
+    "percentage_of_best": 59.60873230479823,
+    "division": "Open",
+    "division_matches": 24,
+    "categories": [
+      "Super Junior",
+      "Junior",
+      "Lady"
+    ],
+    "category": "Super Junior",
+    "category_rank": 2
+  },
+  {
+    "player_id": "victor_axelsson_SWE_open",
+    "first_name": "Victor",
+    "last_name": "Axelsson",
+    "alias": "",
+    "region": "SWE",
+    "mu": 24.745090141354236,
+    "sigma": 28.250396911842746,
+    "conservative_rating": 0.9689562434846977,
+    "ordinal": -60.006100594174,
+    "matches_played": 1,
+    "rank": 10289,
+    "percentage_of_best": 2.1335841009354786,
+    "division": "Open",
+    "division_matches": 1,
+    "categories": [
+      "Super Junior"
+    ],
+    "category": "Super Junior",
+    "category_rank": 3
+  },
+  {
+    "player_id": "sheldon_marinovic_SWE_open",
+    "first_name": "Sheldon",
+    "last_name": "Marinovic",
+    "alias": "",
+    "region": "SWE",
+    "mu": 6.084067678095483,
+    "sigma": 17.54501982452943,
+    "conservative_rating": -8.682193549686211,
+    "ordinal": -46.550991795492806,
+    "matches_played": 10,
+    "rank": 13472,
+    "percentage_of_best": -19.11767455281133,
+    "division": "Open",
+    "division_matches": 8,
+    "categories": [
+      "Super Junior"
+    ],
+    "category": "Super Junior",
+    "category_rank": 4
+  }
+]

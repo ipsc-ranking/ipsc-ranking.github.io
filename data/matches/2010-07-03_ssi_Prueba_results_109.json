@@ -1,0 +1,49 @@
+{
+  "match_id": 109,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/109/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/109/div/hg3/",
+      "name": "Production"
+    }
+  ],
+  "match_url": "/event/22/109/",
+  "match_title": "Prueba - results",
+  "match_level": "Level II",
+  "match_date": "2010-07-03T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 125.0,
+      "first_name": "Claudio",
+      "last_name": "CAPRA",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ARG",
+      "classification": "C",
+      "alias": "lw4dyu",
+      "club": ""
+    },
+    {
+      "position": 2,
+      "match_percentage": 68.5,
+      "match_points": 85.6207,
+      "first_name": "Maria Jose",
+      "last_name": "Quiroz",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "ARG",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    }
+  ]
+}

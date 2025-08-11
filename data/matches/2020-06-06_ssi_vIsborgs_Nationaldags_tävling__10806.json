@@ -1,0 +1,541 @@
+{
+  "match_id": 10806,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/10806/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/10806/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/10806/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/10806/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/10806/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/10806/",
+  "match_title": "vIsborgs Nationaldags-tävling - results",
+  "match_level": "Level II",
+  "match_date": "2020-06-06T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 523.1213,
+      "first_name": "Ivan",
+      "last_name": "Lundgren",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "gungun",
+      "club": "Klinte SKG"
+    },
+    {
+      "position": 2,
+      "match_percentage": 74.79,
+      "match_points": 391.2546,
+      "first_name": "Sonny",
+      "last_name": "Stenström",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ess",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 3,
+      "match_percentage": 72.49,
+      "match_points": 379.2025,
+      "first_name": "Adam",
+      "last_name": "Lundgren",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ava",
+      "club": "Klinte SKG"
+    },
+    {
+      "position": 4,
+      "match_percentage": 70.75,
+      "match_points": 370.096,
+      "first_name": "Jimmy",
+      "last_name": "Tell",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 5,
+      "match_percentage": 58.66,
+      "match_points": 306.8571,
+      "first_name": "Adrian",
+      "last_name": "Bolin Solblad",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 6,
+      "match_percentage": 58.04,
+      "match_points": 303.6134,
+      "first_name": "Kent",
+      "last_name": "Westerlund",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kwesen",
+      "club": "Klinte SKG"
+    },
+    {
+      "position": 7,
+      "match_percentage": 55.98,
+      "match_points": 292.8397,
+      "first_name": "Jonny",
+      "last_name": "Jonasson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 8,
+      "match_percentage": 55.44,
+      "match_points": 290.0205,
+      "first_name": "Olle",
+      "last_name": "Roman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborg"
+    },
+    {
+      "position": 9,
+      "match_percentage": 52.36,
+      "match_points": 273.8892,
+      "first_name": "Björn",
+      "last_name": "Söderkvist",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 10,
+      "match_percentage": 52.24,
+      "match_points": 273.2956,
+      "first_name": "Peter",
+      "last_name": "Nordgren",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs Skytteförening"
+    },
+    {
+      "position": 11,
+      "match_percentage": 51.29,
+      "match_points": 268.3268,
+      "first_name": "Thony",
+      "last_name": "Olsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs"
+    },
+    {
+      "position": 12,
+      "match_percentage": 50.43,
+      "match_points": 263.8084,
+      "first_name": "Patrik",
+      "last_name": "Joelsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborg"
+    },
+    {
+      "position": 13,
+      "match_percentage": 49.68,
+      "match_points": 259.8698,
+      "first_name": "Sebastian",
+      "last_name": "Ahnell",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborg"
+    },
+    {
+      "position": 14,
+      "match_percentage": 49.39,
+      "match_points": 258.3645,
+      "first_name": "Andreas",
+      "last_name": "Hansson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "andha",
+      "club": "Klinte SKG"
+    },
+    {
+      "position": 15,
+      "match_percentage": 48.66,
+      "match_points": 254.5532,
+      "first_name": "Torbjörn",
+      "last_name": "Tjäder",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs skytteförening"
+    },
+    {
+      "position": 16,
+      "match_percentage": 46.99,
+      "match_points": 245.8207,
+      "first_name": "mårten",
+      "last_name": "herlin-karnell",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "marty9mm",
+      "club": "Klinte skg"
+    },
+    {
+      "position": 17,
+      "match_percentage": 45.12,
+      "match_points": 236.053,
+      "first_name": "Mats",
+      "last_name": "Alyhr",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 18,
+      "match_percentage": 43.93,
+      "match_points": 229.8014,
+      "first_name": "John",
+      "last_name": "Joelsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborg"
+    },
+    {
+      "position": 19,
+      "match_percentage": 43.19,
+      "match_points": 225.9393,
+      "first_name": "Fredrik",
+      "last_name": "Adman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "adman",
+      "club": "Visborgs"
+    },
+    {
+      "position": 20,
+      "match_percentage": 43.03,
+      "match_points": 225.1002,
+      "first_name": "Ronny",
+      "last_name": "Lundin",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ronlun",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 21,
+      "match_percentage": 42.23,
+      "match_points": 220.9326,
+      "first_name": "Mathias",
+      "last_name": "Johansson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "matte",
+      "club": "VIsborg"
+    },
+    {
+      "position": 22,
+      "match_percentage": 39.51,
+      "match_points": 206.6819,
+      "first_name": "Gustaf",
+      "last_name": "Gardell",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "gustaf",
+      "club": "Visborgs Skytteförening"
+    },
+    {
+      "position": 23,
+      "match_percentage": 39.5,
+      "match_points": 206.6325,
+      "first_name": "Henrik",
+      "last_name": "Jakobsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Klinte skyttegille"
+    },
+    {
+      "position": 24,
+      "match_percentage": 38.99,
+      "match_points": 203.9846,
+      "first_name": "Petter",
+      "last_name": "Adman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Klinte skyttegille"
+    },
+    {
+      "position": 25,
+      "match_percentage": 38.78,
+      "match_points": 202.8828,
+      "first_name": "Ulf",
+      "last_name": "Hansson",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 26,
+      "match_percentage": 37.78,
+      "match_points": 197.6461,
+      "first_name": "Kjell",
+      "last_name": "Lydänge",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kilen",
+      "club": "Klinte SKG"
+    },
+    {
+      "position": 27,
+      "match_percentage": 37.29,
+      "match_points": 195.0893,
+      "first_name": "Petter",
+      "last_name": "Thylin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "petter",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 28,
+      "match_percentage": 36.19,
+      "match_points": 189.3172,
+      "first_name": "Lars-Patric",
+      "last_name": "Belke",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs Skytteförening"
+    },
+    {
+      "position": 29,
+      "match_percentage": 35.2,
+      "match_points": 184.1494,
+      "first_name": "Jonas",
+      "last_name": "Engström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "north66",
+      "club": "Klinte SKG"
+    },
+    {
+      "position": 30,
+      "match_percentage": 34.07,
+      "match_points": 178.2216,
+      "first_name": "Dag",
+      "last_name": "Svensson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Klinte Skyttegille"
+    },
+    {
+      "position": 31,
+      "match_percentage": 31.55,
+      "match_points": 165.044,
+      "first_name": "Sonny",
+      "last_name": "Sjögren",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborgs SkF"
+    },
+    {
+      "position": 32,
+      "match_percentage": 30.84,
+      "match_points": 161.3513,
+      "first_name": "Erik",
+      "last_name": "Wannberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "erikw",
+      "club": "Visborgs SKF"
+    },
+    {
+      "position": 33,
+      "match_percentage": 28.81,
+      "match_points": 150.7291,
+      "first_name": "Kjell",
+      "last_name": "Belke",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Visborg SK"
+    },
+    {
+      "position": 34,
+      "match_percentage": 26.31,
+      "match_points": 137.6323,
+      "first_name": "Stefan",
+      "last_name": "Nyberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    }
+  ]
+}

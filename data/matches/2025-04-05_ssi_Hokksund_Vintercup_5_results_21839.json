@@ -1,0 +1,598 @@
+{
+  "match_id": 21839,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/21839/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hg17/",
+      "name": "Pistol Caliber Carbine"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hg30/",
+      "name": "Pistol Caliber Carbine Optics"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hg33/",
+      "name": "Optics"
+    },
+    {
+      "url": "/ipsc/results/match/21839/div/hgc/",
+      "name": "Custom"
+    }
+  ],
+  "match_url": "/event/22/21839/",
+  "match_title": "Hokksund Vintercup #5 - results",
+  "match_level": "Level II",
+  "match_date": "2025-04-05T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 542.5643,
+      "first_name": "Johan",
+      "last_name": "Forsberg",
+      "division": "Custom-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 2,
+      "match_percentage": 98.45,
+      "match_points": 534.1432,
+      "first_name": "Per Livrud",
+      "last_name": "Tobiesen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 3,
+      "match_percentage": 84.32,
+      "match_points": 457.4911,
+      "first_name": "Daniel",
+      "last_name": "Espelid Pedersen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "GM",
+      "alias": "pannekaker",
+      "club": "HPI"
+    },
+    {
+      "position": 4,
+      "match_percentage": 83.93,
+      "match_points": 455.3911,
+      "first_name": "André",
+      "last_name": "Kjennerud",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "blackbeard",
+      "club": "HPI"
+    },
+    {
+      "position": 5,
+      "match_percentage": 80.62,
+      "match_points": 437.4395,
+      "first_name": "Henrik",
+      "last_name": "Thomassen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "carlvolt",
+      "club": "HPI"
+    },
+    {
+      "position": 6,
+      "match_percentage": 79.86,
+      "match_points": 433.3082,
+      "first_name": "Ole-Ejvind",
+      "last_name": "Hære",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "honeybadger",
+      "club": "HPI"
+    },
+    {
+      "position": 7,
+      "match_percentage": 77.78,
+      "match_points": 421.9826,
+      "first_name": "André",
+      "last_name": "Holt",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "anholt",
+      "club": "HPI"
+    },
+    {
+      "position": 8,
+      "match_percentage": 75.69,
+      "match_points": 410.6897,
+      "first_name": "Jan Ivar",
+      "last_name": "Knutsen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "charlieking",
+      "club": "HPI"
+    },
+    {
+      "position": 9,
+      "match_percentage": 75.61,
+      "match_points": 410.2075,
+      "first_name": "Tor-Egil",
+      "last_name": "Skytterholm",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "skytt1s",
+      "club": "HPI"
+    },
+    {
+      "position": 10,
+      "match_percentage": 74.59,
+      "match_points": 404.672,
+      "first_name": "Per Fredrik",
+      "last_name": "Simensen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "seffapeffa",
+      "club": "HPI"
+    },
+    {
+      "position": 11,
+      "match_percentage": 72.66,
+      "match_points": 394.2127,
+      "first_name": "Espen",
+      "last_name": "Ottesen",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "racegun155",
+      "club": "Holmestrand PistolKlubb"
+    },
+    {
+      "position": 12,
+      "match_percentage": 70.54,
+      "match_points": 382.7091,
+      "first_name": "Nils Knut",
+      "last_name": "Lindbo",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "urogallus",
+      "club": "HPI"
+    },
+    {
+      "position": 13,
+      "match_percentage": 67.1,
+      "match_points": 364.0741,
+      "first_name": "Svein Helge",
+      "last_name": "Hennum",
+      "division": "Production Optics-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "B",
+      "alias": "hennumen",
+      "club": "NOP"
+    },
+    {
+      "position": 14,
+      "match_percentage": 65.61,
+      "match_points": 355.9876,
+      "first_name": "Christian Nerdrum",
+      "last_name": "Hagen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "hagen",
+      "club": "HPI"
+    },
+    {
+      "position": 15,
+      "match_percentage": 63.53,
+      "match_points": 344.7097,
+      "first_name": "Per Inge",
+      "last_name": "Jacobsen",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 16,
+      "match_percentage": 60.51,
+      "match_points": 328.2895,
+      "first_name": "Sondre",
+      "last_name": "Tangen",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "norwegianguy1914",
+      "club": "HPI"
+    },
+    {
+      "position": 17,
+      "match_percentage": 58.17,
+      "match_points": 315.617,
+      "first_name": "Joakim Eik",
+      "last_name": "Bjune",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HOP"
+    },
+    {
+      "position": 18,
+      "match_percentage": 57.96,
+      "match_points": 314.4592,
+      "first_name": "Vidar",
+      "last_name": "Aamodt",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "vidar",
+      "club": "ASLD"
+    },
+    {
+      "position": 19,
+      "match_percentage": 55.77,
+      "match_points": 302.614,
+      "first_name": "Rune",
+      "last_name": "Lien",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 20,
+      "match_percentage": 54.89,
+      "match_points": 297.8021,
+      "first_name": "Pål Andre",
+      "last_name": "Røkeberg",
+      "division": "Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "frankcastle",
+      "club": "HPI"
+    },
+    {
+      "position": 21,
+      "match_percentage": 54.59,
+      "match_points": 296.2037,
+      "first_name": "Odin",
+      "last_name": "Michelsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Hps"
+    },
+    {
+      "position": 22,
+      "match_percentage": 53.11,
+      "match_points": 288.16,
+      "first_name": "Mark",
+      "last_name": "Linsdell",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HOP"
+    },
+    {
+      "position": 23,
+      "match_percentage": 48.72,
+      "match_points": 264.337,
+      "first_name": "Steff",
+      "last_name": "Bermingrud",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "treff",
+      "club": "HPI"
+    },
+    {
+      "position": 24,
+      "match_percentage": 46.23,
+      "match_points": 250.8211,
+      "first_name": "Tor",
+      "last_name": "Hvidsten",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 25,
+      "match_percentage": 44.37,
+      "match_points": 240.7294,
+      "first_name": "Torbjørn",
+      "last_name": "Storlien",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 26,
+      "match_percentage": 42.46,
+      "match_points": 230.3676,
+      "first_name": "Per Ivar",
+      "last_name": "Mathisen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "LOP"
+    },
+    {
+      "position": 27,
+      "match_percentage": 42.39,
+      "match_points": 230.012,
+      "first_name": "Stein",
+      "last_name": "Egidius",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "huldra",
+      "club": "HPI"
+    },
+    {
+      "position": 28,
+      "match_percentage": 41.21,
+      "match_points": 223.613,
+      "first_name": "Stefan",
+      "last_name": "Hanssen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "kvasimongo",
+      "club": "HPI"
+    },
+    {
+      "position": 29,
+      "match_percentage": 39.57,
+      "match_points": 214.6917,
+      "first_name": "Carl-Christian",
+      "last_name": "Lindemark",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Holmestrand PistolKlubb"
+    },
+    {
+      "position": 30,
+      "match_percentage": 38.17,
+      "match_points": 207.0832,
+      "first_name": "Alexander",
+      "last_name": "Lutro",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Lørenskog pistolklubb"
+    },
+    {
+      "position": 31,
+      "match_percentage": 31.57,
+      "match_points": 171.294,
+      "first_name": "Leif Anders",
+      "last_name": "Nes",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 32,
+      "match_percentage": 30.61,
+      "match_points": 166.0525,
+      "first_name": "Halvor",
+      "last_name": "Loftsgarden",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ronin",
+      "club": "farris sportskyttere"
+    },
+    {
+      "position": 33,
+      "match_percentage": 28.63,
+      "match_points": 155.3232,
+      "first_name": "Kjell Olav",
+      "last_name": "Nestegard",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Hokksund PK"
+    },
+    {
+      "position": 34,
+      "match_percentage": 28.21,
+      "match_points": 153.0703,
+      "first_name": "Anders",
+      "last_name": "Henriksen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 35,
+      "match_percentage": 20.56,
+      "match_points": 111.5318,
+      "first_name": "Lasse",
+      "last_name": "Henriksen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 36,
+      "match_percentage": 18.25,
+      "match_points": 99.0411,
+      "first_name": "Anne Camilla",
+      "last_name": "Arnecke",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 47,
+      "match_percentage": 0.0,
+      "match_points": 0.0,
+      "first_name": "Erin",
+      "last_name": "Haugen",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "metalerin",
+      "club": "Hokksund Pistol Club"
+    }
+  ]
+}
