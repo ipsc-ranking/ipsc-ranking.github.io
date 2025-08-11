@@ -1,0 +1,965 @@
+{
+  "match_id": 15521,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/15521/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/15521/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/15521/div/hg5/",
+      "name": "Revolver"
+    },
+    {
+      "url": "/ipsc/results/match/15521/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/15521/div/hg17/",
+      "name": "Pistol Caliber Carbine"
+    },
+    {
+      "url": "/ipsc/results/match/15521/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/15521/",
+  "match_title": "Sandaknallen 2022, PCC och Pistol - results",
+  "match_level": "Level II",
+  "match_date": "2022-09-03T12:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 526.3859,
+      "first_name": "Mikael",
+      "last_name": "Östling",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pergite",
+      "club": "Göteborgs Dynamiska Skyttar"
+    },
+    {
+      "position": 2,
+      "match_percentage": 86.81,
+      "match_points": 456.969,
+      "first_name": "Daniel",
+      "last_name": "Freij",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "fr3ij",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 3,
+      "match_percentage": 85.01,
+      "match_points": 447.4702,
+      "first_name": "Carl",
+      "last_name": "Danielson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kexet",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 4,
+      "match_percentage": 84.77,
+      "match_points": 446.2327,
+      "first_name": "Michael",
+      "last_name": "Lindström",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "IPSC Smedjan, ESKILSTUNA"
+    },
+    {
+      "position": 5,
+      "match_percentage": 82.11,
+      "match_points": 432.236,
+      "first_name": "Christian",
+      "last_name": "Rönnlöf",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "krull",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 6,
+      "match_percentage": 80.68,
+      "match_points": 424.6878,
+      "first_name": "Fredrik",
+      "last_name": "Ferdinandsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ferdi76",
+      "club": "GDS"
+    },
+    {
+      "position": 7,
+      "match_percentage": 78.55,
+      "match_points": 413.4923,
+      "first_name": "Peter",
+      "last_name": "Slättersjö",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "dumbswede",
+      "club": "Edsvalla Gunslingers"
+    },
+    {
+      "position": 8,
+      "match_percentage": 78.05,
+      "match_points": 410.8517,
+      "first_name": "Mathias",
+      "last_name": "Adolfsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mathiasa",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 9,
+      "match_percentage": 76.38,
+      "match_points": 402.0397,
+      "first_name": "Alf",
+      "last_name": "Wallblom",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "awall",
+      "club": "UPSF"
+    },
+    {
+      "position": 10,
+      "match_percentage": 75.76,
+      "match_points": 398.7742,
+      "first_name": "Johan",
+      "last_name": "Nilsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "nilsson1911",
+      "club": "IPSC Smedjan, ESKILSTUNA"
+    },
+    {
+      "position": 11,
+      "match_percentage": 75.07,
+      "match_points": 395.1609,
+      "first_name": "Christian",
+      "last_name": "Svartenstedt",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "svartenstedt",
+      "club": "GDS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 74.32,
+      "match_points": 391.2297,
+      "first_name": "Christer",
+      "last_name": "Karlsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "nsslt",
+      "club": "NPSK"
+    },
+    {
+      "position": 13,
+      "match_percentage": 74.15,
+      "match_points": 390.326,
+      "first_name": "Staffan",
+      "last_name": "Ottosson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "strapon",
+      "club": "P4 DS"
+    },
+    {
+      "position": 14,
+      "match_percentage": 74.12,
+      "match_points": 390.178,
+      "first_name": "Håkan",
+      "last_name": "Stors",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "hawk1",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 15,
+      "match_percentage": 73.43,
+      "match_points": 386.5337,
+      "first_name": "Lars-Ola",
+      "last_name": "Nilsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kvasifilosofen",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 16,
+      "match_percentage": 73.43,
+      "match_points": 386.5224,
+      "first_name": "Jimmy",
+      "last_name": "Svensson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "9mm",
+      "club": "IPSC Örebro"
+    },
+    {
+      "position": 17,
+      "match_percentage": 71.57,
+      "match_points": 376.7456,
+      "first_name": "Linus",
+      "last_name": "Claar",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "UPSF"
+    },
+    {
+      "position": 18,
+      "match_percentage": 70.05,
+      "match_points": 368.7401,
+      "first_name": "Tommy",
+      "last_name": "G",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "soe",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 19,
+      "match_percentage": 69.99,
+      "match_points": 368.4263,
+      "first_name": "Björn",
+      "last_name": "Boström",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "npsk"
+    },
+    {
+      "position": 20,
+      "match_percentage": 69.49,
+      "match_points": 365.8116,
+      "first_name": "Anders",
+      "last_name": "Dahlberg",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "hungry",
+      "club": "Edsvalla Gunslingers"
+    },
+    {
+      "position": 21,
+      "match_percentage": 68.19,
+      "match_points": 358.9338,
+      "first_name": "Stefan",
+      "last_name": "Eriksson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ster",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 22,
+      "match_percentage": 67.73,
+      "match_points": 356.5331,
+      "first_name": "Håkan",
+      "last_name": "Pearson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "hwk",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 23,
+      "match_percentage": 65.17,
+      "match_points": 343.0248,
+      "first_name": "jaakko",
+      "last_name": "kangasvieri",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jaakko",
+      "club": "IPSC Örebro"
+    },
+    {
+      "position": 24,
+      "match_percentage": 65.01,
+      "match_points": 342.1847,
+      "first_name": "Joel",
+      "last_name": "Svensson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "joels",
+      "club": "IPSC Örebro"
+    },
+    {
+      "position": 25,
+      "match_percentage": 63.92,
+      "match_points": 336.4795,
+      "first_name": "Peter",
+      "last_name": "S",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "biker66",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 26,
+      "match_percentage": 62.71,
+      "match_points": 330.0949,
+      "first_name": "Nicolas",
+      "last_name": "Hammarström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "hammer1",
+      "club": "Livgardets skytteförening"
+    },
+    {
+      "position": 27,
+      "match_percentage": 62.59,
+      "match_points": 329.4821,
+      "first_name": "Karl",
+      "last_name": "Kempe",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "karl",
+      "club": "UPSF"
+    },
+    {
+      "position": 28,
+      "match_percentage": 62.33,
+      "match_points": 328.1107,
+      "first_name": "Johan",
+      "last_name": "Ilberg",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "spiff",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 29,
+      "match_percentage": 62.26,
+      "match_points": 327.7436,
+      "first_name": "Daniel",
+      "last_name": "Bergh",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "danberne",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 30,
+      "match_percentage": 61.33,
+      "match_points": 322.8512,
+      "first_name": "Håkan",
+      "last_name": "Myrsell",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "SSF"
+    },
+    {
+      "position": 31,
+      "match_percentage": 59.36,
+      "match_points": 312.4581,
+      "first_name": "Jens",
+      "last_name": "Syrén",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Bofors skjutfälts skyttekår"
+    },
+    {
+      "position": 32,
+      "match_percentage": 56.78,
+      "match_points": 298.8868,
+      "first_name": "Jimmy",
+      "last_name": "Wedin",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "UPSF"
+    },
+    {
+      "position": 33,
+      "match_percentage": 56.23,
+      "match_points": 296.0041,
+      "first_name": "Mathias",
+      "last_name": "Leppik",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "male",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 34,
+      "match_percentage": 55.93,
+      "match_points": 294.4328,
+      "first_name": "Björn",
+      "last_name": "Pöpke",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "NPSK"
+    },
+    {
+      "position": 35,
+      "match_percentage": 55.92,
+      "match_points": 294.3357,
+      "first_name": "Andreas",
+      "last_name": "Hassel",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "andreas",
+      "club": "SäSF"
+    },
+    {
+      "position": 36,
+      "match_percentage": 55.76,
+      "match_points": 293.5373,
+      "first_name": "Christian",
+      "last_name": "Gustavsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "christian",
+      "club": "NPSK"
+    },
+    {
+      "position": 37,
+      "match_percentage": 55.02,
+      "match_points": 289.6299,
+      "first_name": "Carl",
+      "last_name": "Andersson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "UPSF"
+    },
+    {
+      "position": 38,
+      "match_percentage": 54.94,
+      "match_points": 289.2018,
+      "first_name": "Linus",
+      "last_name": "Larsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "NPSK"
+    },
+    {
+      "position": 39,
+      "match_percentage": 52.84,
+      "match_points": 278.1174,
+      "first_name": "Benjamin",
+      "last_name": "Ziani",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "IPSC SMEDJAN"
+    },
+    {
+      "position": 40,
+      "match_percentage": 52.52,
+      "match_points": 276.4452,
+      "first_name": "Tord",
+      "last_name": "Boström",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "tord",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 41,
+      "match_percentage": 52.52,
+      "match_points": 276.4392,
+      "first_name": "Christoffer",
+      "last_name": "Lindfors",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "stalken",
+      "club": "SSF"
+    },
+    {
+      "position": 42,
+      "match_percentage": 51.0,
+      "match_points": 268.4395,
+      "first_name": "Robert",
+      "last_name": "Röbech",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "robban65",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 43,
+      "match_percentage": 50.68,
+      "match_points": 266.7705,
+      "first_name": "Per",
+      "last_name": "Dalén",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pdn",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 44,
+      "match_percentage": 50.0,
+      "match_points": 263.2169,
+      "first_name": "Stefan",
+      "last_name": "Grahn",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mccoy",
+      "club": "IPSC Örebro"
+    },
+    {
+      "position": 45,
+      "match_percentage": 49.66,
+      "match_points": 261.3926,
+      "first_name": "Karl",
+      "last_name": "Heinz",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "NPSK"
+    },
+    {
+      "position": 46,
+      "match_percentage": 49.2,
+      "match_points": 258.9934,
+      "first_name": "Anders",
+      "last_name": "Granhagen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "angr",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 47,
+      "match_percentage": 48.11,
+      "match_points": 253.2426,
+      "first_name": "Thomas",
+      "last_name": "Johansson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 48,
+      "match_percentage": 48.02,
+      "match_points": 252.784,
+      "first_name": "Fredrik",
+      "last_name": "Brodin",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "grottulf",
+      "club": "NPSK"
+    },
+    {
+      "position": 49,
+      "match_percentage": 47.68,
+      "match_points": 251.0043,
+      "first_name": "CHrister",
+      "last_name": "L",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "NPSK"
+    },
+    {
+      "position": 50,
+      "match_percentage": 42.65,
+      "match_points": 224.5114,
+      "first_name": "Johan",
+      "last_name": "Olsson",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Npsk"
+    },
+    {
+      "position": 51,
+      "match_percentage": 41.94,
+      "match_points": 220.7812,
+      "first_name": "Olle",
+      "last_name": "Vister",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mrvister",
+      "club": "UPSF"
+    },
+    {
+      "position": 52,
+      "match_percentage": 41.14,
+      "match_points": 216.5363,
+      "first_name": "Maria",
+      "last_name": "Bohlin",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Stockholms LVF"
+    },
+    {
+      "position": 53,
+      "match_percentage": 40.46,
+      "match_points": 212.958,
+      "first_name": "Jimmy",
+      "last_name": "Hammar",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "UPSF"
+    },
+    {
+      "position": 54,
+      "match_percentage": 39.52,
+      "match_points": 208.0264,
+      "first_name": "fre",
+      "last_name": ".",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "frekjem",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 55,
+      "match_percentage": 39.46,
+      "match_points": 207.7299,
+      "first_name": "Markus",
+      "last_name": "Thorstensson",
+      "division": "Revolver-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "thorsten",
+      "club": "SSF"
+    },
+    {
+      "position": 56,
+      "match_percentage": 38.24,
+      "match_points": 201.2699,
+      "first_name": "Erik",
+      "last_name": "Tunestål",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "tune",
+      "club": "Bofors Skjutfälts Skyttekår"
+    },
+    {
+      "position": 57,
+      "match_percentage": 36.15,
+      "match_points": 190.3045,
+      "first_name": "Joel",
+      "last_name": "Hammar",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "thehammer",
+      "club": "UPSF"
+    },
+    {
+      "position": 58,
+      "match_percentage": 32.9,
+      "match_points": 173.2015,
+      "first_name": "Jan-Erik",
+      "last_name": "Winberg",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 59,
+      "match_percentage": 30.46,
+      "match_points": 160.3133,
+      "first_name": "Alina",
+      "last_name": "Hagelqvist",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Karlstads PSK"
+    },
+    {
+      "position": 60,
+      "match_percentage": 26.96,
+      "match_points": 141.9156,
+      "first_name": "Erik",
+      "last_name": "Johansson",
+      "division": "Revolver+",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "farbror",
+      "club": "IPSC Örebro"
+    },
+    {
+      "position": 61,
+      "match_percentage": 22.17,
+      "match_points": 116.7225,
+      "first_name": "Malin",
+      "last_name": "Boström",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "NPSK"
+    },
+    {
+      "position": 62,
+      "match_percentage": 18.04,
+      "match_points": 94.9689,
+      "first_name": "Ernest",
+      "last_name": "Halimi",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "U",
+      "alias": "",
+      "club": "Npsk"
+    }
+  ]
+}

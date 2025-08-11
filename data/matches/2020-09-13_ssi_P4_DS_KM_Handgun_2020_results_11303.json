@@ -1,0 +1,567 @@
+{
+  "match_id": 11303,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/11303/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/11303/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/11303/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/11303/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/11303/",
+  "match_title": "P4 DS KM Handgun 2020 - results",
+  "match_level": "Level II",
+  "match_date": "2020-09-13T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 523.2498,
+      "first_name": "Gustav",
+      "last_name": "Arvidsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "A",
+      "alias": "rogi",
+      "club": "P4 DS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 97.44,
+      "match_points": 509.869,
+      "first_name": "Jörgen",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "hicap",
+      "club": "P4 DS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 94.78,
+      "match_points": 495.926,
+      "first_name": "Johan",
+      "last_name": "G",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "johang",
+      "club": "P4 DS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 80.52,
+      "match_points": 421.3097,
+      "first_name": "Johan",
+      "last_name": "Hylander",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 76.79,
+      "match_points": 401.8167,
+      "first_name": "Robert",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "A",
+      "alias": "rubanksps",
+      "club": "P4 DS"
+    },
+    {
+      "position": 6,
+      "match_percentage": 75.66,
+      "match_points": 395.8744,
+      "first_name": "Martin",
+      "last_name": "Nilsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "nilma",
+      "club": "P4 DS"
+    },
+    {
+      "position": 7,
+      "match_percentage": 70.65,
+      "match_points": 369.6603,
+      "first_name": "Robert",
+      "last_name": "Carlsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 8,
+      "match_percentage": 70.39,
+      "match_points": 368.3121,
+      "first_name": "Johan",
+      "last_name": "Albertsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "johan86",
+      "club": "P4 DS"
+    },
+    {
+      "position": 9,
+      "match_percentage": 68.78,
+      "match_points": 359.8659,
+      "first_name": "Urban",
+      "last_name": "Wennström",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "urwe",
+      "club": "P4 DS"
+    },
+    {
+      "position": 10,
+      "match_percentage": 66.5,
+      "match_points": 347.972,
+      "first_name": "Håkan",
+      "last_name": "Nilsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 11,
+      "match_percentage": 63.47,
+      "match_points": 332.1035,
+      "first_name": "Mattias",
+      "last_name": "Wallander",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "wallan",
+      "club": "P4 DS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 62.66,
+      "match_points": 327.8616,
+      "first_name": "Marcus",
+      "last_name": "Blixt",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 13,
+      "match_percentage": 61.16,
+      "match_points": 320.0144,
+      "first_name": "Mathias",
+      "last_name": "Johansson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mathjo",
+      "club": "P4 DS"
+    },
+    {
+      "position": 14,
+      "match_percentage": 61.09,
+      "match_points": 319.6746,
+      "first_name": "Peter",
+      "last_name": "Olsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "peterorsa",
+      "club": "P4 DS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 58.97,
+      "match_points": 308.5605,
+      "first_name": "Joakim",
+      "last_name": "Karlsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jocke",
+      "club": "P4 DS"
+    },
+    {
+      "position": 16,
+      "match_percentage": 56.45,
+      "match_points": 295.3511,
+      "first_name": "Gunnar",
+      "last_name": "Kerttu",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 17,
+      "match_percentage": 56.22,
+      "match_points": 294.1611,
+      "first_name": "Gordon",
+      "last_name": "Ahlberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 18,
+      "match_percentage": 56.18,
+      "match_points": 293.941,
+      "first_name": "David",
+      "last_name": "Eriksson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 19,
+      "match_percentage": 55.2,
+      "match_points": 288.8446,
+      "first_name": "Alexander",
+      "last_name": "Malmgård",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 20,
+      "match_percentage": 54.83,
+      "match_points": 286.8998,
+      "first_name": "Sebastian",
+      "last_name": "Strid",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 21,
+      "match_percentage": 54.29,
+      "match_points": 284.0903,
+      "first_name": "Fredrik",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 22,
+      "match_percentage": 50.88,
+      "match_points": 266.2364,
+      "first_name": "Thomas",
+      "last_name": "Samuelsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 23,
+      "match_percentage": 50.36,
+      "match_points": 263.4851,
+      "first_name": "Martin",
+      "last_name": "S",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 24,
+      "match_percentage": 49.34,
+      "match_points": 258.1552,
+      "first_name": "Kim",
+      "last_name": "Lundqvist",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 25,
+      "match_percentage": 47.24,
+      "match_points": 247.1958,
+      "first_name": "Klas",
+      "last_name": "Svensson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 26,
+      "match_percentage": 46.26,
+      "match_points": 242.055,
+      "first_name": "Tobias",
+      "last_name": "Degerfeldt",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 27,
+      "match_percentage": 43.18,
+      "match_points": 225.9281,
+      "first_name": "Peter",
+      "last_name": "Edman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 28,
+      "match_percentage": 41.37,
+      "match_points": 216.4944,
+      "first_name": "Tomas",
+      "last_name": "Johansson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 29,
+      "match_percentage": 39.0,
+      "match_points": 204.0421,
+      "first_name": "Fredrik",
+      "last_name": "Andersson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4ds"
+    },
+    {
+      "position": 30,
+      "match_percentage": 37.94,
+      "match_points": 198.5297,
+      "first_name": "Adam",
+      "last_name": "L",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 31,
+      "match_percentage": 36.18,
+      "match_points": 189.3087,
+      "first_name": "Carl",
+      "last_name": "Sundling",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 32,
+      "match_percentage": 35.93,
+      "match_points": 187.9879,
+      "first_name": "Jacob",
+      "last_name": "Thompson Hall",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jacob",
+      "club": "P4 DS"
+    },
+    {
+      "position": 33,
+      "match_percentage": 26.27,
+      "match_points": 137.4636,
+      "first_name": "Rickard",
+      "last_name": "Svensson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 34,
+      "match_percentage": 24.99,
+      "match_points": 130.7495,
+      "first_name": "Christo",
+      "last_name": "Van Der Merwe",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "christo",
+      "club": "P4 DS"
+    },
+    {
+      "position": 35,
+      "match_percentage": 19.52,
+      "match_points": 102.1373,
+      "first_name": "Andreas",
+      "last_name": "Hein",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    },
+    {
+      "position": 36,
+      "match_percentage": 12.03,
+      "match_points": 62.9359,
+      "first_name": "Viktor",
+      "last_name": "Thorstensson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "P4 DS"
+    }
+  ]
+}

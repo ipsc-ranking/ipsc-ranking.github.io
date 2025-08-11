@@ -1,0 +1,376 @@
+{
+  "match_id": 10080,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/10080/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/10080/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/10080/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/10080/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/10080/div/hg19/",
+      "name": "Production Optics Light"
+    }
+  ],
+  "match_url": "/event/22/10080/",
+  "match_title": "FPK lvl2 Handgun 1-20 - results",
+  "match_level": "Level II",
+  "match_date": "2020-01-26T11:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 424.7957,
+      "first_name": "Marius",
+      "last_name": "Breivik",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "B",
+      "alias": "mariusb",
+      "club": "NVS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 99.41,
+      "match_points": 422.2856,
+      "first_name": "Tor Martin",
+      "last_name": "Kandal",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "M",
+      "alias": "noshoot",
+      "club": "NVS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 94.67,
+      "match_points": 402.1573,
+      "first_name": "Fredrik",
+      "last_name": "Jørgensen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Sfs"
+    },
+    {
+      "position": 4,
+      "match_percentage": 87.53,
+      "match_points": 371.8403,
+      "first_name": "Jonny André",
+      "last_name": "Berg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "jonny",
+      "club": "Florø pistolklubb"
+    },
+    {
+      "position": 5,
+      "match_percentage": 78.36,
+      "match_points": 332.8888,
+      "first_name": "Ole Morten",
+      "last_name": "Svingen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "SFS"
+    },
+    {
+      "position": 6,
+      "match_percentage": 72.85,
+      "match_points": 309.4685,
+      "first_name": "Rune",
+      "last_name": "Lillerust",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "rusten",
+      "club": "SFS"
+    },
+    {
+      "position": 7,
+      "match_percentage": 72.34,
+      "match_points": 307.2769,
+      "first_name": "Ingmar",
+      "last_name": "Svortevik",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "missit",
+      "club": "FPK"
+    },
+    {
+      "position": 8,
+      "match_percentage": 69.64,
+      "match_points": 295.8191,
+      "first_name": "Daniel",
+      "last_name": "Øren",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Fpk"
+    },
+    {
+      "position": 9,
+      "match_percentage": 67.41,
+      "match_points": 286.3565,
+      "first_name": "Roy",
+      "last_name": "Pedersen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Florø Pistolklubb"
+    },
+    {
+      "position": 10,
+      "match_percentage": 60.75,
+      "match_points": 258.0514,
+      "first_name": "Ronny",
+      "last_name": "Standal",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 11,
+      "match_percentage": 60.63,
+      "match_points": 257.5364,
+      "first_name": "Robert",
+      "last_name": "Dobosz",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "santa",
+      "club": "SFS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 53.44,
+      "match_points": 227.0225,
+      "first_name": "Allan",
+      "last_name": "Solheim",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Florø pistolklubb"
+    },
+    {
+      "position": 13,
+      "match_percentage": 48.32,
+      "match_points": 205.2679,
+      "first_name": "Geir",
+      "last_name": "Pedersen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "glp",
+      "club": "SFS"
+    },
+    {
+      "position": 14,
+      "match_percentage": 46.93,
+      "match_points": 199.3594,
+      "first_name": "Knut",
+      "last_name": "Strømmen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "SFS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 46.12,
+      "match_points": 195.916,
+      "first_name": "Martin",
+      "last_name": "Ljostveit",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "SFS"
+    },
+    {
+      "position": 16,
+      "match_percentage": 41.04,
+      "match_points": 174.3292,
+      "first_name": "Eirik",
+      "last_name": "Ludvigsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ludvigsen",
+      "club": "Florø pistolklubb"
+    },
+    {
+      "position": 17,
+      "match_percentage": 35.01,
+      "match_points": 148.7257,
+      "first_name": "Tom Helge",
+      "last_name": "Faye",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "FPK"
+    },
+    {
+      "position": 18,
+      "match_percentage": 34.46,
+      "match_points": 146.3982,
+      "first_name": "Ove",
+      "last_name": "Tviberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Fpk"
+    },
+    {
+      "position": 19,
+      "match_percentage": 23.76,
+      "match_points": 100.9331,
+      "first_name": "Martin",
+      "last_name": "Svensson",
+      "division": "Production Optics Light-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Florø Pistolklubb"
+    },
+    {
+      "position": 20,
+      "match_percentage": 19.92,
+      "match_points": 84.635,
+      "first_name": "Morten",
+      "last_name": "Lund",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Florø Pistolklubb"
+    },
+    {
+      "position": 21,
+      "match_percentage": 18.49,
+      "match_points": 78.5549,
+      "first_name": "Elise",
+      "last_name": "Midtbø",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "FPK"
+    },
+    {
+      "position": 22,
+      "match_percentage": 17.04,
+      "match_points": 72.3836,
+      "first_name": "Per Kristian",
+      "last_name": "Grimeland",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "SFS"
+    },
+    {
+      "position": 23,
+      "match_percentage": 11.34,
+      "match_points": 48.1756,
+      "first_name": "Pål",
+      "last_name": "Eielsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Fpk"
+    }
+  ]
+}

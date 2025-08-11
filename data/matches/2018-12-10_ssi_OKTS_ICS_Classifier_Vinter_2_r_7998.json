@@ -1,0 +1,98 @@
+{
+  "match_id": 7998,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/7998/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/7998/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/7998/div/hg5/",
+      "name": "Revolver"
+    }
+  ],
+  "match_url": "/event/22/7998/",
+  "match_title": "OKTS ICS Classifier Vinter 2 - results",
+  "match_level": "Level II",
+  "match_date": "2018-12-10T17:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 160.0,
+      "first_name": "Jan Egil",
+      "last_name": "Jansberg",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "B",
+      "alias": "dexter",
+      "club": "LOP"
+    },
+    {
+      "position": 2,
+      "match_percentage": 61.91,
+      "match_points": 99.0482,
+      "first_name": "Anders",
+      "last_name": "Martin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "mrrealtime",
+      "club": "OKTS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 61.54,
+      "match_points": 98.4646,
+      "first_name": "Einar",
+      "last_name": "Bakke",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "docb",
+      "club": "OKTS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 44.62,
+      "match_points": 71.3856,
+      "first_name": "Staffan",
+      "last_name": "Lund",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "staffan",
+      "club": "OKTS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 44.28,
+      "match_points": 70.8428,
+      "first_name": "Einar",
+      "last_name": "Bakke",
+      "division": "Revolver-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "einar",
+      "club": "OKTS"
+    }
+  ]
+}

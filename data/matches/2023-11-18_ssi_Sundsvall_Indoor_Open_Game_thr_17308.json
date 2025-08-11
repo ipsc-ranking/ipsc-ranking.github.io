@@ -1,0 +1,916 @@
+{
+  "match_id": 17308,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/17308/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/17308/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/17308/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/17308/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/17308/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/17308/",
+  "match_title": "Sundsvall Indoor Open - Game three - results",
+  "match_level": "Level II",
+  "match_date": "2023-11-18T08:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 534.3825,
+      "first_name": "Daniel",
+      "last_name": "Holmgren",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "danneh",
+      "club": "MDS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 98.51,
+      "match_points": 526.4301,
+      "first_name": "Marcus",
+      "last_name": "Eriksson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "marer",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 3,
+      "match_percentage": 95.9,
+      "match_points": 512.4536,
+      "first_name": "Robert",
+      "last_name": "Johansson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "rj84",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 4,
+      "match_percentage": 90.02,
+      "match_points": 481.0472,
+      "first_name": "Emil",
+      "last_name": "Nordin",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "nordinemil",
+      "club": "Umeå PK"
+    },
+    {
+      "position": 5,
+      "match_percentage": 89.76,
+      "match_points": 479.6691,
+      "first_name": "Sandra",
+      "last_name": "Arbinger",
+      "division": "Standard+",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "bilbo",
+      "club": "SPSK"
+    },
+    {
+      "position": 6,
+      "match_percentage": 88.12,
+      "match_points": 470.8851,
+      "first_name": "Fredrik",
+      "last_name": "Ekstrand",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "neke",
+      "club": "SPSK"
+    },
+    {
+      "position": 7,
+      "match_percentage": 84.34,
+      "match_points": 450.7191,
+      "first_name": "Kristian",
+      "last_name": "Säkki",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "sakki",
+      "club": "SPSK"
+    },
+    {
+      "position": 8,
+      "match_percentage": 79.34,
+      "match_points": 423.9674,
+      "first_name": "Jonny",
+      "last_name": "Arbinger",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "binge",
+      "club": "SPSK"
+    },
+    {
+      "position": 9,
+      "match_percentage": 77.93,
+      "match_points": 416.4583,
+      "first_name": "Björn",
+      "last_name": "Forsberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "bunte",
+      "club": "SPK"
+    },
+    {
+      "position": 10,
+      "match_percentage": 75.16,
+      "match_points": 401.632,
+      "first_name": "Conny",
+      "last_name": "Valkebäck",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ceve",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 11,
+      "match_percentage": 73.27,
+      "match_points": 391.5569,
+      "first_name": "Robert",
+      "last_name": "Holmgren",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MDS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 72.68,
+      "match_points": 388.3824,
+      "first_name": "Tony",
+      "last_name": "Brandé",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RJPS"
+    },
+    {
+      "position": 13,
+      "match_percentage": 71.9,
+      "match_points": 384.243,
+      "first_name": "Tim",
+      "last_name": "Torstensen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Umeå Pk"
+    },
+    {
+      "position": 14,
+      "match_percentage": 71.12,
+      "match_points": 380.0702,
+      "first_name": "P-O",
+      "last_name": "Persson",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "forsabon",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 15,
+      "match_percentage": 70.61,
+      "match_points": 377.3339,
+      "first_name": "Örjan",
+      "last_name": "Strömberg",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Umeå PK"
+    },
+    {
+      "position": 16,
+      "match_percentage": 70.32,
+      "match_points": 375.7926,
+      "first_name": "Lars-Göran",
+      "last_name": "Dehlin",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "larsa",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 17,
+      "match_percentage": 68.79,
+      "match_points": 367.6169,
+      "first_name": "Marcus",
+      "last_name": "Karström",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "skalman69",
+      "club": "Umeå PK"
+    },
+    {
+      "position": 18,
+      "match_percentage": 68.71,
+      "match_points": 367.1835,
+      "first_name": "Tobias",
+      "last_name": "Andersson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "I21/T3"
+    },
+    {
+      "position": 19,
+      "match_percentage": 68.39,
+      "match_points": 365.4543,
+      "first_name": "Marcus",
+      "last_name": "Nilsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sundsvall PK"
+    },
+    {
+      "position": 20,
+      "match_percentage": 67.44,
+      "match_points": 360.3837,
+      "first_name": "Fredrik",
+      "last_name": "Berg",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MDS"
+    },
+    {
+      "position": 21,
+      "match_percentage": 66.64,
+      "match_points": 356.1053,
+      "first_name": "Niklas",
+      "last_name": "Nordgren",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "agaton",
+      "club": "Skellefteå psf"
+    },
+    {
+      "position": 22,
+      "match_percentage": 65.62,
+      "match_points": 350.6698,
+      "first_name": "Lennart",
+      "last_name": "Lundberg",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "lalle",
+      "club": "NSG"
+    },
+    {
+      "position": 23,
+      "match_percentage": 64.56,
+      "match_points": 344.9842,
+      "first_name": "Marcus",
+      "last_name": "Sedin",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "sedda",
+      "club": "NSG"
+    },
+    {
+      "position": 24,
+      "match_percentage": 64.41,
+      "match_points": 344.2151,
+      "first_name": "Rolf",
+      "last_name": "Lönn",
+      "division": "Production Optics-",
+      "category": [
+        "GS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "roffe",
+      "club": "IPSC Ockelbo"
+    },
+    {
+      "position": 25,
+      "match_percentage": 63.25,
+      "match_points": 337.977,
+      "first_name": "Christian",
+      "last_name": "Täfvander-Wisén",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kicken",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 26,
+      "match_percentage": 62.91,
+      "match_points": 336.1599,
+      "first_name": "Patrik",
+      "last_name": "Danielsson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "UPK"
+    },
+    {
+      "position": 27,
+      "match_percentage": 62.91,
+      "match_points": 336.1555,
+      "first_name": "Erik",
+      "last_name": "Norbeck",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "goat",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 28,
+      "match_percentage": 61.79,
+      "match_points": 330.1793,
+      "first_name": "Kevin",
+      "last_name": "Jernström",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 29,
+      "match_percentage": 61.7,
+      "match_points": 329.7246,
+      "first_name": "Wilmer",
+      "last_name": "Frisendahl",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "I21/t3"
+    },
+    {
+      "position": 30,
+      "match_percentage": 60.84,
+      "match_points": 325.1355,
+      "first_name": "Mikael",
+      "last_name": "Eriksson",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RJPS"
+    },
+    {
+      "position": 31,
+      "match_percentage": 60.82,
+      "match_points": 325.0096,
+      "first_name": "Hasse",
+      "last_name": "Ahlgren",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RJPS"
+    },
+    {
+      "position": 32,
+      "match_percentage": 59.71,
+      "match_points": 319.0716,
+      "first_name": "Timmy",
+      "last_name": "Pettersson",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 33,
+      "match_percentage": 59.61,
+      "match_points": 318.5716,
+      "first_name": "Zoran",
+      "last_name": "Matovic",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 34,
+      "match_percentage": 59.4,
+      "match_points": 317.4355,
+      "first_name": "Johan",
+      "last_name": "Thillberg",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "zendit",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 35,
+      "match_percentage": 58.1,
+      "match_points": 310.4675,
+      "first_name": "Fredrik",
+      "last_name": "Rudolphi",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 36,
+      "match_percentage": 58.04,
+      "match_points": 310.1742,
+      "first_name": "Andreas",
+      "last_name": "Säkki",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "SPSK"
+    },
+    {
+      "position": 37,
+      "match_percentage": 57.2,
+      "match_points": 305.6775,
+      "first_name": "Richard",
+      "last_name": "Johansson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "bork86",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 38,
+      "match_percentage": 54.33,
+      "match_points": 290.3464,
+      "first_name": "Nils",
+      "last_name": "Norin",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "airborneswe",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 39,
+      "match_percentage": 54.25,
+      "match_points": 289.8848,
+      "first_name": "Joakim",
+      "last_name": "Ålstig",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Gideå Pistol"
+    },
+    {
+      "position": 40,
+      "match_percentage": 53.48,
+      "match_points": 285.7772,
+      "first_name": "Lars",
+      "last_name": "Ljung",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RJPS"
+    },
+    {
+      "position": 41,
+      "match_percentage": 52.95,
+      "match_points": 282.9421,
+      "first_name": "Jörgen",
+      "last_name": "Eriksson",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "twoalpha",
+      "club": "SPK"
+    },
+    {
+      "position": 42,
+      "match_percentage": 51.03,
+      "match_points": 272.7121,
+      "first_name": "Robin",
+      "last_name": "Eklöf",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 43,
+      "match_percentage": 49.75,
+      "match_points": 265.8316,
+      "first_name": "Fredrik",
+      "last_name": "Nilsson",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pistolfredde",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 44,
+      "match_percentage": 48.07,
+      "match_points": 256.889,
+      "first_name": "Pär",
+      "last_name": "Linnarsson",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "45power",
+      "club": "RJPS"
+    },
+    {
+      "position": 45,
+      "match_percentage": 46.69,
+      "match_points": 249.4875,
+      "first_name": "Åke",
+      "last_name": "Andersson",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sundsvalls pk"
+    },
+    {
+      "position": 46,
+      "match_percentage": 46.12,
+      "match_points": 246.4736,
+      "first_name": "Emil",
+      "last_name": "Lidbom",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "SPK"
+    },
+    {
+      "position": 47,
+      "match_percentage": 45.29,
+      "match_points": 242.0474,
+      "first_name": "Mikko",
+      "last_name": "Seppälä",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RJPS"
+    },
+    {
+      "position": 48,
+      "match_percentage": 44.94,
+      "match_points": 240.1252,
+      "first_name": "Jesper",
+      "last_name": "Staaf",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "staaf",
+      "club": "Sundsvalls PK"
+    },
+    {
+      "position": 49,
+      "match_percentage": 42.58,
+      "match_points": 227.5229,
+      "first_name": "Jon",
+      "last_name": "Norman",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jonten",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 50,
+      "match_percentage": 42.52,
+      "match_points": 227.199,
+      "first_name": "Per",
+      "last_name": "Bengtsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RJPS"
+    },
+    {
+      "position": 51,
+      "match_percentage": 41.92,
+      "match_points": 224.0177,
+      "first_name": "Henrik",
+      "last_name": "Flybring",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Gideå Pistol"
+    },
+    {
+      "position": 52,
+      "match_percentage": 41.72,
+      "match_points": 222.9568,
+      "first_name": "Jon",
+      "last_name": "Svensson",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jon",
+      "club": "RJPS"
+    },
+    {
+      "position": 53,
+      "match_percentage": 41.48,
+      "match_points": 221.6655,
+      "first_name": "Tomas",
+      "last_name": "Persson",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 54,
+      "match_percentage": 41.3,
+      "match_points": 220.7133,
+      "first_name": "Jonathan",
+      "last_name": "Larsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Spk"
+    },
+    {
+      "position": 55,
+      "match_percentage": 38.45,
+      "match_points": 205.4834,
+      "first_name": "Linus",
+      "last_name": "Nilsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sundsvall PK"
+    },
+    {
+      "position": 56,
+      "match_percentage": 38.33,
+      "match_points": 204.8232,
+      "first_name": "Elias",
+      "last_name": "Agrell",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "agrell",
+      "club": "Gideå Pistol"
+    },
+    {
+      "position": 57,
+      "match_percentage": 37.66,
+      "match_points": 201.2639,
+      "first_name": "Thomas",
+      "last_name": "Fredlund",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Hudik PSK"
+    },
+    {
+      "position": 58,
+      "match_percentage": 34.56,
+      "match_points": 184.7078,
+      "first_name": "Linn",
+      "last_name": "Lundberg",
+      "division": "Production-",
+      "category": [
+        "J"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pewpewlinn",
+      "club": "NSG"
+    },
+    {
+      "position": 59,
+      "match_percentage": 29.11,
+      "match_points": 155.5363,
+      "first_name": "Erik",
+      "last_name": "Löfdahl",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sundsvalls PK"
+    }
+  ]
+}

@@ -11,3 +11,8 @@ devenv.local.nix
 __pycache__/
 
 match_data/
+
+# Jekyll build output
+_site/
+
+CLAUDE.md

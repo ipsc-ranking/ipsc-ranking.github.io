@@ -1,0 +1,826 @@
+{
+  "match_id": 17541,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/17541/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/17541/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/17541/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/17541/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/17541/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/17541/",
+  "match_title": "Rodent Valley - results",
+  "match_level": "Level II",
+  "match_date": "2023-06-04T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 437.5105,
+      "first_name": "Per",
+      "last_name": "Forsling",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "A",
+      "alias": "slowfeet",
+      "club": "ECDS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 95.9,
+      "match_points": 419.5868,
+      "first_name": "Daniel",
+      "last_name": "Andelius",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "dtf",
+      "club": "EDS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 83.42,
+      "match_points": 364.9753,
+      "first_name": "Heinz",
+      "last_name": "Johansson",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "heinza62",
+      "club": "NSC-Norrköping Shooting Club"
+    },
+    {
+      "position": 4,
+      "match_percentage": 80.44,
+      "match_points": 351.925,
+      "first_name": "Jocke",
+      "last_name": "Glaés",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "arson",
+      "club": "EDS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 73.59,
+      "match_points": 321.9617,
+      "first_name": "Oscar",
+      "last_name": "Helgesson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 6,
+      "match_percentage": 71.06,
+      "match_points": 310.9069,
+      "first_name": "Mikael",
+      "last_name": "Nilsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 7,
+      "match_percentage": 67.63,
+      "match_points": 295.886,
+      "first_name": "Marcus",
+      "last_name": "Kuhberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "vonaberg",
+      "club": "ECDS"
+    },
+    {
+      "position": 8,
+      "match_percentage": 66.87,
+      "match_points": 292.5704,
+      "first_name": "Håkan",
+      "last_name": "Johansson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "hawkan",
+      "club": "SMGC"
+    },
+    {
+      "position": 9,
+      "match_percentage": 65.79,
+      "match_points": 287.8506,
+      "first_name": "Andreas",
+      "last_name": "Ege",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "karutchi",
+      "club": "Överum"
+    },
+    {
+      "position": 10,
+      "match_percentage": 65.29,
+      "match_points": 285.6333,
+      "first_name": "Mikael",
+      "last_name": "Johansson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "humlegaard",
+      "club": "Överum"
+    },
+    {
+      "position": 11,
+      "match_percentage": 64.12,
+      "match_points": 280.5484,
+      "first_name": "Conny",
+      "last_name": "Petersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 12,
+      "match_percentage": 60.95,
+      "match_points": 266.673,
+      "first_name": "Patrick",
+      "last_name": "Jansson",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "trident",
+      "club": "ECDS"
+    },
+    {
+      "position": 13,
+      "match_percentage": 60.62,
+      "match_points": 265.2347,
+      "first_name": "Johan",
+      "last_name": "Lindgren",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "joli",
+      "club": "Norrköping shooting club"
+    },
+    {
+      "position": 14,
+      "match_percentage": 59.25,
+      "match_points": 259.238,
+      "first_name": "Thomas",
+      "last_name": "Nilson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "gratisnalle",
+      "club": "EDS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 58.88,
+      "match_points": 257.5958,
+      "first_name": "Johan",
+      "last_name": "Söderström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "sunbeam",
+      "club": "GPIF"
+    },
+    {
+      "position": 16,
+      "match_percentage": 55.95,
+      "match_points": 244.7884,
+      "first_name": "Stefan",
+      "last_name": "Adolfsson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "EDS"
+    },
+    {
+      "position": 17,
+      "match_percentage": 55.45,
+      "match_points": 242.5973,
+      "first_name": "Christoffer",
+      "last_name": "Glinge",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 18,
+      "match_percentage": 54.64,
+      "match_points": 239.0707,
+      "first_name": "Stefan",
+      "last_name": "Vålberg",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "valberg",
+      "club": "Linköpings skytteförening"
+    },
+    {
+      "position": 19,
+      "match_percentage": 51.53,
+      "match_points": 225.4502,
+      "first_name": "Glenn",
+      "last_name": "Vennberg",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "baraglenn",
+      "club": "Sätila PSK"
+    },
+    {
+      "position": 20,
+      "match_percentage": 51.44,
+      "match_points": 225.0478,
+      "first_name": "Erik",
+      "last_name": "Kinnunen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 21,
+      "match_percentage": 50.49,
+      "match_points": 220.9071,
+      "first_name": "Mikael",
+      "last_name": "Ernstsson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "uinen",
+      "club": "EDS"
+    },
+    {
+      "position": 22,
+      "match_percentage": 50.28,
+      "match_points": 219.9917,
+      "first_name": "Kristoffer",
+      "last_name": "NotKnown",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Linköpingspolisens Skytteklubb"
+    },
+    {
+      "position": 23,
+      "match_percentage": 49.23,
+      "match_points": 215.3763,
+      "first_name": "Olof",
+      "last_name": "Bengtsson",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "linde",
+      "club": "Jpk"
+    },
+    {
+      "position": 24,
+      "match_percentage": 48.46,
+      "match_points": 212.0156,
+      "first_name": "Daniel",
+      "last_name": "Lindström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 25,
+      "match_percentage": 47.66,
+      "match_points": 208.5213,
+      "first_name": "Cristian",
+      "last_name": "Toma",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "EDS"
+    },
+    {
+      "position": 26,
+      "match_percentage": 47.54,
+      "match_points": 207.993,
+      "first_name": "Daniel",
+      "last_name": "Hermansson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mrherman",
+      "club": "ECDS"
+    },
+    {
+      "position": 27,
+      "match_percentage": 46.7,
+      "match_points": 204.3004,
+      "first_name": "Rickard",
+      "last_name": "Gustafsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "rickswe",
+      "club": "Linköpingspolisen SK"
+    },
+    {
+      "position": 28,
+      "match_percentage": 46.14,
+      "match_points": 201.8589,
+      "first_name": "Georg",
+      "last_name": "Massi",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "massi",
+      "club": "ECDS"
+    },
+    {
+      "position": 29,
+      "match_percentage": 44.41,
+      "match_points": 194.2935,
+      "first_name": "Tove",
+      "last_name": "Kuhberg",
+      "division": "Open+",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "tojjtojj",
+      "club": "ECDS"
+    },
+    {
+      "position": 30,
+      "match_percentage": 43.75,
+      "match_points": 191.3915,
+      "first_name": "Jonathan",
+      "last_name": "Strandberg",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Linköpingspolisens Skytteklubb"
+    },
+    {
+      "position": 31,
+      "match_percentage": 42.76,
+      "match_points": 187.0774,
+      "first_name": "Philip",
+      "last_name": "Knezevic",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sätila PSK"
+    },
+    {
+      "position": 32,
+      "match_percentage": 42.15,
+      "match_points": 184.3934,
+      "first_name": "Peter",
+      "last_name": "Norr",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "peno",
+      "club": "ECDS"
+    },
+    {
+      "position": 33,
+      "match_percentage": 42.08,
+      "match_points": 184.1155,
+      "first_name": "jonas",
+      "last_name": "pettersson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jonasp",
+      "club": "East Coast Dynamic Shooters"
+    },
+    {
+      "position": 34,
+      "match_percentage": 41.7,
+      "match_points": 182.4572,
+      "first_name": "Sebastian",
+      "last_name": "Baginski",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ECDS"
+    },
+    {
+      "position": 35,
+      "match_percentage": 41.05,
+      "match_points": 179.5827,
+      "first_name": "Rickard",
+      "last_name": "Jonsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ricken",
+      "club": "Överum"
+    },
+    {
+      "position": 36,
+      "match_percentage": 37.13,
+      "match_points": 162.4501,
+      "first_name": "Jonathan",
+      "last_name": "Bergendahl",
+      "division": "Standard-",
+      "category": [
+        "J"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ECDS"
+    },
+    {
+      "position": 37,
+      "match_percentage": 36.53,
+      "match_points": 159.8241,
+      "first_name": "Johan",
+      "last_name": "Bergh",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "racenordic",
+      "club": "SMGC"
+    },
+    {
+      "position": 38,
+      "match_percentage": 34.94,
+      "match_points": 152.8517,
+      "first_name": "Jenny",
+      "last_name": "Hagström",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ECDS"
+    },
+    {
+      "position": 39,
+      "match_percentage": 34.72,
+      "match_points": 151.8935,
+      "first_name": "Kristian",
+      "last_name": "Ravantti",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mkravantti",
+      "club": "Överum"
+    },
+    {
+      "position": 40,
+      "match_percentage": 29.84,
+      "match_points": 130.5436,
+      "first_name": "Tommy",
+      "last_name": "Lindén",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "cableguy",
+      "club": "ECDS"
+    },
+    {
+      "position": 41,
+      "match_percentage": 28.62,
+      "match_points": 125.2099,
+      "first_name": "Johnny",
+      "last_name": "Roldin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sätila PSK"
+    },
+    {
+      "position": 42,
+      "match_percentage": 28.38,
+      "match_points": 124.1711,
+      "first_name": "Tomas",
+      "last_name": "Rolin",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "apeiro",
+      "club": "Norrköping Shooting Club"
+    },
+    {
+      "position": 43,
+      "match_percentage": 28.0,
+      "match_points": 122.4839,
+      "first_name": "Anders",
+      "last_name": "Ingvarsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "EDS"
+    },
+    {
+      "position": 44,
+      "match_percentage": 26.06,
+      "match_points": 113.9961,
+      "first_name": "Lars",
+      "last_name": "Nygren",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "larzo",
+      "club": "ECDS"
+    },
+    {
+      "position": 45,
+      "match_percentage": 23.7,
+      "match_points": 103.7,
+      "first_name": "Cecilia",
+      "last_name": "Ekströmer Johansson",
+      "division": "Standard-",
+      "category": [
+        "SJ"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 46,
+      "match_percentage": 21.24,
+      "match_points": 92.9132,
+      "first_name": "Daniel",
+      "last_name": "Norr",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ECDS"
+    },
+    {
+      "position": 47,
+      "match_percentage": 21.16,
+      "match_points": 92.5839,
+      "first_name": "Rikard",
+      "last_name": "Andersson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ECDS"
+    },
+    {
+      "position": 48,
+      "match_percentage": 20.32,
+      "match_points": 88.9054,
+      "first_name": "Daniel",
+      "last_name": "Ljung Schwartz",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mrschwartz",
+      "club": "ECDS"
+    },
+    {
+      "position": 49,
+      "match_percentage": 19.72,
+      "match_points": 86.2928,
+      "first_name": "Jan",
+      "last_name": "Ström",
+      "division": "Production Optics-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 50,
+      "match_percentage": 13.15,
+      "match_points": 57.5369,
+      "first_name": "Thorsten",
+      "last_name": "Ekströmer",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Överum"
+    },
+    {
+      "position": 51,
+      "match_percentage": 13.05,
+      "match_points": 57.0901,
+      "first_name": "Jonathan",
+      "last_name": "Hansen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "IPSC Smedjan"
+    },
+    {
+      "position": 52,
+      "match_percentage": 6.6,
+      "match_points": 28.8665,
+      "first_name": "John",
+      "last_name": "Nilsson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ECDS"
+    },
+    {
+      "position": 53,
+      "match_percentage": 3.84,
+      "match_points": 16.7793,
+      "first_name": "Mats",
+      "last_name": "Lind",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Security Group Dynamics"
+    }
+  ]
+}

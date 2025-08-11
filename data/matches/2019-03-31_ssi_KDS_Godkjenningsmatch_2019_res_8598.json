@@ -1,0 +1,109 @@
+{
+  "match_id": 8598,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/8598/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/8598/div/hg3/",
+      "name": "Production"
+    }
+  ],
+  "match_url": "/event/22/8598/",
+  "match_title": "KDS Godkjenningsmatch 2019 - results",
+  "match_level": "Level II",
+  "match_date": "2019-03-31T16:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 304.4071,
+      "first_name": "Ståle",
+      "last_name": "Eilertsen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "firefly",
+      "club": "KDS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 93.74,
+      "match_points": 285.3644,
+      "first_name": "Håkon",
+      "last_name": "Laksberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "D",
+      "alias": "laxen",
+      "club": "KDS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 85.87,
+      "match_points": 261.3988,
+      "first_name": "Olbjørn",
+      "last_name": "Lybergsvik",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "KDS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 75.72,
+      "match_points": 230.4972,
+      "first_name": "John",
+      "last_name": "Berntzen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "KDS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 57.37,
+      "match_points": 174.6394,
+      "first_name": "Sten Odin",
+      "last_name": "Sandbye",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 6,
+      "match_percentage": 53.36,
+      "match_points": 162.4266,
+      "first_name": "Sondre",
+      "last_name": "Sandbye",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "KDS"
+    }
+  ]
+}

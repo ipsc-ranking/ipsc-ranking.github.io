@@ -1,0 +1,1584 @@
+{
+  "match_id": 21847,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/21847/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/21847/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/21847/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/21847/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/21847/div/hg17/",
+      "name": "Pistol Caliber Carbine"
+    },
+    {
+      "url": "/ipsc/results/match/21847/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/21847/div/hgc/",
+      "name": "Custom"
+    }
+  ],
+  "match_url": "/event/22/21847/",
+  "match_title": "CGPSA Golden City Handgun League 8 - results",
+  "match_level": "Level II",
+  "match_date": "2024-09-07T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 826.773,
+      "first_name": "Pieter",
+      "last_name": "Burger",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden city"
+    },
+    {
+      "position": 2,
+      "match_percentage": 94.38,
+      "match_points": 780.2712,
+      "first_name": "Wanda",
+      "last_name": "Zama",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "A",
+      "alias": "blackcross",
+      "club": "BASA"
+    },
+    {
+      "position": 3,
+      "match_percentage": 88.55,
+      "match_points": 732.0763,
+      "first_name": "Christopher",
+      "last_name": "Hanscombe",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "gC"
+    },
+    {
+      "position": 4,
+      "match_percentage": 87.81,
+      "match_points": 726.0167,
+      "first_name": "Dirk",
+      "last_name": "Van Der Walt",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "GC"
+    },
+    {
+      "position": 5,
+      "match_percentage": 87.52,
+      "match_points": 723.5562,
+      "first_name": "Frans",
+      "last_name": "Pieterse",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "french",
+      "club": "Golden City"
+    },
+    {
+      "position": 6,
+      "match_percentage": 87.22,
+      "match_points": 721.1094,
+      "first_name": "Jason",
+      "last_name": "Coetzee",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "petrucia",
+      "club": "Golden City"
+    },
+    {
+      "position": 7,
+      "match_percentage": 87.08,
+      "match_points": 719.9793,
+      "first_name": "Pieter",
+      "last_name": "Bouwer",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "pieter",
+      "club": "Golden City"
+    },
+    {
+      "position": 8,
+      "match_percentage": 86.96,
+      "match_points": 718.9543,
+      "first_name": "Clifford",
+      "last_name": "Goosen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Magnum United Shooting Club"
+    },
+    {
+      "position": 9,
+      "match_percentage": 85.55,
+      "match_points": 707.342,
+      "first_name": "Edwin",
+      "last_name": "Vermeulen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "edwin",
+      "club": "Golden City"
+    },
+    {
+      "position": 10,
+      "match_percentage": 84.76,
+      "match_points": 700.7807,
+      "first_name": "Dirk",
+      "last_name": "Van Der Walt",
+      "division": "Custom-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 11,
+      "match_percentage": 81.81,
+      "match_points": 676.3739,
+      "first_name": "Demis",
+      "last_name": "Karamitsos",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Spartanarms"
+    },
+    {
+      "position": 12,
+      "match_percentage": 79.9,
+      "match_points": 660.5961,
+      "first_name": "Shaun",
+      "last_name": "Esterhuizen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "C",
+      "alias": "",
+      "club": "Guns@Work"
+    },
+    {
+      "position": 13,
+      "match_percentage": 75.85,
+      "match_points": 627.1296,
+      "first_name": "Vincent",
+      "last_name": "Mortlock",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Teks"
+    },
+    {
+      "position": 14,
+      "match_percentage": 75.5,
+      "match_points": 624.2285,
+      "first_name": "Jean",
+      "last_name": "Engelbrecht",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "ZWE",
+      "classification": "A",
+      "alias": "",
+      "club": "BUFFALO RIVER NEWCASTLE"
+    },
+    {
+      "position": 15,
+      "match_percentage": 74.64,
+      "match_points": 617.1347,
+      "first_name": "Warren",
+      "last_name": "Bonheim",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 16,
+      "match_percentage": 74.47,
+      "match_points": 615.6823,
+      "first_name": "David",
+      "last_name": "Coetzee",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "ttburner",
+      "club": "Golden City"
+    },
+    {
+      "position": 17,
+      "match_percentage": 73.2,
+      "match_points": 605.1854,
+      "first_name": "Christopher",
+      "last_name": "Hanscombe",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "GV"
+    },
+    {
+      "position": 18,
+      "match_percentage": 72.95,
+      "match_points": 603.1631,
+      "first_name": "Keagan",
+      "last_name": "Salt",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Spartan Arms"
+    },
+    {
+      "position": 19,
+      "match_percentage": 71.96,
+      "match_points": 594.9693,
+      "first_name": "Pravesh",
+      "last_name": "Magan",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 20,
+      "match_percentage": 70.63,
+      "match_points": 583.9149,
+      "first_name": "Brad",
+      "last_name": "Henstock",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "brad",
+      "club": "Golden City"
+    },
+    {
+      "position": 21,
+      "match_percentage": 70.58,
+      "match_points": 583.526,
+      "first_name": "Neelesh",
+      "last_name": "Dullabh",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "golden city"
+    },
+    {
+      "position": 22,
+      "match_percentage": 69.86,
+      "match_points": 577.6051,
+      "first_name": "Sean",
+      "last_name": "Flannigan",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 23,
+      "match_percentage": 68.5,
+      "match_points": 566.3205,
+      "first_name": "Glen",
+      "last_name": "Kruger",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden city"
+    },
+    {
+      "position": 24,
+      "match_percentage": 68.07,
+      "match_points": 562.7903,
+      "first_name": "Stephan",
+      "last_name": "Van Zijl",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "A",
+      "alias": "stephan",
+      "club": "Magnum United"
+    },
+    {
+      "position": 25,
+      "match_percentage": 67.89,
+      "match_points": 561.2972,
+      "first_name": "Dylan",
+      "last_name": "Kent",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 26,
+      "match_percentage": 67.85,
+      "match_points": 560.9659,
+      "first_name": "Lexi",
+      "last_name": "Hanneman",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "C",
+      "alias": "lexi",
+      "club": "Pistoleros"
+    },
+    {
+      "position": 27,
+      "match_percentage": 67.75,
+      "match_points": 560.1612,
+      "first_name": "Kirsty",
+      "last_name": "Bohler",
+      "division": "Open+",
+      "category": [
+        "L"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 28,
+      "match_percentage": 66.86,
+      "match_points": 552.7443,
+      "first_name": "Edwin",
+      "last_name": "Vermeulen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "edwin",
+      "club": "Golden City"
+    },
+    {
+      "position": 29,
+      "match_percentage": 66.71,
+      "match_points": 551.534,
+      "first_name": "Dewald",
+      "last_name": "Brits",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 30,
+      "match_percentage": 66.21,
+      "match_points": 547.4383,
+      "first_name": "Neale",
+      "last_name": "Goddard",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 31,
+      "match_percentage": 65.89,
+      "match_points": 544.7487,
+      "first_name": "Wyn",
+      "last_name": "Robertson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "win",
+      "club": "Golden city"
+    },
+    {
+      "position": 32,
+      "match_percentage": 65.76,
+      "match_points": 543.6451,
+      "first_name": "Carlo",
+      "last_name": "Belletti",
+      "division": "Open+",
+      "category": [
+        "GS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Goldencity"
+    },
+    {
+      "position": 33,
+      "match_percentage": 65.44,
+      "match_points": 541.0396,
+      "first_name": "Coert",
+      "last_name": "Erasmus",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 34,
+      "match_percentage": 65.18,
+      "match_points": 538.8864,
+      "first_name": "Mo",
+      "last_name": "Osman",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "G@W"
+    },
+    {
+      "position": 35,
+      "match_percentage": 64.15,
+      "match_points": 530.3735,
+      "first_name": "Minette",
+      "last_name": "Burger",
+      "division": "Open+",
+      "category": [
+        "L"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 36,
+      "match_percentage": 63.53,
+      "match_points": 525.2224,
+      "first_name": "Jose",
+      "last_name": "Cardoso",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "PRT",
+      "classification": "U",
+      "alias": "",
+      "club": "Spartan"
+    },
+    {
+      "position": 37,
+      "match_percentage": 63.01,
+      "match_points": 520.9302,
+      "first_name": "Warren",
+      "last_name": "Bonheim",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 38,
+      "match_percentage": 62.38,
+      "match_points": 515.71,
+      "first_name": "Aike",
+      "last_name": "Baars",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 39,
+      "match_percentage": 61.17,
+      "match_points": 505.7591,
+      "first_name": "Keith",
+      "last_name": "Trollip",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "GCPSC"
+    },
+    {
+      "position": 40,
+      "match_percentage": 61.13,
+      "match_points": 505.3654,
+      "first_name": "James Selwyn",
+      "last_name": "Vaughan",
+      "division": "Open+",
+      "category": [
+        "GS"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "jimv",
+      "club": "Roodepoort"
+    },
+    {
+      "position": 41,
+      "match_percentage": 60.68,
+      "match_points": 501.707,
+      "first_name": "cHris",
+      "last_name": "Marais",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "",
+      "club": "Goldencity"
+    },
+    {
+      "position": 42,
+      "match_percentage": 60.37,
+      "match_points": 499.1519,
+      "first_name": "Darryl",
+      "last_name": "Flannigan",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "699",
+      "club": "Golden City"
+    },
+    {
+      "position": 43,
+      "match_percentage": 59.69,
+      "match_points": 493.5005,
+      "first_name": "Joel",
+      "last_name": "Cohen",
+      "division": "Open+",
+      "category": [
+        "GS"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 44,
+      "match_percentage": 59.66,
+      "match_points": 493.2173,
+      "first_name": "Billy",
+      "last_name": "Pieterse",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "billy",
+      "club": "Golden City"
+    },
+    {
+      "position": 45,
+      "match_percentage": 59.11,
+      "match_points": 488.7102,
+      "first_name": "Ebrahim",
+      "last_name": "Asvat",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ZWE"
+    },
+    {
+      "position": 46,
+      "match_percentage": 58.99,
+      "match_points": 487.7016,
+      "first_name": "Sean",
+      "last_name": "O'Donovan",
+      "division": "Standard+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "GCity"
+    },
+    {
+      "position": 47,
+      "match_percentage": 58.97,
+      "match_points": 487.5537,
+      "first_name": "Moosa",
+      "last_name": "Mangera",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 48,
+      "match_percentage": 58.22,
+      "match_points": 481.3471,
+      "first_name": "Marié",
+      "last_name": "Brummer",
+      "division": "Open+",
+      "category": [
+        "L"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Guns@Work"
+    },
+    {
+      "position": 49,
+      "match_percentage": 57.96,
+      "match_points": 479.2318,
+      "first_name": "Martin",
+      "last_name": "Lowe",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Roodepoort"
+    },
+    {
+      "position": 50,
+      "match_percentage": 57.71,
+      "match_points": 477.1403,
+      "first_name": "Fanie",
+      "last_name": "Otto",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "ZWE",
+      "classification": "B",
+      "alias": "",
+      "club": "Wolwehoek Shooting Club"
+    },
+    {
+      "position": 51,
+      "match_percentage": 56.7,
+      "match_points": 468.7837,
+      "first_name": "Mark",
+      "last_name": "Atkins",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 52,
+      "match_percentage": 55.98,
+      "match_points": 462.8678,
+      "first_name": "Claudio",
+      "last_name": "Massella",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "Roodepoort"
+    },
+    {
+      "position": 53,
+      "match_percentage": 55.59,
+      "match_points": 459.6281,
+      "first_name": "Frans",
+      "last_name": "Pieterse",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "french",
+      "club": "Golden City"
+    },
+    {
+      "position": 54,
+      "match_percentage": 55.1,
+      "match_points": 455.5788,
+      "first_name": "Mpho",
+      "last_name": "Doyoyo",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "D",
+      "alias": "",
+      "club": "BASA"
+    },
+    {
+      "position": 55,
+      "match_percentage": 54.57,
+      "match_points": 451.1326,
+      "first_name": "Jay",
+      "last_name": "Cellier",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "pccirons",
+      "club": "GUNS@WORK"
+    },
+    {
+      "position": 56,
+      "match_percentage": 54.42,
+      "match_points": 449.9155,
+      "first_name": "Gideon",
+      "last_name": "Carstens",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "kassie",
+      "club": "Golden City"
+    },
+    {
+      "position": 57,
+      "match_percentage": 53.78,
+      "match_points": 444.6146,
+      "first_name": "Wayne",
+      "last_name": "Hammond",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "rogue",
+      "club": "Golden City"
+    },
+    {
+      "position": 58,
+      "match_percentage": 52.26,
+      "match_points": 432.0395,
+      "first_name": "Gafoor",
+      "last_name": "Hoosein",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "A",
+      "alias": "gaff",
+      "club": "Golden City"
+    },
+    {
+      "position": 59,
+      "match_percentage": 51.23,
+      "match_points": 423.5246,
+      "first_name": "Ronel",
+      "last_name": "Barter",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 60,
+      "match_percentage": 50.16,
+      "match_points": 414.7244,
+      "first_name": "Johan",
+      "last_name": "Swanepoel",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "RPSC"
+    },
+    {
+      "position": 61,
+      "match_percentage": 49.92,
+      "match_points": 412.6887,
+      "first_name": "Schalk",
+      "last_name": "Du Plessis",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "schalk",
+      "club": "Golden City"
+    },
+    {
+      "position": 62,
+      "match_percentage": 49.61,
+      "match_points": 410.1235,
+      "first_name": "Colin",
+      "last_name": "Amm",
+      "division": "Standard+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "GOLDEN CITY"
+    },
+    {
+      "position": 63,
+      "match_percentage": 49.2,
+      "match_points": 406.8115,
+      "first_name": "Eric",
+      "last_name": "Joyce",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "sapsa",
+      "club": "Golden City"
+    },
+    {
+      "position": 64,
+      "match_percentage": 49.05,
+      "match_points": 405.5663,
+      "first_name": "Martin",
+      "last_name": "Potgieter",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 65,
+      "match_percentage": 48.74,
+      "match_points": 402.9408,
+      "first_name": "Andy",
+      "last_name": "Charalambous",
+      "division": "Standard+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 66,
+      "match_percentage": 48.34,
+      "match_points": 399.6735,
+      "first_name": "Keith",
+      "last_name": "Askham",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "jetjungle",
+      "club": "Golden City"
+    },
+    {
+      "position": 67,
+      "match_percentage": 47.87,
+      "match_points": 395.7522,
+      "first_name": "Tim",
+      "last_name": "Harito",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "RSC"
+    },
+    {
+      "position": 68,
+      "match_percentage": 47.77,
+      "match_points": 394.9335,
+      "first_name": "Bardev",
+      "last_name": "Rowjee",
+      "division": "Open-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "Golden City Shooting Club"
+    },
+    {
+      "position": 69,
+      "match_percentage": 47.1,
+      "match_points": 389.4327,
+      "first_name": "Bernadette",
+      "last_name": "Remacle",
+      "division": "Standard+",
+      "category": [
+        "L"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 70,
+      "match_percentage": 47.0,
+      "match_points": 388.565,
+      "first_name": "Colin",
+      "last_name": "De Souza",
+      "division": "Classic-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 71,
+      "match_percentage": 46.01,
+      "match_points": 380.4164,
+      "first_name": "Coert",
+      "last_name": "Erasmus",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "B",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 72,
+      "match_percentage": 45.99,
+      "match_points": 380.2434,
+      "first_name": "Nicholas",
+      "last_name": "Quail",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "trexoquail",
+      "club": "Golden City Shooting Club"
+    },
+    {
+      "position": 73,
+      "match_percentage": 45.64,
+      "match_points": 377.3342,
+      "first_name": "Stevin",
+      "last_name": "Labuschagne",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City 1863"
+    },
+    {
+      "position": 74,
+      "match_percentage": 45.63,
+      "match_points": 377.2372,
+      "first_name": "Kevin",
+      "last_name": "Trollip",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "GCPSC"
+    },
+    {
+      "position": 75,
+      "match_percentage": 45.24,
+      "match_points": 374.065,
+      "first_name": "Martin",
+      "last_name": "Le Roux",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Roodepoort"
+    },
+    {
+      "position": 76,
+      "match_percentage": 44.06,
+      "match_points": 364.2979,
+      "first_name": "Peter",
+      "last_name": "Williams",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Roodepoort"
+    },
+    {
+      "position": 77,
+      "match_percentage": 43.81,
+      "match_points": 362.2061,
+      "first_name": "Quentin",
+      "last_name": "Briggs",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "qtb",
+      "club": "Golden City"
+    },
+    {
+      "position": 78,
+      "match_percentage": 42.69,
+      "match_points": 352.9468,
+      "first_name": "Etienne Francois",
+      "last_name": "Bekker",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "golden city"
+    },
+    {
+      "position": 79,
+      "match_percentage": 41.92,
+      "match_points": 346.585,
+      "first_name": "Robert",
+      "last_name": "Kimm",
+      "division": "Standard+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Roodeport"
+    },
+    {
+      "position": 80,
+      "match_percentage": 41.6,
+      "match_points": 343.9141,
+      "first_name": "Rahul",
+      "last_name": "Dullabh",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "golden city"
+    },
+    {
+      "position": 81,
+      "match_percentage": 41.14,
+      "match_points": 340.1198,
+      "first_name": "Muhammad",
+      "last_name": "Motala",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Sporting"
+    },
+    {
+      "position": 82,
+      "match_percentage": 40.39,
+      "match_points": 333.9521,
+      "first_name": "Sebella",
+      "last_name": "O'Donovan",
+      "division": "Standard+",
+      "category": [
+        "L"
+      ],
+      "region": "ZWE",
+      "classification": "C",
+      "alias": "",
+      "club": "GCity"
+    },
+    {
+      "position": 83,
+      "match_percentage": 39.58,
+      "match_points": 327.2032,
+      "first_name": "Zunaid",
+      "last_name": "Solomon",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "ZWE",
+      "classification": "C",
+      "alias": "",
+      "club": "Sporting"
+    },
+    {
+      "position": 84,
+      "match_percentage": 38.53,
+      "match_points": 318.5626,
+      "first_name": "Bashier",
+      "last_name": "Bhayat",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "ZWE",
+      "classification": "C",
+      "alias": "",
+      "club": "Sporting shooting club"
+    },
+    {
+      "position": 85,
+      "match_percentage": 36.98,
+      "match_points": 305.7615,
+      "first_name": "Niko",
+      "last_name": "Min",
+      "division": "Open+",
+      "category": [
+        "GS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 86,
+      "match_percentage": 36.82,
+      "match_points": 304.3862,
+      "first_name": "Lea",
+      "last_name": "Brits",
+      "division": "Production Optics-",
+      "category": [
+        "SJ"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 87,
+      "match_percentage": 36.16,
+      "match_points": 298.9362,
+      "first_name": "Hishaam",
+      "last_name": "Iqbal Khan",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden city"
+    },
+    {
+      "position": 88,
+      "match_percentage": 34.09,
+      "match_points": 281.867,
+      "first_name": "Johan",
+      "last_name": "Esterhuizen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Roodepoort"
+    },
+    {
+      "position": 89,
+      "match_percentage": 33.78,
+      "match_points": 279.3022,
+      "first_name": "Doreen",
+      "last_name": "Louw",
+      "division": "Production Optics-",
+      "category": [
+        "LS"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Frontier"
+    },
+    {
+      "position": 90,
+      "match_percentage": 33.33,
+      "match_points": 275.5382,
+      "first_name": "Riaz",
+      "last_name": "Mahomed",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden city"
+    },
+    {
+      "position": 91,
+      "match_percentage": 33.17,
+      "match_points": 274.2623,
+      "first_name": "Aryana",
+      "last_name": "Osman",
+      "division": "Production Optics-",
+      "category": [
+        "J"
+      ],
+      "region": "USA",
+      "classification": "U",
+      "alias": "",
+      "club": "G@W"
+    },
+    {
+      "position": 92,
+      "match_percentage": 32.95,
+      "match_points": 272.4151,
+      "first_name": "Enver",
+      "last_name": "Tim",
+      "division": "Standard+",
+      "category": [
+        "GS"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "golden city"
+    },
+    {
+      "position": 93,
+      "match_percentage": 32.85,
+      "match_points": 271.5661,
+      "first_name": "Duane",
+      "last_name": "Wessels",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "C",
+      "alias": "",
+      "club": "Golden City 6046"
+    },
+    {
+      "position": 94,
+      "match_percentage": 32.6,
+      "match_points": 269.5192,
+      "first_name": "Shuaib",
+      "last_name": "Areff",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Snipers"
+    },
+    {
+      "position": 95,
+      "match_percentage": 31.48,
+      "match_points": 260.2716,
+      "first_name": "Muhummed Uwais",
+      "last_name": "Kader",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "golden city"
+    },
+    {
+      "position": 96,
+      "match_percentage": 31.26,
+      "match_points": 258.4609,
+      "first_name": "Zaid",
+      "last_name": "Iqbal Khan",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden city"
+    },
+    {
+      "position": 97,
+      "match_percentage": 29.98,
+      "match_points": 247.8911,
+      "first_name": "Beverly",
+      "last_name": "Pancoust",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City 6057"
+    },
+    {
+      "position": 98,
+      "match_percentage": 28.15,
+      "match_points": 232.7358,
+      "first_name": "Rashaad",
+      "last_name": "Kader",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 99,
+      "match_percentage": 24.04,
+      "match_points": 198.7331,
+      "first_name": "Steven",
+      "last_name": "Barrett",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 100,
+      "match_percentage": 19.98,
+      "match_points": 165.172,
+      "first_name": "Theo",
+      "last_name": "Badenhorst",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "ZWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Guns@Work"
+    },
+    {
+      "position": 101,
+      "match_percentage": 18.12,
+      "match_points": 149.8145,
+      "first_name": "Essop",
+      "last_name": "Mohamed",
+      "division": "Open+",
+      "category": [
+        "GS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City Shooting Club."
+    },
+    {
+      "position": 102,
+      "match_percentage": 18.11,
+      "match_points": 149.7651,
+      "first_name": "Mark",
+      "last_name": "Leong",
+      "division": "Classic+",
+      "category": [
+        "SS"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden City"
+    },
+    {
+      "position": 103,
+      "match_percentage": 17.81,
+      "match_points": 147.2382,
+      "first_name": "Richard",
+      "last_name": "Van Der Walt",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "ZAF",
+      "classification": "U",
+      "alias": "",
+      "club": "Golden city Shooting club"
+    }
+  ]
+}

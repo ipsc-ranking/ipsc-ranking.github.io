@@ -1,0 +1,564 @@
+{
+  "match_id": 16043,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/16043/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/16043/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/16043/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/16043/div/hg5/",
+      "name": "Revolver"
+    },
+    {
+      "url": "/ipsc/results/match/16043/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/16043/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/16043/div/hg19/",
+      "name": "Production Optics Light"
+    }
+  ],
+  "match_url": "/event/22/16043/",
+  "match_title": "A Good Day L2 Handgun - results",
+  "match_level": "Level II",
+  "match_date": "2022-10-23T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 580.0,
+      "first_name": "Hannu",
+      "last_name": "Uronen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2372",
+      "club": "KarkkA"
+    },
+    {
+      "position": 2,
+      "match_percentage": 76.16,
+      "match_points": 441.7435,
+      "first_name": "Sami",
+      "last_name": "Kallinen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "Gunpoint Shooters"
+    },
+    {
+      "position": 3,
+      "match_percentage": 75.17,
+      "match_points": 436.0021,
+      "first_name": "Pekka",
+      "last_name": "Pietikäinen",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "SSG"
+    },
+    {
+      "position": 4,
+      "match_percentage": 71.58,
+      "match_points": 415.1839,
+      "first_name": "Joni",
+      "last_name": "Nuvola",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "170943",
+      "club": "KouMas"
+    },
+    {
+      "position": 5,
+      "match_percentage": 69.27,
+      "match_points": 401.7443,
+      "first_name": "Henri",
+      "last_name": "Turunen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4735",
+      "club": "SSG"
+    },
+    {
+      "position": 6,
+      "match_percentage": 67.14,
+      "match_points": 389.392,
+      "first_name": "Nastja-Anastasia",
+      "last_name": "Mustonen",
+      "division": "Production Optics-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4421",
+      "club": "Porkka"
+    },
+    {
+      "position": 7,
+      "match_percentage": 65.33,
+      "match_points": 378.8957,
+      "first_name": "Sergei",
+      "last_name": "Markozov",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "156666",
+      "club": "SSG"
+    },
+    {
+      "position": 8,
+      "match_percentage": 64.85,
+      "match_points": 376.1147,
+      "first_name": "Jaakko",
+      "last_name": "Palkeinen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "NoSA"
+    },
+    {
+      "position": 9,
+      "match_percentage": 63.29,
+      "match_points": 367.0734,
+      "first_name": "Sami",
+      "last_name": "Pesonen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "134992",
+      "club": "LaSA"
+    },
+    {
+      "position": 10,
+      "match_percentage": 57.82,
+      "match_points": 335.3295,
+      "first_name": "Niclas",
+      "last_name": "Tamelander",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "6140",
+      "club": "Haur"
+    },
+    {
+      "position": 11,
+      "match_percentage": 57.78,
+      "match_points": 335.0964,
+      "first_name": "Timo",
+      "last_name": "Lemström",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "138820",
+      "club": "KarkkA"
+    },
+    {
+      "position": 12,
+      "match_percentage": 53.4,
+      "match_points": 309.6917,
+      "first_name": "Kai",
+      "last_name": "Turunen",
+      "division": "Production Optics Light-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "276",
+      "club": "SSG"
+    },
+    {
+      "position": 13,
+      "match_percentage": 53.38,
+      "match_points": 309.6079,
+      "first_name": "Timo",
+      "last_name": "Konttinen",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "141286",
+      "club": "PAS"
+    },
+    {
+      "position": 14,
+      "match_percentage": 52.48,
+      "match_points": 304.3868,
+      "first_name": "Harri",
+      "last_name": "Hellgren",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "helly",
+      "club": "SSG"
+    },
+    {
+      "position": 15,
+      "match_percentage": 51.28,
+      "match_points": 297.4488,
+      "first_name": "Veli-Pekka",
+      "last_name": "Vainio",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "161745",
+      "club": "PkPA"
+    },
+    {
+      "position": 16,
+      "match_percentage": 50.35,
+      "match_points": 292.0282,
+      "first_name": "Tomas",
+      "last_name": "Lindell",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "BBG Ry"
+    },
+    {
+      "position": 17,
+      "match_percentage": 50.22,
+      "match_points": 291.248,
+      "first_name": "Sami",
+      "last_name": "Nikki",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "169970",
+      "club": "PAS"
+    },
+    {
+      "position": 18,
+      "match_percentage": 48.5,
+      "match_points": 281.2822,
+      "first_name": "Johan",
+      "last_name": "Lindell",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "PorkkA"
+    },
+    {
+      "position": 19,
+      "match_percentage": 47.19,
+      "match_points": 273.7196,
+      "first_name": "Max",
+      "last_name": "Käär",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "maxk",
+      "club": "SSG"
+    },
+    {
+      "position": 20,
+      "match_percentage": 46.05,
+      "match_points": 267.0992,
+      "first_name": "Teemu",
+      "last_name": "Makkonen",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4672",
+      "club": "HVA"
+    },
+    {
+      "position": 21,
+      "match_percentage": 43.68,
+      "match_points": 253.3541,
+      "first_name": "Jarkko",
+      "last_name": "Iikkola",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2428",
+      "club": "SSG"
+    },
+    {
+      "position": 22,
+      "match_percentage": 42.33,
+      "match_points": 245.4957,
+      "first_name": "Markus",
+      "last_name": "Kivimäki",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "168133",
+      "club": "HVA"
+    },
+    {
+      "position": 23,
+      "match_percentage": 40.94,
+      "match_points": 237.4726,
+      "first_name": "Tommi",
+      "last_name": "Leikas",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "164991",
+      "club": "Loimaan Laukojat"
+    },
+    {
+      "position": 24,
+      "match_percentage": 37.35,
+      "match_points": 216.6527,
+      "first_name": "Veijo",
+      "last_name": "Länsikunnas",
+      "division": "Classic+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "436",
+      "club": "Haur"
+    },
+    {
+      "position": 25,
+      "match_percentage": 35.1,
+      "match_points": 203.5552,
+      "first_name": "Jani",
+      "last_name": "Mäkijouppila",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4060",
+      "club": "KirkRes. / PorkkA"
+    },
+    {
+      "position": 26,
+      "match_percentage": 34.86,
+      "match_points": 202.1647,
+      "first_name": "Hannu",
+      "last_name": "Aronsson",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "haa",
+      "club": "Haur"
+    },
+    {
+      "position": 27,
+      "match_percentage": 32.68,
+      "match_points": 189.5485,
+      "first_name": "Hannu",
+      "last_name": "Räisänen",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "999",
+      "club": "PorkkA"
+    },
+    {
+      "position": 28,
+      "match_percentage": 32.29,
+      "match_points": 187.2982,
+      "first_name": "Martin",
+      "last_name": "Schotten",
+      "division": "Revolver-",
+      "category": [
+        "S"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 29,
+      "match_percentage": 28.36,
+      "match_points": 164.4942,
+      "first_name": "Tuomas",
+      "last_name": "Kääriäinen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "HAUR"
+    },
+    {
+      "position": 30,
+      "match_percentage": 26.25,
+      "match_points": 152.2677,
+      "first_name": "Petteri",
+      "last_name": "Mikander",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "petteri",
+      "club": "SSG"
+    },
+    {
+      "position": 31,
+      "match_percentage": 24.13,
+      "match_points": 139.9673,
+      "first_name": "Jarkko",
+      "last_name": "Arhilahti",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "",
+      "club": "Ervita Shooting Club"
+    },
+    {
+      "position": 32,
+      "match_percentage": 16.6,
+      "match_points": 96.2727,
+      "first_name": "Armani Alex",
+      "last_name": "Kantola",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "Ervita Shooting Club"
+    },
+    {
+      "position": 33,
+      "match_percentage": 2.51,
+      "match_points": 14.5461,
+      "first_name": "Liina",
+      "last_name": "Leiger",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "",
+      "club": "9 mm"
+    },
+    {
+      "position": 34,
+      "match_percentage": 1.78,
+      "match_points": 10.3345,
+      "first_name": "Rainer",
+      "last_name": "Grebnev",
+      "division": "Revolver-",
+      "category": [
+        "-"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 35,
+      "match_percentage": 1.39,
+      "match_points": 8.0527,
+      "first_name": "Alex",
+      "last_name": "Kantola",
+      "division": "Production-",
+      "category": [
+        "SJ"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "",
+      "club": "Ervita Shooting Club"
+    }
+  ]
+}

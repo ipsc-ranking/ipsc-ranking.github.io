@@ -1,0 +1,83 @@
+{
+  "match_id": 240,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/240/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/240/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/240/div/hg3/",
+      "name": "Production"
+    }
+  ],
+  "match_url": "/event/22/240/",
+  "match_title": "Finnish IPSC 3-gun GT/Handgun1 pre match - results",
+  "match_level": "Level III",
+  "match_date": "2011-06-03T11:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 486.967,
+      "first_name": "Mika",
+      "last_name": "Riste",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "SSG, HVA"
+    },
+    {
+      "position": 2,
+      "match_percentage": 48.86,
+      "match_points": 237.9255,
+      "first_name": "Tauno",
+      "last_name": "Kuitunen",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 3,
+      "match_percentage": 9.24,
+      "match_points": 45.0,
+      "first_name": "Timo",
+      "last_name": "Martikainen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "maatsi",
+      "club": "HVA"
+    },
+    {
+      "position": 4,
+      "match_percentage": 8.12,
+      "match_points": 39.5235,
+      "first_name": "Teemu",
+      "last_name": "Rintala",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "",
+      "club": "SSG"
+    }
+  ]
+}

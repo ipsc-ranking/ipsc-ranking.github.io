@@ -1,82 +1,94 @@
-# Rankingsystem för svenska IPSC-skyttar
+# A ranking system for IPSC
+Currently we only display results for Swedish shooters, but this can be extended to all IPSC shooters.
 
-## Bakgrund
+* The ranking system is based on the [OpenSkill](https://openskill.me/) algorithm.
+* With OpenSkill we use the [Bradley-Terry Partial Pairing Model](https://openskill.me/en/latest/api/openskill.models.weng_lin.bradley_terry_part.html) due to the sparse nature of IPSC match results.
+* We use the calculated skill together with the uncertainty to calculate a ranking.
+* Higher level matches are weighted more heavily than lower level matches.
+* Inactive shooters are penalized with a skill decay.
 
-Det finns idag inget rankingsystem för IPSC-skyttar i Sverige vilket gör det svårt för en enskild skytt att se sin egen utveckling, men även svårt att hålla transparenta och rättvisa kvalificeringar till mästerskap.
+## How it works
 
-Nedan är ett förslag på hur ett rankingsystem kan se ut och hur det kan implementeras.
+* We fetch the match data from the different data sources.
+* We use the combined results to update the skill ratings of the shooters using the OpenSkill algorithm.
+* We use the calculated skill together with the uncertainty to calculate a ranking.
 
-## Val av grundläggande rankingsystem
+## Data sources
+* [Shoot'n Score It](https://shootnscoreit.com/dashboard/)
+* [IPSC Results](https://ipscresults.org/)
+* [PracticeScore](https://www.practicescore.com/)
 
-Det finns ett gäng olika grundläggande rankingsystem som används för ranking i olika sporter och spel. De vanligaste är:
+## Frequently Asked Questions
 
-- Elo
-- Glicko
-- TrueSkill
-- Glicko-2
-- OpenSkill
+### What is OpenSkill?
 
-Av dessa är TrueSkill och OpenSkill de som är bäst anpassade för tävlingar med flera deltagare i varje match.
+[OpenSkill](https://openskill.me/) is a ranking algorithm, published in the paper [A Bayesian Approximation Method for Online Ranking](https://jmlr.org/papers/volume12/weng11a/weng11a.pdf), which has gained popularity in the world of online gaming during the recent years.
 
-Elo är det mest kända rankingsystemet och används bland annat för schack och är ett bra system för tävlingar med två deltagare i varje match. Det är dock inte lämpligt för tävlingar med flera deltagare i varje match. Det är också med sitt poängbaserade system sämre på att vara förutsägbart än de andra systemen, som reagerar snabbare på förändringar i spelarnas prestationer.
+OpenSkill is an improvement on the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) algorithm, publicised in the [TrueSkill paper](https://proceedings.neurips.cc/paper_files/paper/2006/file/f44ee263952e65b3610b8ba51229d1f9-Paper.pdf), which was developed by Microsoft for the Xbox Live ranking system, and first used for matchmaking in the video game Halo.
 
-Glicko och Glicko-2 är båda baserade på Elo och är bättre på att vara förutsägbara än Elo, men är fortfarande inte lämpliga för tävlingar med flera deltagare i varje match.
+### Why is OpenSkill a better choice for IPSC than Elo?
 
-TrueSkill är inte helt fritt att använda, men OpenSkill är relativt likt TrueSkill och är fritt att använda.
+OpenSkill is a better choice for IPSC than Elo because it is designed to handle multiplayer games with relative outcomes, whereas Elo is designed to handle two-player games with binary outcomes, where the outcome of a match is either a win or a loss.
 
-Mot bakgrund av detta föreslås att man använder OpenSkill som grund för rankingsystemet.
+In an IPSC match there are multiple participants and the outcome of a match is the relative ranking of the participants. Elo is not designed to handle this type of outcome and will not perform as well as OpenSkill in this context.
 
-## Justering för osäkerhet/antalet matcher
+### Why is OpenSkill a better choice for IPSC than TrueSkill?
 
-Openskill fungerar genom att ge varje spelare en förväntad medelpoäng och en osäkerhet.
+OpenSkill is an improvement on the TrueSkill algorithm, and should perform better, even though it is not as established as TrueSkill. Also OpenSkill has a more permissive license than TrueSkill.
 
-Inom statistiken kallas medelpoängen/väntevärdet ofta för my(μ) och osäkerheten/standardavvikelsen för sigma(σ).
+### How does the skill decay work?
 
-En naiv implementation av ett rankingsystem skulle kunna använda sig av enbart medelpoängen, men då skulle systemet kunna ge en fördel till vissa spelare med endast ett fåtal matcher, som råkat ha bra resultat på dessa matcher. För att undvika detta behöver man ta hänsyn till osäkerheten.
+The skill decay is based on the time since the last match. The skill uncertainty increases with the time since the last match, for each day since the last match the skill uncertainty increases by a constant. The constant has been optimized to match the observed results of the matches in the system.
 
-Ett förslag på hur man kan göra detta är att använda sig av percentiler, exempelvis den 20e percentilen.
+### How does the level based weighting work?
 
-Detta innebär att man använder den poäng för rankingen som systemet tycker man i 20% av fallen har sämre resultat än, men 80 % av fallen har bättre resultat än.
+The level of the match is used to adjust the beta parameter of the OpenSkill model. The beta parameter can be thought of as the certainty of the outcome. The higher the beta, the more certain the outcome. The beta parameter is adjusted based on the level of the match.
 
-Detta innebär att man tar hänsyn till osäkerheten, och att man inte kan få en hög ranking genom att ha ett fåtal bra resultat.
+* Level 2 matches have a beta of 25/12
+* Level 3 matches have a beta of 25/6
+* Level 4 matches have a beta of 25/3
+* Level 5 matches have a beta of 25/2.
 
-## Justering för inaktivitet
-En inaktiv skytt bör inte ha samma ranking som en aktiv skytt.
+The reasoning behind this is that the higher the level of the match, the shooters are more likely to do their best, and the results are more reliable.
 
-Ett förslag på hur man kan justera för detta är att addera en konstant till osäkerheten för varje dag som går sedan den senaste matchen.
+### Why publish the code?
 
-Storleken på konstanten är något bör optimeras baserat på data för att få ett så bra resultat som möjligt.
+I want to make sure that the ranking system is transparent and can be verified by anyone. I also want to make sure that the ranking system is not a black box, and that the calculations are done in a way that is easy to understand and verify.
 
-## Justering för nivå av match
-En skytt är mer sannolik att göra sitt yttersta i en match på hög nivå än i en match på låg nivå.
+I also want to encourage others to improve the ranking system and make it better.
 
-En match på hög nivå bör därför vara mer värd än en match på låg nivå.
+### What is IPSC?
 
-I OpenSkill finns en parameter som heter beta, som är en skala för osäkerheten. Från början är beta satt till 25/6. Om beta ökas kommer matchen att bli mer värd, och om beta minskas kommer matchen att bli mindre värd.
+IPSC is the International Practical Shooting Confederation. It is the governing body for practical shooting sports. Practical shooting is a sport that involves shooting at targets that are placed at various distances and angles. There are different disciplines of practical shooting, the largest discipline is the IPSC Handgun division.
 
-Förslagsvis sätter vi beta till 25/12 för L2 matcher, 25/6 för L3 matcher, 25/3 för L4 matcher och 25/1.5 för L5 matcher.
+In IPSC Handgun competitors compete in different divisions:
+* Production
+* Production Optics
+* Open
+* Standard
+* Classic
+* Revolver
 
-## Urval av matcher
+Often in Handgun matches there is an extra division called Pistol Caliber Carbine (PCC) which is a division for shooters who use a pistol caliber carbine.
 
-För den enskilde skytten är det kul att kunna se sin egen utveckling över tid med så hög upplösning som möjligt. För att kunna göra detta behöver man ta hänsyn till så många matcher som möjligt.
+There are also different categories based on age and gender:
+  
+* Super Junior
+* Junior
+* Senior
+* Super Senior
+* Grand Senior
+* Lady
+* Lady Super Junior
+* Lady Junior
+* Lady
+* Lady Senior
+* Lady Super Senior
+* Lady Grand Senior
 
-Det är endast L3+ matcher som rapporteras till IROA, vilket gör att det kan vara svårt att veta vilka matcher på lägre nivå som ägt rum utanför sverige.
 
-Förslaget är därför att vi använder L2+ matcher som ägt rum i Sverige, och L3+ matcher som ägt rum i hela världen.
-
-## Tillgång till matchresultat
-En förutsättning för att kunna göra detta är att ha tillgång till matchresultat från de utvalda matcherna.
-
-Det bästa vore om man kunde få ta del av alla matchresultat som rapporterats till IROA, alternativt kan man samköra data från NROI, IROA/IPSC.org, PractiScore, ESS(i alla regioner man kommer åt), SSI och ipscresults.org. Samt eventuellt andra källor.
-
-## Presentation av resultat
-
-I rankingen bör skyttens ordningsnummer visas, men även % av poängen jämfört med den bästa skytten i rankingen, detta så att informationen presenteras på ett sätt skytten är van vid.
-
-Rankingen bör uppdateras dagligen, så att skytten kan se hur de ligger till i rankingen efter varje match.
-
-Rankingen bör presenteras per division, så att skytten kan se hur de ligger till i sin division.
-
-Rankingen bör presenteras per kategori, så att skytten kan se hur de ligger till i sin kategori.
-
-Vi bör även presentera hur rankingen förändras över tid, så att skytten kan se hur de förändras i rankingen över tid.
+### References
+* [OpenSkill website](https://openskill.me/)
+* [OpenSkill paper](https://jmlr.org/papers/volume12/weng11a/weng11a.pdf)
+* [TrueSkill website](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/)
+* [TrueSkill paper](https://proceedings.neurips.cc/paper_files/paper/2006/file/f44ee263952e65b3610b8ba51229d1f9-Paper.pdf)
