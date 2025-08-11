@@ -44,7 +44,7 @@ jobs:
           # python generate_rankings.py
           echo "Scheduled run - rankings would be regenerated here"
           
-      - name: Update website data
+      - name: Update website data and static files
         run: |
           python update_website.py --stats
           
