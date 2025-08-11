@@ -35,6 +35,27 @@ def copy_ranking_files():
     
     return copied_files
 
+def copy_static_files():
+    """Copy static files like CSS and JS to docs/"""
+    files_to_copy = [
+        'styles.css',
+        'script.js'
+    ]
+    
+    copied_files = []
+    for filename in files_to_copy:
+        if os.path.exists(filename):
+            try:
+                shutil.copy2(filename, f"docs/{filename}")
+                copied_files.append(filename)
+                print(f"✓ Copied {filename} to docs/")
+            except Exception as e:
+                print(f"✗ Failed to copy {filename}: {e}")
+        else:
+            print(f"⚠ File {filename} not found in root directory")
+    
+    return copied_files
+
 def generate_stats():
     """Generate statistics about the ranking data"""
     data_dir = "docs/data"
@@ -145,9 +166,15 @@ def main():
             print("✗ Validation failed")
             return 1
     
-    # Copy files
+    # Copy data files
     print("Copying ranking files...")
-    copied_files = copy_ranking_files()
+    copied_data_files = copy_ranking_files()
+    
+    # Copy static files
+    print("\nCopying static files...")
+    copied_static_files = copy_static_files()
+    
+    copied_files = copied_data_files + copied_static_files
     
     if not copied_files:
         print("✗ No files were copied")
