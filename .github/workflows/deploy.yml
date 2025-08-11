@@ -46,6 +46,7 @@ jobs:
           
       - name: Update website data and static files
         run: |
+          python update_metadata.py
           python update_website.py --stats
           
       - name: Setup Pages

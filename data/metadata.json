@@ -1,9 +1,29 @@
 {
-  "last_updated": "2025-08-11T08:25:54.506885",
+  "last_updated": "2025-08-11T17:26:07.059776",
   "update_date": "2025-08-11",
-  "update_time": "08:25:54",
+  "update_time": "17:26:07",
   "match_statistics": {
-    "matches_processed_in_rankings": 2256,
-    "note": "This count reflects matches actually used in ranking calculations (filtered for handgun divisions, minimum participants, etc.)"
-  }
+    "total_match_files": 23559,
+    "matches_with_handgun_data": 2417,
+    "matches_without_data": 21142,
+    "data_coverage_percent": 10.3
+  },
+  "data_sources": {
+    "PractiScore": {
+      "total_files": 7,
+      "matches_with_data": 7,
+      "coverage_percent": 100.0
+    },
+    "SSI": {
+      "total_files": 23547,
+      "matches_with_data": 2410,
+      "coverage_percent": 10.2
+    },
+    "Unknown": {
+      "total_files": 5,
+      "matches_with_data": 0,
+      "coverage_percent": 0.0
+    }
+  },
+  "note": "Website displays only matches with actual handgun result data"
 }
