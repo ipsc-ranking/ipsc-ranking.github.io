@@ -1,0 +1,98 @@
+{
+  "match_id": 9171,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/9171/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/9171/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/9171/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/9171/",
+  "match_title": "Godkjenningsmatch Oslo - results",
+  "match_level": "Level II",
+  "match_date": "2019-07-02T18:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 209.0682,
+      "first_name": "Per",
+      "last_name": "Vangsnes",
+      "division": "Production Optics-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "perv",
+      "club": "SSL"
+    },
+    {
+      "position": 2,
+      "match_percentage": 95.97,
+      "match_points": 200.6431,
+      "first_name": "Jan Stian",
+      "last_name": "Fiskerstrand",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "indijan",
+      "club": "NOP"
+    },
+    {
+      "position": 3,
+      "match_percentage": 78.27,
+      "match_points": 163.6364,
+      "first_name": "Alexander",
+      "last_name": "Tangen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "RDS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 50.03,
+      "match_points": 104.5964,
+      "first_name": "Stine",
+      "last_name": "Wigdahl",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "svati",
+      "club": "NOP"
+    },
+    {
+      "position": 5,
+      "match_percentage": 44.15,
+      "match_points": 92.3018,
+      "first_name": "Espen",
+      "last_name": "Glomstein",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "NOP"
+    }
+  ]
+}

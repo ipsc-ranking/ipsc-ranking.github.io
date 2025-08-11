@@ -1,0 +1,406 @@
+{
+  "match_id": 6129,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/6129/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/6129/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/6129/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/6129/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/6129/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/6129/",
+  "match_title": "Midt-Norsk Vintercup 3. 2017/2018 - results",
+  "match_level": "Level II",
+  "match_date": "2018-02-03T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 570.0,
+      "first_name": "Per A",
+      "last_name": "Hansen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "perbh",
+      "club": "TFS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 89.23,
+      "match_points": 508.5983,
+      "first_name": "Eirik Johannes",
+      "last_name": "Larsen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "eirikjl",
+      "club": "TDS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 86.52,
+      "match_points": 493.1694,
+      "first_name": "Tor Olav",
+      "last_name": "Nordgård",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ostore",
+      "club": "APK"
+    },
+    {
+      "position": 4,
+      "match_percentage": 78.77,
+      "match_points": 449.0131,
+      "first_name": "Erlend",
+      "last_name": "Berg",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "erl1",
+      "club": "TFS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 74.21,
+      "match_points": 423.0114,
+      "first_name": "Alvin",
+      "last_name": "Alforte",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "doubleaa",
+      "club": "TFS"
+    },
+    {
+      "position": 6,
+      "match_percentage": 70.85,
+      "match_points": 403.861,
+      "first_name": "Magnus",
+      "last_name": "Amdam",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "doc",
+      "club": "Trondheim Feltskyttere"
+    },
+    {
+      "position": 7,
+      "match_percentage": 65.81,
+      "match_points": 375.1152,
+      "first_name": "Bjørn Håvard",
+      "last_name": "Steinnes",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "bhs",
+      "club": "Hølonda Sportskyttere"
+    },
+    {
+      "position": 8,
+      "match_percentage": 65.79,
+      "match_points": 374.9852,
+      "first_name": "Øystein",
+      "last_name": "Hagemo",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "haggis",
+      "club": "Tfs"
+    },
+    {
+      "position": 9,
+      "match_percentage": 65.29,
+      "match_points": 372.1612,
+      "first_name": "Eirik",
+      "last_name": "Nordtiller",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ragnarok",
+      "club": "Tfs"
+    },
+    {
+      "position": 10,
+      "match_percentage": 64.0,
+      "match_points": 364.7995,
+      "first_name": "Gunnar",
+      "last_name": "Rolfseng",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "gunrol",
+      "club": "TDS"
+    },
+    {
+      "position": 11,
+      "match_percentage": 63.62,
+      "match_points": 362.6148,
+      "first_name": "Trond",
+      "last_name": "Sørhøy",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "tronds",
+      "club": "TDS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 61.57,
+      "match_points": 350.9346,
+      "first_name": "Roar",
+      "last_name": "Holden",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "roho",
+      "club": "TFS"
+    },
+    {
+      "position": 13,
+      "match_percentage": 57.88,
+      "match_points": 329.9394,
+      "first_name": "Karl",
+      "last_name": "Torkildsen",
+      "division": "Classic+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "karl",
+      "club": "TDS"
+    },
+    {
+      "position": 14,
+      "match_percentage": 55.23,
+      "match_points": 314.8007,
+      "first_name": "Kristian",
+      "last_name": "Roaldsnes",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "kriroald",
+      "club": "TFS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 54.27,
+      "match_points": 309.3373,
+      "first_name": "Tor",
+      "last_name": "Stinessen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "okto",
+      "club": "Tfs"
+    },
+    {
+      "position": 16,
+      "match_percentage": 51.58,
+      "match_points": 293.9938,
+      "first_name": "Kaare Magnus",
+      "last_name": "Kalvik",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "C",
+      "alias": "moyesman",
+      "club": "Trondheim Feltskyttere"
+    },
+    {
+      "position": 17,
+      "match_percentage": 50.96,
+      "match_points": 290.4876,
+      "first_name": "Remi",
+      "last_name": "Leonhardsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "leo75",
+      "club": "TFS"
+    },
+    {
+      "position": 18,
+      "match_percentage": 50.65,
+      "match_points": 288.6779,
+      "first_name": "Gjøran",
+      "last_name": "Moen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "TFS"
+    },
+    {
+      "position": 19,
+      "match_percentage": 49.72,
+      "match_points": 283.3878,
+      "first_name": "Håkon Sørum",
+      "last_name": "Bakken",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "TFS"
+    },
+    {
+      "position": 20,
+      "match_percentage": 46.3,
+      "match_points": 263.8905,
+      "first_name": "Marvin Bredal",
+      "last_name": "Lillehaug",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "TDS"
+    },
+    {
+      "position": 21,
+      "match_percentage": 45.48,
+      "match_points": 259.247,
+      "first_name": "Bastiaan",
+      "last_name": "Uitbeijerse",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "bangbangbassi",
+      "club": "SSK"
+    },
+    {
+      "position": 22,
+      "match_percentage": 44.23,
+      "match_points": 252.123,
+      "first_name": "Anita",
+      "last_name": "Larsen",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "anilar",
+      "club": "TFS"
+    },
+    {
+      "position": 23,
+      "match_percentage": 42.26,
+      "match_points": 240.8772,
+      "first_name": "Hans Edvard",
+      "last_name": "Hafskolt",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "hansedvard",
+      "club": "Trondheim Feltskyttere"
+    },
+    {
+      "position": 24,
+      "match_percentage": 35.35,
+      "match_points": 201.4933,
+      "first_name": "Gard",
+      "last_name": "Winge",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "supershot",
+      "club": "TFS"
+    },
+    {
+      "position": 25,
+      "match_percentage": 20.89,
+      "match_points": 119.06,
+      "first_name": "Idar",
+      "last_name": "Nebelung",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "TFS"
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "match_id": 16062,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/16062/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/16062/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/16062/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/16062/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/16062/div/hg18/",
+      "name": "Production Optics"
+    }
+  ],
+  "match_url": "/event/22/16062/",
+  "match_title": "SSIN 2023 Mini Match 5 - results",
+  "match_level": "Level II",
+  "match_date": "2023-06-24T08:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 654.9185,
+      "first_name": "Andreas",
+      "last_name": "Helvig Hansen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN/Akademisk Sktf"
+    },
+    {
+      "position": 2,
+      "match_percentage": 95.91,
+      "match_points": 628.1208,
+      "first_name": "Pavel",
+      "last_name": "Ibenforth",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "ibenforth",
+      "club": "SSIN"
+    },
+    {
+      "position": 3,
+      "match_percentage": 86.22,
+      "match_points": 564.6838,
+      "first_name": "Arni",
+      "last_name": "Kjartansson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "CPS/SSIN"
+    },
+    {
+      "position": 4,
+      "match_percentage": 77.88,
+      "match_points": 510.0502,
+      "first_name": "Christian",
+      "last_name": "Sønderup",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "christians",
+      "club": "SSIN"
+    },
+    {
+      "position": 5,
+      "match_percentage": 75.58,
+      "match_points": 494.9613,
+      "first_name": "Christian",
+      "last_name": "Bagger",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "bagger",
+      "club": "SSIN"
+    },
+    {
+      "position": 6,
+      "match_percentage": 72.89,
+      "match_points": 477.3411,
+      "first_name": "Anders",
+      "last_name": "Urban",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "urbanlegend",
+      "club": "SAS"
+    },
+    {
+      "position": 7,
+      "match_percentage": 69.97,
+      "match_points": 458.222,
+      "first_name": "Mathias",
+      "last_name": "Wingaa",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "wingaa",
+      "club": ""
+    },
+    {
+      "position": 8,
+      "match_percentage": 68.24,
+      "match_points": 446.8935,
+      "first_name": "Jan",
+      "last_name": "Bodé",
+      "division": "Standard+",
+      "category": [
+        "SS"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "jan63",
+      "club": "SSIN / CPS"
+    },
+    {
+      "position": 9,
+      "match_percentage": 63.75,
+      "match_points": 417.5098,
+      "first_name": "Michael Alexand",
+      "last_name": "Schou",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 10,
+      "match_percentage": 63.18,
+      "match_points": 413.7472,
+      "first_name": "Torben G.",
+      "last_name": "Skjoldborg",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 11,
+      "match_percentage": 63.11,
+      "match_points": 413.328,
+      "first_name": "Kresten",
+      "last_name": "Hellberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 12,
+      "match_percentage": 62.76,
+      "match_points": 411.0398,
+      "first_name": "Kenneth",
+      "last_name": "Kleist",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN / SKL"
+    },
+    {
+      "position": 13,
+      "match_percentage": 61.74,
+      "match_points": 404.3268,
+      "first_name": "Joao",
+      "last_name": "Lobato",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "cyberwolf",
+      "club": "SAS; Søllerød Skytteforening"
+    },
+    {
+      "position": 14,
+      "match_percentage": 61.73,
+      "match_points": 404.2863,
+      "first_name": "Dannie",
+      "last_name": "Høg",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 15,
+      "match_percentage": 61.27,
+      "match_points": 401.295,
+      "first_name": "Kim",
+      "last_name": "Wiencken",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "ventureshooter",
+      "club": "SSIN"
+    },
+    {
+      "position": 16,
+      "match_percentage": 59.47,
+      "match_points": 389.496,
+      "first_name": "Theis",
+      "last_name": "Nielsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "nielsen",
+      "club": "SSIN"
+    },
+    {
+      "position": 17,
+      "match_percentage": 57.16,
+      "match_points": 374.3306,
+      "first_name": "Gustav",
+      "last_name": "Kjærulff",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 18,
+      "match_percentage": 56.25,
+      "match_points": 368.4043,
+      "first_name": "Dennis",
+      "last_name": "Martlev",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "smartlev",
+      "club": "SSIN"
+    },
+    {
+      "position": 19,
+      "match_percentage": 54.71,
+      "match_points": 358.309,
+      "first_name": "Steen Pico",
+      "last_name": "Nielsen",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "pico",
+      "club": "SSIN"
+    },
+    {
+      "position": 20,
+      "match_percentage": 54.27,
+      "match_points": 355.4522,
+      "first_name": "Søren",
+      "last_name": "Sparvath",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "sparvath",
+      "club": "SSIN"
+    },
+    {
+      "position": 21,
+      "match_percentage": 52.3,
+      "match_points": 342.4987,
+      "first_name": "Fillip Fisker",
+      "last_name": "Gottlieb-Freder",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "USA",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 22,
+      "match_percentage": 52.06,
+      "match_points": 340.92,
+      "first_name": "Victor",
+      "last_name": "Næblerød Hersta",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 23,
+      "match_percentage": 51.82,
+      "match_points": 339.364,
+      "first_name": "Kent",
+      "last_name": "Holm",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "kent1",
+      "club": "SSIN"
+    },
+    {
+      "position": 24,
+      "match_percentage": 51.59,
+      "match_points": 337.8707,
+      "first_name": "Goran",
+      "last_name": "Radosavljevic",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "mariabonita",
+      "club": "SSF-1910"
+    },
+    {
+      "position": 25,
+      "match_percentage": 50.86,
+      "match_points": 333.0699,
+      "first_name": "Jens-Micael",
+      "last_name": "Johansen",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "jensmicael",
+      "club": "SSIN"
+    },
+    {
+      "position": 26,
+      "match_percentage": 47.94,
+      "match_points": 313.9518,
+      "first_name": "Thomas",
+      "last_name": "Mikkelsen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "Skyttelauget Kgs. Lyngby"
+    },
+    {
+      "position": 27,
+      "match_percentage": 47.64,
+      "match_points": 312.0135,
+      "first_name": "Thomas Uncas",
+      "last_name": "Thorgrimson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "Værløse Skytteforening"
+    },
+    {
+      "position": 28,
+      "match_percentage": 47.5,
+      "match_points": 311.1084,
+      "first_name": "Muhamed",
+      "last_name": "Ismaili",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "Sas"
+    },
+    {
+      "position": 29,
+      "match_percentage": 47.47,
+      "match_points": 310.9184,
+      "first_name": "Micki",
+      "last_name": "Palmann",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 30,
+      "match_percentage": 45.07,
+      "match_points": 295.1731,
+      "first_name": "Amjad",
+      "last_name": "Ali",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "ali",
+      "club": "SSIN/SAS"
+    },
+    {
+      "position": 31,
+      "match_percentage": 44.37,
+      "match_points": 290.59,
+      "first_name": "Henrik",
+      "last_name": "Holm",
+      "division": "Open-",
+      "category": [
+        "SS"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "Nykøbing Sj / SSIN / BVS"
+    },
+    {
+      "position": 32,
+      "match_percentage": 43.6,
+      "match_points": 285.5582,
+      "first_name": "kim",
+      "last_name": "poulsen",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "CPS / FSL / KSL"
+    },
+    {
+      "position": 33,
+      "match_percentage": 41.99,
+      "match_points": 274.9912,
+      "first_name": "Michael",
+      "last_name": "Olsen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "-",
+      "alias": "",
+      "club": "Sas"
+    },
+    {
+      "position": 34,
+      "match_percentage": 41.35,
+      "match_points": 270.815,
+      "first_name": "Christian",
+      "last_name": "Rasmussen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 35,
+      "match_percentage": 41.24,
+      "match_points": 270.0704,
+      "first_name": "Simon",
+      "last_name": "Møller",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "simonm",
+      "club": "SSIN / Værløse skytteforening"
+    },
+    {
+      "position": 36,
+      "match_percentage": 39.37,
+      "match_points": 257.8357,
+      "first_name": "Mie",
+      "last_name": "Poulsen",
+      "division": "Classic-",
+      "category": [
+        "L"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "CPS/SSIN/VSF"
+    },
+    {
+      "position": 37,
+      "match_percentage": 38.11,
+      "match_points": 249.5928,
+      "first_name": "Peter",
+      "last_name": "Herstad",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "herstad",
+      "club": ""
+    },
+    {
+      "position": 38,
+      "match_percentage": 37.05,
+      "match_points": 242.6629,
+      "first_name": "Torben",
+      "last_name": "Lilholm",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 39,
+      "match_percentage": 36.81,
+      "match_points": 241.0563,
+      "first_name": "Nils",
+      "last_name": "Gunnersen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 40,
+      "match_percentage": 36.47,
+      "match_points": 238.8628,
+      "first_name": "Jonas Wille",
+      "last_name": "Andersen",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "USA",
+      "classification": "-",
+      "alias": "",
+      "club": "Akademisk Skytteforening"
+    },
+    {
+      "position": 41,
+      "match_percentage": 36.35,
+      "match_points": 238.0704,
+      "first_name": "Freya Nancy Boc",
+      "last_name": "Schou",
+      "division": "Production-",
+      "category": [
+        "SJ"
+      ],
+      "region": "USA",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 42,
+      "match_percentage": 36.32,
+      "match_points": 237.8385,
+      "first_name": "Kim",
+      "last_name": "NotKnown",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 43,
+      "match_percentage": 31.64,
+      "match_points": 207.1848,
+      "first_name": "Peter Malle",
+      "last_name": "Kristensen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "Akademisk Skytteforening Aarhus"
+    },
+    {
+      "position": 44,
+      "match_percentage": 30.35,
+      "match_points": 198.7821,
+      "first_name": "Mikal",
+      "last_name": "Hjortby",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 45,
+      "match_percentage": 29.98,
+      "match_points": 196.3216,
+      "first_name": "Bjørn",
+      "last_name": "Kallenbach",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "-",
+      "alias": "",
+      "club": "Pilen af 1929"
+    }
+  ]
+}

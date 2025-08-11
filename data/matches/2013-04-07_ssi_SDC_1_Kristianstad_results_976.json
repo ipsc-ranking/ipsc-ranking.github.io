@@ -1,0 +1,1966 @@
+{
+  "match_id": 976,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/976/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/976/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/976/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/976/div/hg5/",
+      "name": "Revolver"
+    },
+    {
+      "url": "/ipsc/results/match/976/div/hg12/",
+      "name": "Classic"
+    }
+  ],
+  "match_url": "/event/22/976/",
+  "match_title": "SDC 1 - Kristianstad - results",
+  "match_level": "Level II",
+  "match_date": "2013-04-07T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 724.8506,
+      "first_name": "Eli",
+      "last_name": "Huttner",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "eligator",
+      "club": "SSIN"
+    },
+    {
+      "position": 2,
+      "match_percentage": 89.88,
+      "match_points": 651.5222,
+      "first_name": "Tommy",
+      "last_name": "Hjelm",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "thrader",
+      "club": "Torup"
+    },
+    {
+      "position": 3,
+      "match_percentage": 88.95,
+      "match_points": 644.7278,
+      "first_name": "Magnus",
+      "last_name": "Johansson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "sigsauer",
+      "club": "IPSC Växjö"
+    },
+    {
+      "position": 4,
+      "match_percentage": 88.48,
+      "match_points": 641.3322,
+      "first_name": "Peter",
+      "last_name": "Schieck",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "zig4",
+      "club": "SSIN"
+    },
+    {
+      "position": 5,
+      "match_percentage": 87.69,
+      "match_points": 635.652,
+      "first_name": "Lars",
+      "last_name": "Hagemann",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "GM",
+      "alias": "hagemann",
+      "club": "SIRT"
+    },
+    {
+      "position": 6,
+      "match_percentage": 85.37,
+      "match_points": 618.836,
+      "first_name": "Carsten",
+      "last_name": "Samuelsen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "sonos",
+      "club": "SSIN"
+    },
+    {
+      "position": 7,
+      "match_percentage": 84.8,
+      "match_points": 614.692,
+      "first_name": "Pär",
+      "last_name": "Hylander",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Torup / TPK"
+    },
+    {
+      "position": 8,
+      "match_percentage": 81.83,
+      "match_points": 593.1227,
+      "first_name": "Jörgen",
+      "last_name": "Björk",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jorgenbjork",
+      "club": "IPSC Växjö"
+    },
+    {
+      "position": 9,
+      "match_percentage": 78.89,
+      "match_points": 571.8467,
+      "first_name": "Jack",
+      "last_name": "Rømer",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "theripper",
+      "club": "Ares"
+    },
+    {
+      "position": 10,
+      "match_percentage": 78.89,
+      "match_points": 571.8457,
+      "first_name": "Peter",
+      "last_name": "Kastell",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kastell",
+      "club": "TPK"
+    },
+    {
+      "position": 11,
+      "match_percentage": 77.86,
+      "match_points": 564.3465,
+      "first_name": "Daniel",
+      "last_name": "Tillström",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "B",
+      "alias": "climber",
+      "club": "Eksjö DS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 73.6,
+      "match_points": 533.4926,
+      "first_name": "Rene",
+      "last_name": "Mortensen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "boggieman",
+      "club": "SSIN"
+    },
+    {
+      "position": 13,
+      "match_percentage": 72.6,
+      "match_points": 526.2193,
+      "first_name": "Robert",
+      "last_name": "Söderström",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 14,
+      "match_percentage": 71.83,
+      "match_points": 520.6597,
+      "first_name": "Jonas",
+      "last_name": "Ardemalm",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ard",
+      "club": "KullensPK"
+    },
+    {
+      "position": 15,
+      "match_percentage": 71.09,
+      "match_points": 515.2986,
+      "first_name": "Tord",
+      "last_name": "Andersson",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "azon",
+      "club": "Torup"
+    },
+    {
+      "position": 16,
+      "match_percentage": 71.04,
+      "match_points": 514.9521,
+      "first_name": "Christian Ditlev",
+      "last_name": "Jensen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "stagebum",
+      "club": "SSIN"
+    },
+    {
+      "position": 17,
+      "match_percentage": 69.38,
+      "match_points": 502.9358,
+      "first_name": "Roger",
+      "last_name": "Wysiecki",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "majtii",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 18,
+      "match_percentage": 69.3,
+      "match_points": 502.3531,
+      "first_name": "Sebastian",
+      "last_name": "Nilsson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "YDSKF"
+    },
+    {
+      "position": 19,
+      "match_percentage": 67.74,
+      "match_points": 491.0384,
+      "first_name": "Mikael",
+      "last_name": "Jung",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jung",
+      "club": "Växjö PK"
+    },
+    {
+      "position": 20,
+      "match_percentage": 66.88,
+      "match_points": 484.7559,
+      "first_name": "Andreas",
+      "last_name": "Karlsson",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "badass40",
+      "club": "Nybro"
+    },
+    {
+      "position": 21,
+      "match_percentage": 66.27,
+      "match_points": 480.3494,
+      "first_name": "Andreas",
+      "last_name": "Göthager",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "agoth",
+      "club": "Kullens PK"
+    },
+    {
+      "position": 22,
+      "match_percentage": 64.85,
+      "match_points": 470.0824,
+      "first_name": "Claus",
+      "last_name": "Stahnke",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "bengunn",
+      "club": "SSIN"
+    },
+    {
+      "position": 23,
+      "match_percentage": 64.66,
+      "match_points": 468.6608,
+      "first_name": "Jan",
+      "last_name": "Bodé",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 24,
+      "match_percentage": 62.71,
+      "match_points": 454.5758,
+      "first_name": "Tina",
+      "last_name": "Oskarsson",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "xena",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 25,
+      "match_percentage": 61.79,
+      "match_points": 447.8791,
+      "first_name": "martin",
+      "last_name": "gunnarsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pontiac",
+      "club": "Kristianstad pk"
+    },
+    {
+      "position": 26,
+      "match_percentage": 61.28,
+      "match_points": 444.1799,
+      "first_name": "Claus",
+      "last_name": "Henneberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 27,
+      "match_percentage": 60.52,
+      "match_points": 438.6886,
+      "first_name": "Ulf",
+      "last_name": "Bjelkengren",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "uffeb",
+      "club": "Malmö"
+    },
+    {
+      "position": 28,
+      "match_percentage": 60.35,
+      "match_points": 437.4578,
+      "first_name": "Johan",
+      "last_name": "Stenberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "dragonmaster",
+      "club": "Kullens PK"
+    },
+    {
+      "position": 29,
+      "match_percentage": 60.29,
+      "match_points": 437.0087,
+      "first_name": "Robert",
+      "last_name": "Kunst",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "bangatbeep",
+      "club": "Växjö PK"
+    },
+    {
+      "position": 30,
+      "match_percentage": 59.11,
+      "match_points": 428.4414,
+      "first_name": "Peter",
+      "last_name": "Ardemalm",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kullen PK"
+    },
+    {
+      "position": 31,
+      "match_percentage": 59.1,
+      "match_points": 428.4092,
+      "first_name": "Thomas",
+      "last_name": "Hjelm",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ipscnooben",
+      "club": "Torup"
+    },
+    {
+      "position": 32,
+      "match_percentage": 58.05,
+      "match_points": 420.8022,
+      "first_name": "Christian",
+      "last_name": "Kronbäck",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kristianstad IPSC"
+    },
+    {
+      "position": 33,
+      "match_percentage": 57.98,
+      "match_points": 420.2345,
+      "first_name": "Peter Munk",
+      "last_name": "Andersen",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "C",
+      "alias": "alpha",
+      "club": "Frederiksberg"
+    },
+    {
+      "position": 34,
+      "match_percentage": 57.83,
+      "match_points": 419.1803,
+      "first_name": "Rune",
+      "last_name": "Gulbrandsen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "dozer",
+      "club": "Växjö PK"
+    },
+    {
+      "position": 35,
+      "match_percentage": 57.59,
+      "match_points": 417.4356,
+      "first_name": "Håkan T",
+      "last_name": "Söderholm",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "semperprimus",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 36,
+      "match_percentage": 57.34,
+      "match_points": 415.5978,
+      "first_name": "Søren",
+      "last_name": "Larsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "wessel",
+      "club": "Ssin"
+    },
+    {
+      "position": 37,
+      "match_percentage": 57.14,
+      "match_points": 414.173,
+      "first_name": "Lars-Åke",
+      "last_name": "Ingemarsson",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "3gun",
+      "club": "Torup"
+    },
+    {
+      "position": 38,
+      "match_percentage": 56.8,
+      "match_points": 411.7376,
+      "first_name": "Björn",
+      "last_name": "Borg",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "castle",
+      "club": "torup"
+    },
+    {
+      "position": 39,
+      "match_percentage": 56.78,
+      "match_points": 411.5942,
+      "first_name": "Patrik",
+      "last_name": "Lundin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pake",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 40,
+      "match_percentage": 56.75,
+      "match_points": 411.3245,
+      "first_name": "Frederic",
+      "last_name": "Nilsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "scorpan",
+      "club": "MLSG"
+    },
+    {
+      "position": 41,
+      "match_percentage": 56.74,
+      "match_points": 411.2675,
+      "first_name": "Matheos",
+      "last_name": "Parasidis",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "B",
+      "alias": "macki",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 42,
+      "match_percentage": 56.32,
+      "match_points": 408.235,
+      "first_name": "Dan",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "IPSC Växjö"
+    },
+    {
+      "position": 43,
+      "match_percentage": 56.23,
+      "match_points": 407.6165,
+      "first_name": "Tobias",
+      "last_name": "Henriksson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Eksjö Dynamiska skyttar"
+    },
+    {
+      "position": 44,
+      "match_percentage": 56.11,
+      "match_points": 406.7322,
+      "first_name": "Olle",
+      "last_name": "Lindskog",
+      "division": "Revolver-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "olle",
+      "club": "JPK"
+    },
+    {
+      "position": 45,
+      "match_percentage": 55.55,
+      "match_points": 402.6769,
+      "first_name": "Kristian",
+      "last_name": "Bergendahl",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Eksjö Dynamiska Skyttar"
+    },
+    {
+      "position": 46,
+      "match_percentage": 54.5,
+      "match_points": 395.0684,
+      "first_name": "Tomas",
+      "last_name": "Hermander",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "glock4u",
+      "club": "IPSC Växjö"
+    },
+    {
+      "position": 47,
+      "match_percentage": 54.11,
+      "match_points": 392.2429,
+      "first_name": "Tomas",
+      "last_name": "Hellström",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 48,
+      "match_percentage": 53.32,
+      "match_points": 386.4671,
+      "first_name": "Jesper",
+      "last_name": "Dahlskog",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "dahlskog",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 49,
+      "match_percentage": 53.27,
+      "match_points": 386.164,
+      "first_name": "Johan",
+      "last_name": "Olsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 50,
+      "match_percentage": 53.06,
+      "match_points": 384.5919,
+      "first_name": "Jess",
+      "last_name": "Lund",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "jess",
+      "club": "SSIN"
+    },
+    {
+      "position": 51,
+      "match_percentage": 52.97,
+      "match_points": 383.9832,
+      "first_name": "Christian",
+      "last_name": "Luckmann",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "elespecia",
+      "club": "MSG Dynamiska"
+    },
+    {
+      "position": 52,
+      "match_percentage": 51.79,
+      "match_points": 375.4131,
+      "first_name": "Mikael",
+      "last_name": "Janeman",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jman",
+      "club": "JPK"
+    },
+    {
+      "position": 53,
+      "match_percentage": 51.68,
+      "match_points": 374.6037,
+      "first_name": "Johan",
+      "last_name": "Roijer",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "griffin",
+      "club": "MLSG"
+    },
+    {
+      "position": 54,
+      "match_percentage": 51.62,
+      "match_points": 374.1659,
+      "first_name": "Jørgen",
+      "last_name": "Rigtrup",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "KBH"
+    },
+    {
+      "position": 55,
+      "match_percentage": 51.55,
+      "match_points": 373.6275,
+      "first_name": "Marcus",
+      "last_name": "Molin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Emmaboda SKF"
+    },
+    {
+      "position": 56,
+      "match_percentage": 51.31,
+      "match_points": 371.9325,
+      "first_name": "Thomas",
+      "last_name": "Pihl",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pihl",
+      "club": "Malmö"
+    },
+    {
+      "position": 57,
+      "match_percentage": 51.03,
+      "match_points": 369.9246,
+      "first_name": "Johan",
+      "last_name": "Ahlbeck",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 58,
+      "match_percentage": 50.99,
+      "match_points": 369.584,
+      "first_name": "Henrik",
+      "last_name": "Lerfeldt",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "bookkeeper",
+      "club": "SSIN"
+    },
+    {
+      "position": 59,
+      "match_percentage": 50.78,
+      "match_points": 368.0827,
+      "first_name": "Erik",
+      "last_name": "Sandell",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Nybro PK"
+    },
+    {
+      "position": 60,
+      "match_percentage": 50.73,
+      "match_points": 367.7357,
+      "first_name": "Henrik",
+      "last_name": "Laursen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 61,
+      "match_percentage": 50.21,
+      "match_points": 363.9201,
+      "first_name": "Joakim",
+      "last_name": "Sand",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ystad"
+    },
+    {
+      "position": 62,
+      "match_percentage": 50.2,
+      "match_points": 363.9002,
+      "first_name": "Bassel",
+      "last_name": "Afara",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "KullensPK"
+    },
+    {
+      "position": 63,
+      "match_percentage": 49.78,
+      "match_points": 360.837,
+      "first_name": "Andreas",
+      "last_name": "Kräling",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "glock999",
+      "club": "MSG"
+    },
+    {
+      "position": 64,
+      "match_percentage": 49.35,
+      "match_points": 357.7143,
+      "first_name": "Magnus",
+      "last_name": "Lindskog",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "messer",
+      "club": "MSG Dynamiska"
+    },
+    {
+      "position": 65,
+      "match_percentage": 49.12,
+      "match_points": 356.0198,
+      "first_name": "Per",
+      "last_name": "Rosendahl",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "rosen",
+      "club": "KRISTIANSTAD"
+    },
+    {
+      "position": 66,
+      "match_percentage": 48.84,
+      "match_points": 354.04,
+      "first_name": "Flemming",
+      "last_name": "Christiansen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "ssin"
+    },
+    {
+      "position": 67,
+      "match_percentage": 48.35,
+      "match_points": 350.4301,
+      "first_name": "Anders",
+      "last_name": "Sandberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "welder",
+      "club": "IPSC KRISTIANSTAD"
+    },
+    {
+      "position": 68,
+      "match_percentage": 47.91,
+      "match_points": 347.3013,
+      "first_name": "Mats",
+      "last_name": "Jönsson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ninjamasse",
+      "club": "MLSG"
+    },
+    {
+      "position": 69,
+      "match_percentage": 47.75,
+      "match_points": 346.0854,
+      "first_name": "Christer",
+      "last_name": "Palmquist",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kullens PK"
+    },
+    {
+      "position": 70,
+      "match_percentage": 47.61,
+      "match_points": 345.0661,
+      "first_name": "Daniel",
+      "last_name": "Tiensuu",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Växjö PK"
+    },
+    {
+      "position": 71,
+      "match_percentage": 47.54,
+      "match_points": 344.5822,
+      "first_name": "Mikael",
+      "last_name": "Eneskär",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "twowheels",
+      "club": "Ystad DSKF"
+    },
+    {
+      "position": 72,
+      "match_percentage": 47.42,
+      "match_points": 343.7208,
+      "first_name": "Magnus",
+      "last_name": "Appelkvist",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kapten",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 73,
+      "match_percentage": 47.29,
+      "match_points": 342.803,
+      "first_name": "Roger",
+      "last_name": "Tiensuu",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "B",
+      "alias": "rogert",
+      "club": "Växjö Pk"
+    },
+    {
+      "position": 74,
+      "match_percentage": 47.02,
+      "match_points": 340.7891,
+      "first_name": "Joel",
+      "last_name": "Gustavsson",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Växjö PK"
+    },
+    {
+      "position": 75,
+      "match_percentage": 46.89,
+      "match_points": 339.9176,
+      "first_name": "Mark",
+      "last_name": "Weisinger",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "mark1",
+      "club": "KBH"
+    },
+    {
+      "position": 76,
+      "match_percentage": 46.87,
+      "match_points": 339.7441,
+      "first_name": "Anders",
+      "last_name": "Bäckman",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "andersb",
+      "club": "IPSC Växjö"
+    },
+    {
+      "position": 77,
+      "match_percentage": 46.45,
+      "match_points": 336.6966,
+      "first_name": "Per",
+      "last_name": "Westphalen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 78,
+      "match_percentage": 45.96,
+      "match_points": 333.1255,
+      "first_name": "Fredrik",
+      "last_name": "Lundberg",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "borderterrier",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 79,
+      "match_percentage": 44.98,
+      "match_points": 326.0251,
+      "first_name": "Niklas",
+      "last_name": "Ekblad",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ekblad",
+      "club": "MLSG"
+    },
+    {
+      "position": 80,
+      "match_percentage": 44.9,
+      "match_points": 325.4471,
+      "first_name": "Anton",
+      "last_name": "Öhlund",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Eksjö DS"
+    },
+    {
+      "position": 81,
+      "match_percentage": 44.63,
+      "match_points": 323.4954,
+      "first_name": "Per",
+      "last_name": "Wiklander",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ystad"
+    },
+    {
+      "position": 82,
+      "match_percentage": 44.2,
+      "match_points": 320.3571,
+      "first_name": "Richard",
+      "last_name": "Rosvall",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kullens PK"
+    },
+    {
+      "position": 83,
+      "match_percentage": 44.05,
+      "match_points": 319.3001,
+      "first_name": "Otto",
+      "last_name": "Persson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "oper",
+      "club": "Malmö Dynamiska"
+    },
+    {
+      "position": 84,
+      "match_percentage": 43.63,
+      "match_points": 316.2663,
+      "first_name": "Steen Pico",
+      "last_name": "Nielsen",
+      "division": "Revolver+",
+      "category": [
+        "SS"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "pico",
+      "club": "SSIN  (Hanebjerg)"
+    },
+    {
+      "position": 85,
+      "match_percentage": 42.92,
+      "match_points": 311.1231,
+      "first_name": "Erik",
+      "last_name": "Johansson",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "agerik",
+      "club": "Emmaboda SKF"
+    },
+    {
+      "position": 86,
+      "match_percentage": 42.62,
+      "match_points": 308.9123,
+      "first_name": "Tariq",
+      "last_name": "Mahmud",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 87,
+      "match_percentage": 42.52,
+      "match_points": 308.2349,
+      "first_name": "Niklas",
+      "last_name": "Malmberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "nicke",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 88,
+      "match_percentage": 41.48,
+      "match_points": 300.684,
+      "first_name": "Weine",
+      "last_name": "Samuelsson",
+      "division": "Classic-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "wesa",
+      "club": "LIDS"
+    },
+    {
+      "position": 89,
+      "match_percentage": 41.03,
+      "match_points": 297.3746,
+      "first_name": "Henrik",
+      "last_name": "Kalling",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "thunderpants",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 90,
+      "match_percentage": 41.02,
+      "match_points": 297.3143,
+      "first_name": "Erling",
+      "last_name": "Carlsson",
+      "division": "Classic+",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ling",
+      "club": "Torups Pk"
+    },
+    {
+      "position": 91,
+      "match_percentage": 40.51,
+      "match_points": 293.6091,
+      "first_name": "Daniel",
+      "last_name": "Thunell",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mrspeed",
+      "club": "MSG"
+    },
+    {
+      "position": 92,
+      "match_percentage": 39.36,
+      "match_points": 285.2985,
+      "first_name": "Timm",
+      "last_name": "Vahamaki",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 93,
+      "match_percentage": 38.84,
+      "match_points": 281.5029,
+      "first_name": "Lars",
+      "last_name": "Jönsson",
+      "division": "Open-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "znake",
+      "club": "C4 IPSC"
+    },
+    {
+      "position": 94,
+      "match_percentage": 38.78,
+      "match_points": 281.1309,
+      "first_name": "Kent",
+      "last_name": "Holm",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "SSIN"
+    },
+    {
+      "position": 95,
+      "match_percentage": 38.61,
+      "match_points": 279.8859,
+      "first_name": "Tomas",
+      "last_name": "Schönfeldt",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "caballarius",
+      "club": "MSG"
+    },
+    {
+      "position": 96,
+      "match_percentage": 38.51,
+      "match_points": 279.149,
+      "first_name": "Hans Jorgen",
+      "last_name": "Jensen",
+      "division": "Revolver+",
+      "category": [
+        "SS"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "hjj39",
+      "club": "ssin"
+    },
+    {
+      "position": 97,
+      "match_percentage": 38.0,
+      "match_points": 275.4379,
+      "first_name": "Michael",
+      "last_name": "Low",
+      "division": "Revolver+",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "czmike",
+      "club": "SSIN"
+    },
+    {
+      "position": 98,
+      "match_percentage": 37.91,
+      "match_points": 274.807,
+      "first_name": "Ivan",
+      "last_name": "Slabiak",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 99,
+      "match_percentage": 37.36,
+      "match_points": 270.779,
+      "first_name": "Oscar",
+      "last_name": "Krook",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "platemate",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 100,
+      "match_percentage": 37.31,
+      "match_points": 270.4446,
+      "first_name": "Jörgen",
+      "last_name": "Sandberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jojje74",
+      "club": "Partille pistol klubb"
+    },
+    {
+      "position": 101,
+      "match_percentage": 36.8,
+      "match_points": 266.7161,
+      "first_name": "Anders",
+      "last_name": "Rohlen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 102,
+      "match_percentage": 36.58,
+      "match_points": 265.1177,
+      "first_name": "Marcus",
+      "last_name": "Castberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "grandpower",
+      "club": "Torups Pk"
+    },
+    {
+      "position": 103,
+      "match_percentage": 35.1,
+      "match_points": 254.4336,
+      "first_name": "Hampus",
+      "last_name": "Brünteson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Eksjö DS"
+    },
+    {
+      "position": 104,
+      "match_percentage": 35.03,
+      "match_points": 253.936,
+      "first_name": "Göran",
+      "last_name": "Majvall",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "skaning",
+      "club": "MSG"
+    },
+    {
+      "position": 105,
+      "match_percentage": 34.72,
+      "match_points": 251.6647,
+      "first_name": "Einar",
+      "last_name": "Cronstedt",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "MSG"
+    },
+    {
+      "position": 106,
+      "match_percentage": 34.44,
+      "match_points": 249.6453,
+      "first_name": "Jan",
+      "last_name": "Pedersen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 107,
+      "match_percentage": 33.74,
+      "match_points": 244.5611,
+      "first_name": "Patrik",
+      "last_name": "Nordbeck",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "75nor",
+      "club": "MSG"
+    },
+    {
+      "position": 108,
+      "match_percentage": 33.4,
+      "match_points": 242.1358,
+      "first_name": "Heidi Boline",
+      "last_name": "Christiansen",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "",
+      "club": "ssin"
+    },
+    {
+      "position": 109,
+      "match_percentage": 32.63,
+      "match_points": 236.5241,
+      "first_name": "Michael",
+      "last_name": "Løye",
+      "division": "Revolver-",
+      "category": [
+        "-"
+      ],
+      "region": "DNK",
+      "classification": "U",
+      "alias": "gr8dane",
+      "club": "SAS"
+    },
+    {
+      "position": 110,
+      "match_percentage": 32.21,
+      "match_points": 233.4446,
+      "first_name": "Christian",
+      "last_name": "Axelsson",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "axel",
+      "club": "Eksjö Dynamiska Skyttar"
+    },
+    {
+      "position": 111,
+      "match_percentage": 32.08,
+      "match_points": 232.5353,
+      "first_name": "Patrik",
+      "last_name": "Holm",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "geminusalpha",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 112,
+      "match_percentage": 31.75,
+      "match_points": 230.1245,
+      "first_name": "Daniel",
+      "last_name": "Lindgren",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ocean",
+      "club": "MSG"
+    },
+    {
+      "position": 113,
+      "match_percentage": 30.42,
+      "match_points": 220.4698,
+      "first_name": "Christoffer",
+      "last_name": "Hermansson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kristianstads Pistolklubb"
+    },
+    {
+      "position": 114,
+      "match_percentage": 30.04,
+      "match_points": 217.7097,
+      "first_name": "Daniel",
+      "last_name": "Holmberg",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "rioter",
+      "club": "MSG"
+    },
+    {
+      "position": 115,
+      "match_percentage": 29.71,
+      "match_points": 215.3693,
+      "first_name": "Göran",
+      "last_name": "Valentin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 116,
+      "match_percentage": 29.17,
+      "match_points": 211.4251,
+      "first_name": "Jhonny",
+      "last_name": "Blom",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "blomman",
+      "club": "Ystads Dskf"
+    },
+    {
+      "position": 117,
+      "match_percentage": 29.13,
+      "match_points": 211.1699,
+      "first_name": "Jonas",
+      "last_name": "Luckmann",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 118,
+      "match_percentage": 27.93,
+      "match_points": 202.4375,
+      "first_name": "Niklas",
+      "last_name": "Lindkvist",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "humle",
+      "club": "Ormen skf"
+    },
+    {
+      "position": 119,
+      "match_percentage": 27.88,
+      "match_points": 202.0976,
+      "first_name": "Torbjörn",
+      "last_name": "Fransson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "tobbe1",
+      "club": "Torups Pk"
+    },
+    {
+      "position": 120,
+      "match_percentage": 27.27,
+      "match_points": 197.6552,
+      "first_name": "Sten",
+      "last_name": "Bengtsson",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "ESKF"
+    },
+    {
+      "position": 121,
+      "match_percentage": 26.98,
+      "match_points": 195.5844,
+      "first_name": "Andreas",
+      "last_name": "Anderson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "VSD"
+    },
+    {
+      "position": 122,
+      "match_percentage": 26.71,
+      "match_points": 193.591,
+      "first_name": "Christofer",
+      "last_name": "Ramkvist",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "aklagare",
+      "club": "Kristianstad"
+    },
+    {
+      "position": 123,
+      "match_percentage": 25.19,
+      "match_points": 182.6172,
+      "first_name": "Olle",
+      "last_name": "Olsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ollebullet",
+      "club": "IPSC Kristiantad"
+    },
+    {
+      "position": 124,
+      "match_percentage": 23.43,
+      "match_points": 169.8245,
+      "first_name": "Mikael",
+      "last_name": "Ström",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ultima",
+      "club": "KPK"
+    },
+    {
+      "position": 125,
+      "match_percentage": 22.4,
+      "match_points": 162.3913,
+      "first_name": "Örjan",
+      "last_name": "Tollbom",
+      "division": "Classic+",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "oldiebutgoldie",
+      "club": "Emmaboda SKF"
+    },
+    {
+      "position": 126,
+      "match_percentage": 22.2,
+      "match_points": 160.9101,
+      "first_name": "Patrik",
+      "last_name": "Ingvarsson",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 127,
+      "match_percentage": 20.74,
+      "match_points": 150.3098,
+      "first_name": "Thette",
+      "last_name": "Holmberg",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "misspurple",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 128,
+      "match_percentage": 15.52,
+      "match_points": 112.4622,
+      "first_name": "Torbjörn",
+      "last_name": "Tuwesson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "quantumsatis",
+      "club": "IPSC Kristianstad"
+    },
+    {
+      "position": 129,
+      "match_percentage": 14.81,
+      "match_points": 107.327,
+      "first_name": "Patrik",
+      "last_name": "Karlsson",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "buddha",
+      "club": "MSG Dynamiska"
+    }
+  ]
+}

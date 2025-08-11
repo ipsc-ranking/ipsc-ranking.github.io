@@ -1,0 +1,70 @@
+[
+  {
+    "player_id": "gerry_dahlgren_SWE_production",
+    "first_name": "Gerry",
+    "last_name": "Dahlgren",
+    "alias": "kgd52",
+    "region": "SWE",
+    "mu": 21.780722295273122,
+    "sigma": 4.495108985740777,
+    "conservative_rating": 17.99754312564928,
+    "ordinal": 8.295395338050792,
+    "matches_played": 104,
+    "rank": 1354,
+    "percentage_of_best": 100.0,
+    "division": "Production",
+    "division_matches": 84,
+    "categories": [
+      "Grand Senior",
+      "Super Senior"
+    ],
+    "category": "Grand Senior",
+    "category_rank": 1
+  },
+  {
+    "player_id": "peter_angelborn_SWE_production",
+    "first_name": "Peter",
+    "last_name": "Angelborn",
+    "alias": "",
+    "region": "SWE",
+    "mu": 18.345798542221253,
+    "sigma": 8.58708550025233,
+    "conservative_rating": 11.1187250507028,
+    "ordinal": -7.41545795853574,
+    "matches_played": 54,
+    "rank": 2770,
+    "percentage_of_best": 61.779127145731906,
+    "division": "Production",
+    "division_matches": 12,
+    "categories": [
+      "Grand Senior",
+      "Super Senior",
+      "Open",
+      "Senior"
+    ],
+    "category": "Grand Senior",
+    "category_rank": 2
+  },
+  {
+    "player_id": "lars-göran_adolfsson_SWE_production",
+    "first_name": "Lars-Göran",
+    "last_name": "Adolfsson",
+    "alias": "",
+    "region": "SWE",
+    "mu": 18.774830531896875,
+    "sigma": 20.62814888361677,
+    "conservative_rating": 1.413742422141592,
+    "ordinal": -43.10961611895343,
+    "matches_played": 7,
+    "rank": 8701,
+    "percentage_of_best": 7.855196746975928,
+    "division": "Production",
+    "division_matches": 7,
+    "categories": [
+      "Grand Senior",
+      "Super Senior"
+    ],
+    "category": "Grand Senior",
+    "category_rank": 3
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "player_id": "erika_härnström_SWE_revolver",
+    "first_name": "Erika",
+    "last_name": "Härnström",
+    "alias": "",
+    "region": "SWE",
+    "mu": 19.141715495078625,
+    "sigma": 10.95338538828679,
+    "conservative_rating": 9.923113772789161,
+    "ordinal": -13.718440669781746,
+    "matches_played": 31,
+    "rank": 3112,
+    "percentage_of_best": 100.0,
+    "division": "Revolver",
+    "division_matches": 29,
+    "categories": [
+      "Open",
+      "Lady"
+    ],
+    "category": "Lady",
+    "category_rank": 1
+  },
+  {
+    "player_id": "annika_görmarker_SWE_revolver",
+    "first_name": "Annika",
+    "last_name": "Görmarker",
+    "alias": "nickan",
+    "region": "SWE",
+    "mu": 20.066323689306333,
+    "sigma": 21.615080921582024,
+    "conservative_rating": 1.874612620306106,
+    "ordinal": -44.778919075439745,
+    "matches_played": 7,
+    "rank": 7989,
+    "percentage_of_best": 18.89137485701925,
+    "division": "Revolver",
+    "division_matches": 3,
+    "categories": [
+      "Lady"
+    ],
+    "category": "Lady",
+    "category_rank": 2
+  }
+]

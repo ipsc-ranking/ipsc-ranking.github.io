@@ -1,0 +1,64 @@
+{
+  "match_id": 543,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/543/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/543/div/hg2/",
+      "name": "Standard"
+    }
+  ],
+  "match_url": "/event/22/543/",
+  "match_title": "Handgun match - results",
+  "match_level": "Level II",
+  "match_date": "2013-03-21T14:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 77.3503,
+      "first_name": "Jens",
+      "last_name": "Lundström",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jenlu",
+      "club": "Boden Sportskytteklubb."
+    },
+    {
+      "position": 2,
+      "match_percentage": 47.95,
+      "match_points": 37.0879,
+      "first_name": "Thommy",
+      "last_name": "Eklöf",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 3,
+      "match_percentage": 45.25,
+      "match_points": 35.0,
+      "first_name": "Johan",
+      "last_name": "Liseborn",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Gustavsbergs SK"
+    }
+  ]
+}

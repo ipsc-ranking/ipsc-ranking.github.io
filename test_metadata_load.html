@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Metadata Loading</title>
+</head>
+<body>
+    <h1>Testing Metadata Loading</h1>
+    <p>Total matches: <span id="total-matches">Loading...</span></p>
+    
+    <script>
+    async function testMetadata() {
+        try {
+            console.log('Fetching metadata...');
+            const response = await fetch('docs/data/metadata.json');
+            console.log('Response:', response.status, response.ok);
+            
+            if (response.ok) {
+                const metadata = await response.json();
+                console.log('Metadata loaded:', metadata);
+                
+                const totalMatchesElement = document.getElementById('total-matches');
+                if (totalMatchesElement && metadata.match_statistics) {
+                    const matchCount = metadata.match_statistics.matches_with_handgun_data;
+                    console.log('Setting match count to:', matchCount);
+                    totalMatchesElement.textContent = matchCount.toLocaleString();
+                } else {
+                    console.error('Element or stats not found');
+                    totalMatchesElement.textContent = 'ERROR: Element or stats not found';
+                }
+            } else {
+                console.error('Failed to load metadata');
+                document.getElementById('total-matches').textContent = 'ERROR: Failed to load';
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            document.getElementById('total-matches').textContent = 'ERROR: ' + error.message;
+        }
+    }
+    
+    // Run test
+    testMetadata();
+    </script>
+</body>
+</html>
