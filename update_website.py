@@ -81,17 +81,51 @@ def update_last_modified():
     """Update the last modified timestamp in the website"""
     timestamp = datetime.now().isoformat()
     
-    # Create a simple JSON file with metadata
+    # Try to read existing metadata if it exists (from update_metadata.py)
+    metadata_path = 'data/metadata.json'
+    match_count = 0
+    
+    if os.path.exists(metadata_path):
+        try:
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                existing_metadata = json.load(f)
+                match_count = existing_metadata.get('match_statistics', {}).get('matches_with_handgun_data', 0)
+                print(f"Using match count from existing metadata: {match_count}")
+        except Exception as e:
+            print(f"Warning: Could not read existing metadata: {e}")
+    
+    # If no existing metadata, fall back to basic count (should run update_metadata.py instead)
+    if match_count == 0:
+        print("Warning: No existing metadata found. Please run 'python update_metadata.py' for accurate counts.")
+        # Simple fallback count
+        try:
+            matches_dir = "data/matches"
+            if os.path.exists(matches_dir):
+                json_files = [f for f in os.listdir(matches_dir) if f.endswith('.json')]
+                match_count = len(json_files)
+                print(f"Using simple file count as fallback: {match_count}")
+        except Exception as e:
+            print(f"Warning: Could not count match files: {e}")
+            match_count = 0
+    
+    # Create basic metadata for website (update_metadata.py creates the comprehensive version)
     metadata = {
         'last_updated': timestamp,
         'update_date': datetime.now().strftime('%Y-%m-%d'),
-        'update_time': datetime.now().strftime('%H:%M:%S')
+        'update_time': datetime.now().strftime('%H:%M:%S'),
+        'match_statistics': {
+            'matches_processed_in_rankings': match_count,
+            'matches_with_handgun_data': match_count,
+            'last_match_processed': datetime.now().strftime('%Y-%m-%d')
+        }
     }
     
     with open('docs/data/metadata.json', 'w', encoding='utf-8') as f:
         json.dump(metadata, f, indent=2, ensure_ascii=False)
     
     print(f"✓ Updated metadata with timestamp: {timestamp}")
+    print(f"✓ Added match statistics: {match_count} matches processed")
+    print(f"Note: For accurate match counts, run 'python update_metadata.py' before this script")
 
 def validate_data_files():
     """Validate that all expected data files exist and are valid JSON"""
