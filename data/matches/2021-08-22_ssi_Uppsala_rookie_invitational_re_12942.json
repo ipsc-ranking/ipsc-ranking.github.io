@@ -1,0 +1,631 @@
+{
+  "match_id": 12942,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/12942/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/12942/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/12942/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/12942/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/12942/div/hg19/",
+      "name": "Production Optics Light"
+    }
+  ],
+  "match_url": "/event/22/12942/",
+  "match_title": "Uppsala rookie invitational - results",
+  "match_level": "Level II",
+  "match_date": "2021-08-22T09:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 468.874,
+      "first_name": "Joakim",
+      "last_name": "Östby",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "ostby228",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 81.67,
+      "match_points": 382.928,
+      "first_name": "Mattias",
+      "last_name": "Boman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "oberleutnant",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 79.27,
+      "match_points": 371.6913,
+      "first_name": "Erik",
+      "last_name": "Hedman",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "eriklawes",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 79.08,
+      "match_points": 370.7789,
+      "first_name": "Gabriel",
+      "last_name": "Hübinette",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "cerastes",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 74.74,
+      "match_points": 350.4411,
+      "first_name": "Carl",
+      "last_name": "Olofsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "calle",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 6,
+      "match_percentage": 73.99,
+      "match_points": 346.9296,
+      "first_name": "Stefan",
+      "last_name": "Fjellström",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 7,
+      "match_percentage": 69.1,
+      "match_points": 323.9992,
+      "first_name": "Wilhelm",
+      "last_name": "Berndtsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "berra",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 8,
+      "match_percentage": 68.29,
+      "match_points": 320.1815,
+      "first_name": "Antonio",
+      "last_name": "Stadigh",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "antis",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 9,
+      "match_percentage": 66.69,
+      "match_points": 312.6839,
+      "first_name": "Roy",
+      "last_name": "Gharibnavaz",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "7005",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 10,
+      "match_percentage": 63.59,
+      "match_points": 298.1612,
+      "first_name": "Tobias",
+      "last_name": "Lindgren",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 11,
+      "match_percentage": 62.87,
+      "match_points": 294.789,
+      "first_name": "Tommy",
+      "last_name": "Källarsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 12,
+      "match_percentage": 62.46,
+      "match_points": 292.8451,
+      "first_name": "Roger",
+      "last_name": "Vesterholm",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "roga",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 13,
+      "match_percentage": 61.59,
+      "match_points": 288.7939,
+      "first_name": "Emil",
+      "last_name": "Hallemark",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala dynamiska skyttar"
+    },
+    {
+      "position": 14,
+      "match_percentage": 61.21,
+      "match_points": 287.0187,
+      "first_name": "Björn",
+      "last_name": "Elfving",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 61.21,
+      "match_points": 287.0185,
+      "first_name": "Sharjeel",
+      "last_name": "Niazi",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 16,
+      "match_percentage": 61.21,
+      "match_points": 287.005,
+      "first_name": "Thomas",
+      "last_name": "L",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "swelance",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 17,
+      "match_percentage": 60.56,
+      "match_points": 283.9637,
+      "first_name": "Tobias",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 18,
+      "match_percentage": 55.53,
+      "match_points": 260.3563,
+      "first_name": "David",
+      "last_name": "Mendes",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kenshi",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 19,
+      "match_percentage": 54.98,
+      "match_points": 257.7792,
+      "first_name": "Björn",
+      "last_name": "Sjöberg",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "bjorns",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 20,
+      "match_percentage": 53.85,
+      "match_points": 252.4874,
+      "first_name": "Kevin",
+      "last_name": "Jernström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 21,
+      "match_percentage": 51.64,
+      "match_points": 242.143,
+      "first_name": "Jonas",
+      "last_name": "Eriksson",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "leadmonger",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 22,
+      "match_percentage": 51.45,
+      "match_points": 241.2417,
+      "first_name": "Alexander",
+      "last_name": "Fryklund",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 23,
+      "match_percentage": 50.36,
+      "match_points": 236.1249,
+      "first_name": "Johnny",
+      "last_name": "Sollien Tillman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 24,
+      "match_percentage": 49.97,
+      "match_points": 234.3005,
+      "first_name": "Linnea",
+      "last_name": "Skoog",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF"
+    },
+    {
+      "position": 25,
+      "match_percentage": 49.49,
+      "match_points": 232.0495,
+      "first_name": "Karl",
+      "last_name": "Rein",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "rein",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 26,
+      "match_percentage": 49.11,
+      "match_points": 230.2787,
+      "first_name": "Tomasz",
+      "last_name": "Albjär",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 27,
+      "match_percentage": 48.13,
+      "match_points": 225.6479,
+      "first_name": "Victor",
+      "last_name": "Rosengren",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF"
+    },
+    {
+      "position": 28,
+      "match_percentage": 43.49,
+      "match_points": 203.9141,
+      "first_name": "Terese",
+      "last_name": "Makinen",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "terese",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 29,
+      "match_percentage": 40.73,
+      "match_points": 190.9795,
+      "first_name": "Andreas",
+      "last_name": "Olsson",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 30,
+      "match_percentage": 40.05,
+      "match_points": 187.7661,
+      "first_name": "John",
+      "last_name": "Doe",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Uppsala Dynamiska Skyttar"
+    },
+    {
+      "position": 31,
+      "match_percentage": 38.71,
+      "match_points": 181.4887,
+      "first_name": "Pehr",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "okulten",
+      "club": "Uppsala Dynamiska Skyttar (UDS)"
+    },
+    {
+      "position": 32,
+      "match_percentage": 34.25,
+      "match_points": 160.5692,
+      "first_name": "Oscar",
+      "last_name": "Rosengren",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF"
+    },
+    {
+      "position": 33,
+      "match_percentage": 33.44,
+      "match_points": 156.7909,
+      "first_name": "Anton",
+      "last_name": "Lönnebo",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "antlon",
+      "club": "Ärna IF DS"
+    },
+    {
+      "position": 34,
+      "match_percentage": 32.86,
+      "match_points": 154.0594,
+      "first_name": "Joakim",
+      "last_name": "Hallblom",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna If"
+    },
+    {
+      "position": 35,
+      "match_percentage": 28.2,
+      "match_points": 132.2269,
+      "first_name": "Sandra",
+      "last_name": "Lundberg",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "faellan",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 36,
+      "match_percentage": 21.84,
+      "match_points": 102.4172,
+      "first_name": "Anders",
+      "last_name": "Wikström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "awi73",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 37,
+      "match_percentage": 21.65,
+      "match_points": 101.4901,
+      "first_name": "Stefan",
+      "last_name": "Lindgren",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna if"
+    },
+    {
+      "position": 38,
+      "match_percentage": 20.71,
+      "match_points": 97.0975,
+      "first_name": "Tommy",
+      "last_name": "Andersson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ärna IF"
+    },
+    {
+      "position": 39,
+      "match_percentage": 17.11,
+      "match_points": 80.2391,
+      "first_name": "Hans",
+      "last_name": "Johansson",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "boerboel",
+      "club": "Uppsala DS"
+    },
+    {
+      "position": 40,
+      "match_percentage": 6.59,
+      "match_points": 30.9057,
+      "first_name": "Jonas",
+      "last_name": "Eriksson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "eriksson85",
+      "club": "Uppsala DS"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "match_id": 2358,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/2358/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/2358/div/hg3/",
+      "name": "Production"
+    }
+  ],
+  "match_url": "/event/22/2358/",
+  "match_title": "Hammoc hill grand prix - results",
+  "match_level": "Level II",
+  "match_date": "2014-09-06T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 500.0,
+      "first_name": "Frans",
+      "last_name": "Ringnes Aubert",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "turbo",
+      "club": "OKTS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 58.04,
+      "match_points": 290.2105,
+      "first_name": "Rune",
+      "last_name": "Skimten",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "NOP"
+    },
+    {
+      "position": 3,
+      "match_percentage": 53.41,
+      "match_points": 267.0639,
+      "first_name": "Knut Harald",
+      "last_name": "Graven",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 43.37,
+      "match_points": 216.8329,
+      "first_name": "Øyvind",
+      "last_name": "Michalsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "titus",
+      "club": "OKTS"
+    }
+  ]
+}

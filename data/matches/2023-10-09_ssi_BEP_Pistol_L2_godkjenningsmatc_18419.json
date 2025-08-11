@@ -1,0 +1,470 @@
+{
+  "match_id": 18419,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/18419/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/18419/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/18419/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/18419/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/18419/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/18419/div/hg30/",
+      "name": "Pistol Caliber Carbine Optics"
+    }
+  ],
+  "match_url": "/event/22/18419/",
+  "match_title": "BEP Pistol L2 godkjenningsmatch - results",
+  "match_level": "Level II",
+  "match_date": "2023-10-09T17:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 421.6306,
+      "first_name": "Kjetil",
+      "last_name": "Orre",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "happygiant",
+      "club": "BEP"
+    },
+    {
+      "position": 2,
+      "match_percentage": 86.69,
+      "match_points": 365.4943,
+      "first_name": "Mikkel",
+      "last_name": "Gullstein",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 3,
+      "match_percentage": 80.49,
+      "match_points": 339.3878,
+      "first_name": "Ove",
+      "last_name": "Toranger",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "smileyface",
+      "club": "BEP"
+    },
+    {
+      "position": 4,
+      "match_percentage": 79.83,
+      "match_points": 336.5808,
+      "first_name": "Jan Ove",
+      "last_name": "Midtun",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "jom",
+      "club": "BEP"
+    },
+    {
+      "position": 5,
+      "match_percentage": 76.97,
+      "match_points": 324.5088,
+      "first_name": "Morten",
+      "last_name": "Myking",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "myking",
+      "club": "Nordhordland Pistolklubb (NHPK)"
+    },
+    {
+      "position": 6,
+      "match_percentage": 76.17,
+      "match_points": 321.1589,
+      "first_name": "Arne",
+      "last_name": "Monsen",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "bergenbom",
+      "club": "BEP/BSK"
+    },
+    {
+      "position": 7,
+      "match_percentage": 73.36,
+      "match_points": 309.3089,
+      "first_name": "Rune",
+      "last_name": "Toft",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "runtof",
+      "club": "BEP"
+    },
+    {
+      "position": 8,
+      "match_percentage": 68.64,
+      "match_points": 289.4107,
+      "first_name": "Per Tore",
+      "last_name": "Hanstvedt",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 9,
+      "match_percentage": 68.6,
+      "match_points": 289.2402,
+      "first_name": "Christian",
+      "last_name": "Vestbø",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BSK"
+    },
+    {
+      "position": 10,
+      "match_percentage": 67.45,
+      "match_points": 284.3973,
+      "first_name": "Mats",
+      "last_name": "Sønstebø",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 11,
+      "match_percentage": 61.59,
+      "match_points": 259.6766,
+      "first_name": "Rune Wichmann",
+      "last_name": "Haldorsen",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "wichmann",
+      "club": "BEP"
+    },
+    {
+      "position": 12,
+      "match_percentage": 60.9,
+      "match_points": 256.7872,
+      "first_name": "Bjørn Ove",
+      "last_name": "Sekkingstad",
+      "division": "Open+",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "bos62",
+      "club": "BEP"
+    },
+    {
+      "position": 13,
+      "match_percentage": 52.85,
+      "match_points": 222.8181,
+      "first_name": "John Sigvald",
+      "last_name": "Skauge",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "leadslinger",
+      "club": "BSK"
+    },
+    {
+      "position": 14,
+      "match_percentage": 49.0,
+      "match_points": 206.619,
+      "first_name": "Stian",
+      "last_name": "Hjelme",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 15,
+      "match_percentage": 44.84,
+      "match_points": 189.071,
+      "first_name": "Tommas",
+      "last_name": "Skår",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BSK"
+    },
+    {
+      "position": 16,
+      "match_percentage": 42.89,
+      "match_points": 180.8253,
+      "first_name": "Espen",
+      "last_name": "Nytun",
+      "division": "Standard-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 17,
+      "match_percentage": 38.69,
+      "match_points": 163.1412,
+      "first_name": "Joakim",
+      "last_name": "Bekken",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 18,
+      "match_percentage": 38.62,
+      "match_points": 162.8506,
+      "first_name": "Geir",
+      "last_name": "Skagen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 19,
+      "match_percentage": 36.09,
+      "match_points": 152.1455,
+      "first_name": "Erik",
+      "last_name": "Orrebakken",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 20,
+      "match_percentage": 34.02,
+      "match_points": 143.4533,
+      "first_name": "Roy",
+      "last_name": "Helland",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 21,
+      "match_percentage": 33.85,
+      "match_points": 142.7129,
+      "first_name": "Frode",
+      "last_name": "Jensen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "NOP-HOS"
+    },
+    {
+      "position": 22,
+      "match_percentage": 25.18,
+      "match_points": 106.1464,
+      "first_name": "Arild",
+      "last_name": "Brandal",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 23,
+      "match_percentage": 21.46,
+      "match_points": 90.4944,
+      "first_name": "Thomas",
+      "last_name": "Bøe",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BSK"
+    },
+    {
+      "position": 24,
+      "match_percentage": 15.07,
+      "match_points": 63.5408,
+      "first_name": "Geir",
+      "last_name": "Irgens",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 25,
+      "match_percentage": 15.06,
+      "match_points": 63.4956,
+      "first_name": "Eivind",
+      "last_name": "Bakke",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Nordhordland Pistolklubb"
+    },
+    {
+      "position": 26,
+      "match_percentage": 14.9,
+      "match_points": 62.8426,
+      "first_name": "Knut",
+      "last_name": "Aarskog",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 27,
+      "match_percentage": 12.5,
+      "match_points": 52.6928,
+      "first_name": "Anne",
+      "last_name": "Svåsand",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    },
+    {
+      "position": 28,
+      "match_percentage": 12.28,
+      "match_points": 51.7694,
+      "first_name": "Jarle",
+      "last_name": "Kvalvik",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Bergen Sportskytter club"
+    },
+    {
+      "position": 29,
+      "match_percentage": 1.75,
+      "match_points": 7.3891,
+      "first_name": "Rayner Daniel",
+      "last_name": "Pedersen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "BEP"
+    }
+  ]
+}

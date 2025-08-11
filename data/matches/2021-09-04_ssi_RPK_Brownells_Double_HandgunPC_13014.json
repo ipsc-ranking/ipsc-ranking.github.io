@@ -1,0 +1,939 @@
+{
+  "match_id": 13014,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/13014/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/13014/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/13014/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/13014/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/13014/div/hg17/",
+      "name": "Pistol Caliber Carbine"
+    },
+    {
+      "url": "/ipsc/results/match/13014/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/13014/div/hg19/",
+      "name": "Production Optics Light"
+    }
+  ],
+  "match_url": "/event/22/13014/",
+  "match_title": "RPK - Brownell's Double Handgun/PCC - results",
+  "match_level": "Level II",
+  "match_date": "2021-09-04T07:30:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 501.3155,
+      "first_name": "Thomas",
+      "last_name": "Nordvi",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "tnor",
+      "club": "NOP"
+    },
+    {
+      "position": 2,
+      "match_percentage": 97.01,
+      "match_points": 486.335,
+      "first_name": "Per Arne",
+      "last_name": "Nilsen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "sting",
+      "club": "HPI"
+    },
+    {
+      "position": 3,
+      "match_percentage": 96.52,
+      "match_points": 483.8475,
+      "first_name": "Anders",
+      "last_name": "Nerheim",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "M",
+      "alias": "magicmike",
+      "club": "OKTS"
+    },
+    {
+      "position": 4,
+      "match_percentage": 92.27,
+      "match_points": 462.5524,
+      "first_name": "Bjørn",
+      "last_name": "Greve",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "greven",
+      "club": "RDS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 90.94,
+      "match_points": 455.8896,
+      "first_name": "Kjetil",
+      "last_name": "Edvardsen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "madmax",
+      "club": "NOP"
+    },
+    {
+      "position": 6,
+      "match_percentage": 89.29,
+      "match_points": 447.607,
+      "first_name": "Henrik",
+      "last_name": "Hornemann",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "farmer1",
+      "club": "RPK"
+    },
+    {
+      "position": 7,
+      "match_percentage": 89.06,
+      "match_points": 446.4517,
+      "first_name": "Terje",
+      "last_name": "Andersen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "B",
+      "alias": "triggerterje",
+      "club": "NOP"
+    },
+    {
+      "position": 8,
+      "match_percentage": 87.95,
+      "match_points": 440.9222,
+      "first_name": "Kristian",
+      "last_name": "Lund",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "aalpha",
+      "club": "SSS"
+    },
+    {
+      "position": 9,
+      "match_percentage": 80.74,
+      "match_points": 404.7728,
+      "first_name": "Benjamin",
+      "last_name": "Hillem",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "sugarrdaddy69",
+      "club": "ASK"
+    },
+    {
+      "position": 10,
+      "match_percentage": 79.01,
+      "match_points": 396.0853,
+      "first_name": "Anders",
+      "last_name": "Røine",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "andersr",
+      "club": "OKTS"
+    },
+    {
+      "position": 11,
+      "match_percentage": 77.54,
+      "match_points": 388.6985,
+      "first_name": "Jens",
+      "last_name": "Berentzen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "berentz",
+      "club": "NOP"
+    },
+    {
+      "position": 12,
+      "match_percentage": 75.83,
+      "match_points": 380.1719,
+      "first_name": "Harald",
+      "last_name": "Feragen",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "D",
+      "alias": "diesel",
+      "club": "MPK"
+    },
+    {
+      "position": 13,
+      "match_percentage": 73.14,
+      "match_points": 366.6503,
+      "first_name": "Folke",
+      "last_name": "Myrvang",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "A",
+      "alias": "folkem",
+      "club": "NOP"
+    },
+    {
+      "position": 14,
+      "match_percentage": 71.73,
+      "match_points": 359.5883,
+      "first_name": "Jonas",
+      "last_name": "Bergstrøm",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "bergstrom",
+      "club": "OKTS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 69.49,
+      "match_points": 348.3585,
+      "first_name": "Teodor",
+      "last_name": "Gjerde",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "gjerde",
+      "club": "RPK"
+    },
+    {
+      "position": 16,
+      "match_percentage": 69.18,
+      "match_points": 346.8071,
+      "first_name": "Stian",
+      "last_name": "Nøkland",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "powerlineman",
+      "club": "SSS"
+    },
+    {
+      "position": 17,
+      "match_percentage": 66.41,
+      "match_points": 332.908,
+      "first_name": "Stefan",
+      "last_name": "Winsnes",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "skw007",
+      "club": "ASK"
+    },
+    {
+      "position": 18,
+      "match_percentage": 65.22,
+      "match_points": 326.9565,
+      "first_name": "Truls Martin",
+      "last_name": "Buseth",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "trulle",
+      "club": "HPI"
+    },
+    {
+      "position": 19,
+      "match_percentage": 64.86,
+      "match_points": 325.1482,
+      "first_name": "Arne Christian",
+      "last_name": "Winness",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "gribbenac",
+      "club": "HPI"
+    },
+    {
+      "position": 20,
+      "match_percentage": 64.27,
+      "match_points": 322.1935,
+      "first_name": "Rune",
+      "last_name": "Hagen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "racer1",
+      "club": "SSS"
+    },
+    {
+      "position": 21,
+      "match_percentage": 59.98,
+      "match_points": 300.7124,
+      "first_name": "Lasse",
+      "last_name": "Sandaker",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Lillestrøm og omegn pistolklubb"
+    },
+    {
+      "position": 22,
+      "match_percentage": 58.38,
+      "match_points": 292.6764,
+      "first_name": "Roy",
+      "last_name": "Thorud",
+      "division": "Production Optics Light-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "royth",
+      "club": "KPK"
+    },
+    {
+      "position": 23,
+      "match_percentage": 57.59,
+      "match_points": 288.6942,
+      "first_name": "Gunnar",
+      "last_name": "Bjaanes",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "kruttroyk",
+      "club": "RPK"
+    },
+    {
+      "position": 24,
+      "match_percentage": 56.9,
+      "match_points": 285.2663,
+      "first_name": "Helge",
+      "last_name": "Aase",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "haa58",
+      "club": "SSS"
+    },
+    {
+      "position": 25,
+      "match_percentage": 55.92,
+      "match_points": 280.3304,
+      "first_name": "Sigbjörn",
+      "last_name": "Aksel Ekman",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 26,
+      "match_percentage": 54.96,
+      "match_points": 275.5322,
+      "first_name": "Stian",
+      "last_name": "Kristoffersen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "naits",
+      "club": "HPI"
+    },
+    {
+      "position": 27,
+      "match_percentage": 53.94,
+      "match_points": 270.3997,
+      "first_name": "Kim-Ove",
+      "last_name": "Ellingsen",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "M",
+      "alias": "kimma",
+      "club": "ASK"
+    },
+    {
+      "position": 28,
+      "match_percentage": 53.73,
+      "match_points": 269.3627,
+      "first_name": "Roar",
+      "last_name": "Hop",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "cordoban",
+      "club": "RPK"
+    },
+    {
+      "position": 29,
+      "match_percentage": 53.35,
+      "match_points": 267.4525,
+      "first_name": "Jonathan",
+      "last_name": "Kennedy",
+      "division": "Open-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "kellen",
+      "club": "RPK"
+    },
+    {
+      "position": 30,
+      "match_percentage": 52.31,
+      "match_points": 262.2319,
+      "first_name": "Richard",
+      "last_name": "Aaserud",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "bravohunter",
+      "club": "RPK"
+    },
+    {
+      "position": 31,
+      "match_percentage": 52.29,
+      "match_points": 262.1315,
+      "first_name": "Nils Oddvar",
+      "last_name": "Midtun",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "nilso",
+      "club": "RPK"
+    },
+    {
+      "position": 32,
+      "match_percentage": 49.92,
+      "match_points": 250.2551,
+      "first_name": "René",
+      "last_name": "Ullrich",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "D",
+      "alias": "",
+      "club": "GPK"
+    },
+    {
+      "position": 33,
+      "match_percentage": 48.86,
+      "match_points": 244.9378,
+      "first_name": "Mattias",
+      "last_name": "Jonsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "mattias44",
+      "club": "RPK"
+    },
+    {
+      "position": 34,
+      "match_percentage": 48.74,
+      "match_points": 244.3245,
+      "first_name": "Nils Knut",
+      "last_name": "Lindbo",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "urogallus",
+      "club": "HPI"
+    },
+    {
+      "position": 35,
+      "match_percentage": 46.43,
+      "match_points": 232.7389,
+      "first_name": "Knut Harald",
+      "last_name": "Graven",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "plaff",
+      "club": "OKTS"
+    },
+    {
+      "position": 36,
+      "match_percentage": 46.38,
+      "match_points": 232.5091,
+      "first_name": "Livar",
+      "last_name": "Gudmestad",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Hå Sportsskyttere"
+    },
+    {
+      "position": 37,
+      "match_percentage": 46.26,
+      "match_points": 231.9294,
+      "first_name": "Joakim",
+      "last_name": "Halden",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "D",
+      "alias": "merrimen",
+      "club": "HPI"
+    },
+    {
+      "position": 38,
+      "match_percentage": 45.51,
+      "match_points": 228.1466,
+      "first_name": "Anders",
+      "last_name": "Gunbjornsen",
+      "division": "Production Optics-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "andiz",
+      "club": "RPK"
+    },
+    {
+      "position": 39,
+      "match_percentage": 44.87,
+      "match_points": 224.9649,
+      "first_name": "Kjetil",
+      "last_name": "Bermingrud",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "kjetil",
+      "club": "HPI"
+    },
+    {
+      "position": 40,
+      "match_percentage": 44.16,
+      "match_points": 221.393,
+      "first_name": "Kjersti",
+      "last_name": "Sortdal",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ksortdal",
+      "club": "RPK"
+    },
+    {
+      "position": 41,
+      "match_percentage": 43.26,
+      "match_points": 216.8555,
+      "first_name": "Marcel",
+      "last_name": "Prinz",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "RPK"
+    },
+    {
+      "position": 42,
+      "match_percentage": 43.15,
+      "match_points": 216.3184,
+      "first_name": "Kristian",
+      "last_name": "Jøndal",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 43,
+      "match_percentage": 41.39,
+      "match_points": 207.4721,
+      "first_name": "Jakob",
+      "last_name": "Evensen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 44,
+      "match_percentage": 37.39,
+      "match_points": 187.4505,
+      "first_name": "Johan",
+      "last_name": "Forsberg",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 45,
+      "match_percentage": 37.15,
+      "match_points": 186.2432,
+      "first_name": "Fredrik",
+      "last_name": "Lundblad",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "NPK/NPS/RPK"
+    },
+    {
+      "position": 46,
+      "match_percentage": 37.09,
+      "match_points": 185.9511,
+      "first_name": "Per Fredrik",
+      "last_name": "Simensen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "seffapeffa",
+      "club": "HPI"
+    },
+    {
+      "position": 47,
+      "match_percentage": 36.47,
+      "match_points": 182.8507,
+      "first_name": "Bjørn Steinar",
+      "last_name": "Thorvaldsen",
+      "division": "Pistol Caliber Carbine-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Hå Sportsskyttere"
+    },
+    {
+      "position": 48,
+      "match_percentage": 36.41,
+      "match_points": 182.5144,
+      "first_name": "Even",
+      "last_name": "Nyhus",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "evenn",
+      "club": "Ringerike Pistolklubb"
+    },
+    {
+      "position": 49,
+      "match_percentage": 35.49,
+      "match_points": 177.9374,
+      "first_name": "Jørgen",
+      "last_name": "Mortensen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "mortensen",
+      "club": "HPI"
+    },
+    {
+      "position": 50,
+      "match_percentage": 33.78,
+      "match_points": 169.3528,
+      "first_name": "Renate",
+      "last_name": "Sand",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "ASK"
+    },
+    {
+      "position": 51,
+      "match_percentage": 33.66,
+      "match_points": 168.763,
+      "first_name": "Even",
+      "last_name": "Dahl Jensen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 52,
+      "match_percentage": 33.1,
+      "match_points": 165.912,
+      "first_name": "Helge",
+      "last_name": "Nesteby",
+      "division": "Production-",
+      "category": [
+        "SS"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "OKTS"
+    },
+    {
+      "position": 53,
+      "match_percentage": 32.48,
+      "match_points": 162.8199,
+      "first_name": "Frederik",
+      "last_name": "Holden",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "TFS"
+    },
+    {
+      "position": 54,
+      "match_percentage": 31.96,
+      "match_points": 160.233,
+      "first_name": "Ole-Ejvind",
+      "last_name": "Hære",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 55,
+      "match_percentage": 31.5,
+      "match_points": 157.9371,
+      "first_name": "Jan Olav",
+      "last_name": "Langvandsbråten",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "janolavlang",
+      "club": "Ringerike Pistolklubb"
+    },
+    {
+      "position": 56,
+      "match_percentage": 24.95,
+      "match_points": 125.0818,
+      "first_name": "Steinar",
+      "last_name": "Solheim",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "RPK"
+    },
+    {
+      "position": 57,
+      "match_percentage": 18.88,
+      "match_points": 94.67,
+      "first_name": "Ole Martin",
+      "last_name": "Jorve",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "o1e911",
+      "club": "RPK"
+    },
+    {
+      "position": 58,
+      "match_percentage": 12.05,
+      "match_points": 60.3954,
+      "first_name": "Steff",
+      "last_name": "Bermingrud",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    },
+    {
+      "position": 59,
+      "match_percentage": 9.9,
+      "match_points": 49.6182,
+      "first_name": "Magnus",
+      "last_name": "Myrseth",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "RPK"
+    },
+    {
+      "position": 60,
+      "match_percentage": 9.55,
+      "match_points": 47.8917,
+      "first_name": "Kristjan",
+      "last_name": "Arnason",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "HPI"
+    }
+  ]
+}

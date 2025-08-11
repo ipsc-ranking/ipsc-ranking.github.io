@@ -1,0 +1,128 @@
+{
+  "match_id": 6044,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/6044/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/6044/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/6044/div/hg12/",
+      "name": "Classic"
+    }
+  ],
+  "match_url": "/event/22/6044/",
+  "match_title": "Høst match - results",
+  "match_level": "Level II",
+  "match_date": "2017-09-24T12:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 698.2826,
+      "first_name": "Rune",
+      "last_name": "Wilhelmsen",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ricwilh",
+      "club": "LSP"
+    },
+    {
+      "position": 2,
+      "match_percentage": 98.26,
+      "match_points": 686.1431,
+      "first_name": "Stephan",
+      "last_name": "Schwarzer",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "gollum",
+      "club": "Gjøvik Pistolklubb"
+    },
+    {
+      "position": 3,
+      "match_percentage": 74.69,
+      "match_points": 521.5418,
+      "first_name": "Simen",
+      "last_name": "Lundbakken",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Lsp"
+    },
+    {
+      "position": 4,
+      "match_percentage": 68.34,
+      "match_points": 477.2239,
+      "first_name": "Svein",
+      "last_name": "Heibø",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "sveinkhh",
+      "club": "OKTS"
+    },
+    {
+      "position": 5,
+      "match_percentage": 58.7,
+      "match_points": 409.8689,
+      "first_name": "Odd Magne",
+      "last_name": "Skansgård",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Lågen Sportsskyttere"
+    },
+    {
+      "position": 6,
+      "match_percentage": 58.37,
+      "match_points": 407.588,
+      "first_name": "Jon Magne",
+      "last_name": "Plassen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Lågen Sportsskyttere"
+    },
+    {
+      "position": 7,
+      "match_percentage": 50.3,
+      "match_points": 351.2278,
+      "first_name": "Arnstein",
+      "last_name": "Johansen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "USA",
+      "classification": "U",
+      "alias": "",
+      "club": "LSP"
+    }
+  ]
+}

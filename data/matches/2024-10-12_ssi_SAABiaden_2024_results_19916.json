@@ -1,0 +1,639 @@
+{
+  "match_id": 19916,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/19916/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/19916/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/19916/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/19916/div/hg5/",
+      "name": "Revolver"
+    },
+    {
+      "url": "/ipsc/results/match/19916/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/19916/div/hg19/",
+      "name": "Production Optics Light"
+    },
+    {
+      "url": "/ipsc/results/match/19916/div/hg30/",
+      "name": "Pistol Caliber Carbine Optics"
+    }
+  ],
+  "match_url": "/event/22/19916/",
+  "match_title": "SAABiaden 2024 - results",
+  "match_level": "Level II",
+  "match_date": "2024-10-12T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 443.9809,
+      "first_name": "Anders",
+      "last_name": "Johansson",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "johansson81",
+      "club": "RJPS"
+    },
+    {
+      "position": 2,
+      "match_percentage": 99.79,
+      "match_points": 443.0578,
+      "first_name": "Tommy",
+      "last_name": "Mattsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "digglers",
+      "club": "IPSC Västerås"
+    },
+    {
+      "position": 3,
+      "match_percentage": 99.04,
+      "match_points": 439.7337,
+      "first_name": "Jari",
+      "last_name": "D",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jade",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 4,
+      "match_percentage": 96.52,
+      "match_points": 428.5403,
+      "first_name": "Fredrik",
+      "last_name": "Lindblad",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "fastman666",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 5,
+      "match_percentage": 84.63,
+      "match_points": 375.7198,
+      "first_name": "Johan",
+      "last_name": "Sundevall",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 6,
+      "match_percentage": 82.02,
+      "match_points": 364.1577,
+      "first_name": "Michael",
+      "last_name": "Bjurshagen",
+      "division": "Production Optics Light-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mibj",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 7,
+      "match_percentage": 78.17,
+      "match_points": 347.0703,
+      "first_name": "Claes",
+      "last_name": "Lindblom",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "kocken",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 8,
+      "match_percentage": 77.58,
+      "match_points": 344.4358,
+      "first_name": "Thomas",
+      "last_name": "Edvardsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "fader",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 9,
+      "match_percentage": 77.06,
+      "match_points": 342.1299,
+      "first_name": "Christopher",
+      "last_name": "Hellsberg",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 10,
+      "match_percentage": 75.84,
+      "match_points": 336.703,
+      "first_name": "Anders",
+      "last_name": "Steinwall",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "steinwall",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 11,
+      "match_percentage": 73.94,
+      "match_points": 328.2637,
+      "first_name": "C-J",
+      "last_name": "Karlsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "cjk",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 12,
+      "match_percentage": 73.43,
+      "match_points": 326.0192,
+      "first_name": "Andreas",
+      "last_name": "Norberg",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pyro",
+      "club": "Bofors Skjutfälts Skyttekår"
+    },
+    {
+      "position": 13,
+      "match_percentage": 69.87,
+      "match_points": 310.1881,
+      "first_name": "Robert",
+      "last_name": "Röbech",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "robban65",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 14,
+      "match_percentage": 64.09,
+      "match_points": 284.5394,
+      "first_name": "Georg",
+      "last_name": "Beckman",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jojje",
+      "club": "Örlb Skf"
+    },
+    {
+      "position": 15,
+      "match_percentage": 62.44,
+      "match_points": 277.2224,
+      "first_name": "Alfredo",
+      "last_name": "W",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "alfredo",
+      "club": "ESs"
+    },
+    {
+      "position": 16,
+      "match_percentage": 61.85,
+      "match_points": 274.6056,
+      "first_name": "Mikko",
+      "last_name": "Laukkanen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "selector",
+      "club": ""
+    },
+    {
+      "position": 17,
+      "match_percentage": 61.58,
+      "match_points": 273.4176,
+      "first_name": "Jonne",
+      "last_name": "Gullstrand",
+      "division": "Revolver-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 18,
+      "match_percentage": 60.56,
+      "match_points": 268.858,
+      "first_name": "Kenny",
+      "last_name": "Axelsson",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Kumla Sportskyttar"
+    },
+    {
+      "position": 19,
+      "match_percentage": 59.3,
+      "match_points": 263.2648,
+      "first_name": "Måns",
+      "last_name": "Pihlquist",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "echo01",
+      "club": "P7 SKIF"
+    },
+    {
+      "position": 20,
+      "match_percentage": 59.22,
+      "match_points": 262.9379,
+      "first_name": "Norbert",
+      "last_name": "Patay",
+      "division": "Revolver-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "9255",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 21,
+      "match_percentage": 59.15,
+      "match_points": 262.6231,
+      "first_name": "Peter",
+      "last_name": "Nordlund",
+      "division": "Open-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "nord",
+      "club": ""
+    },
+    {
+      "position": 22,
+      "match_percentage": 57.83,
+      "match_points": 256.7525,
+      "first_name": "Tommy",
+      "last_name": "G",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "soe",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 23,
+      "match_percentage": 56.1,
+      "match_points": 249.0593,
+      "first_name": "Johannes",
+      "last_name": "Fältskog",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 24,
+      "match_percentage": 56.06,
+      "match_points": 248.9096,
+      "first_name": "Fredrik",
+      "last_name": "Asklund",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 25,
+      "match_percentage": 55.82,
+      "match_points": 247.8466,
+      "first_name": "Alexander",
+      "last_name": "Lind",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mungo",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 26,
+      "match_percentage": 53.05,
+      "match_points": 235.5146,
+      "first_name": "Axel",
+      "last_name": "Thorsén",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "axelnaxel",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 27,
+      "match_percentage": 52.43,
+      "match_points": 232.7943,
+      "first_name": "Magnus",
+      "last_name": "Jensen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 28,
+      "match_percentage": 50.91,
+      "match_points": 226.0361,
+      "first_name": "Joakim",
+      "last_name": "Kaneröd",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "jockek",
+      "club": ""
+    },
+    {
+      "position": 29,
+      "match_percentage": 50.79,
+      "match_points": 225.4962,
+      "first_name": "Torbjörn",
+      "last_name": "Andersson",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laholm psk"
+    },
+    {
+      "position": 30,
+      "match_percentage": 48.94,
+      "match_points": 217.2706,
+      "first_name": "Martin",
+      "last_name": "Persson",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Bofors Skjutfälts Skyttekår"
+    },
+    {
+      "position": 31,
+      "match_percentage": 47.34,
+      "match_points": 210.1635,
+      "first_name": "Christoffer",
+      "last_name": "Bruce",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 32,
+      "match_percentage": 46.07,
+      "match_points": 204.545,
+      "first_name": "Billy",
+      "last_name": "Olsson",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 33,
+      "match_percentage": 44.49,
+      "match_points": 197.5196,
+      "first_name": "Niklas",
+      "last_name": "Lindholm",
+      "division": "Production Optics Light-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "trajja",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 34,
+      "match_percentage": 43.47,
+      "match_points": 192.9872,
+      "first_name": "Thomas",
+      "last_name": "Lidvall",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 35,
+      "match_percentage": 40.64,
+      "match_points": 180.4316,
+      "first_name": "Peter",
+      "last_name": "Lejdegård",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "pettson",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 36,
+      "match_percentage": 39.16,
+      "match_points": 173.8502,
+      "first_name": "Rainer",
+      "last_name": "Hietalahti",
+      "division": "Open-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 37,
+      "match_percentage": 30.97,
+      "match_points": 137.4864,
+      "first_name": "Guy",
+      "last_name": "Pryba",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 38,
+      "match_percentage": 23.33,
+      "match_points": 103.5634,
+      "first_name": "Marie",
+      "last_name": "Celing",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    },
+    {
+      "position": 39,
+      "match_percentage": 21.1,
+      "match_points": 93.6974,
+      "first_name": "Stefani",
+      "last_name": "Bućo",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "stefi",
+      "club": "ESs"
+    },
+    {
+      "position": 40,
+      "match_percentage": 16.26,
+      "match_points": 72.1872,
+      "first_name": "Andreas",
+      "last_name": "Hjulström",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "S:t Eskils Skyttar, Eskilstuna"
+    }
+  ]
+}

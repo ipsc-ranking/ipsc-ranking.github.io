@@ -1,0 +1,582 @@
+{
+  "match_id": 3830,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/3830/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/3830/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/3830/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/3830/div/hg12/",
+      "name": "Classic"
+    }
+  ],
+  "match_url": "/event/22/3830/",
+  "match_title": "Gyland Pistolklubb Pistol Level II - results",
+  "match_level": "Level II",
+  "match_date": "2016-05-07T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 468.5411,
+      "first_name": "Frode",
+      "last_name": "Mølland",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Kgp"
+    },
+    {
+      "position": 2,
+      "match_percentage": 90.98,
+      "match_points": 426.2581,
+      "first_name": "Ola Magne",
+      "last_name": "Ruud",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "VSS"
+    },
+    {
+      "position": 3,
+      "match_percentage": 83.56,
+      "match_points": 391.5328,
+      "first_name": "Bjørn Thomas",
+      "last_name": "Olsen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "magicman",
+      "club": "DSSA"
+    },
+    {
+      "position": 4,
+      "match_percentage": 78.15,
+      "match_points": 366.1819,
+      "first_name": "Anders",
+      "last_name": "Ingebrigtsen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ani",
+      "club": "Stavanger Sportsskytterlag"
+    },
+    {
+      "position": 5,
+      "match_percentage": 76.82,
+      "match_points": 359.9209,
+      "first_name": "Thomas",
+      "last_name": "Olaussen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "longrange",
+      "club": "S-SSL"
+    },
+    {
+      "position": 6,
+      "match_percentage": 72.69,
+      "match_points": 340.5946,
+      "first_name": "Kristian",
+      "last_name": "Lund",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Stavanger SSL"
+    },
+    {
+      "position": 7,
+      "match_percentage": 72.38,
+      "match_points": 339.1453,
+      "first_name": "Johan",
+      "last_name": "Røyseland",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 8,
+      "match_percentage": 71.12,
+      "match_points": 333.2469,
+      "first_name": "Ole Johan",
+      "last_name": "Vold",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Stavanger SSL"
+    },
+    {
+      "position": 9,
+      "match_percentage": 70.27,
+      "match_points": 329.2326,
+      "first_name": "Kjartan",
+      "last_name": "Gausland",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "S-SSL"
+    },
+    {
+      "position": 10,
+      "match_percentage": 67.72,
+      "match_points": 317.2872,
+      "first_name": "Morten",
+      "last_name": "Ovedal",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 11,
+      "match_percentage": 66.1,
+      "match_points": 309.7207,
+      "first_name": "Arnold",
+      "last_name": "Dybvik",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 12,
+      "match_percentage": 63.63,
+      "match_points": 298.1221,
+      "first_name": "Leif Inge",
+      "last_name": "Storhaug",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "listason",
+      "club": "LSS"
+    },
+    {
+      "position": 13,
+      "match_percentage": 63.5,
+      "match_points": 297.5125,
+      "first_name": "Svein Kåre",
+      "last_name": "Høien",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "GPK"
+    },
+    {
+      "position": 14,
+      "match_percentage": 63.31,
+      "match_points": 296.6356,
+      "first_name": "Richard",
+      "last_name": "Hole",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "LSS"
+    },
+    {
+      "position": 15,
+      "match_percentage": 63.14,
+      "match_points": 295.8494,
+      "first_name": "Rolf Andre",
+      "last_name": "Grimsby",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland PK"
+    },
+    {
+      "position": 16,
+      "match_percentage": 62.25,
+      "match_points": 291.6814,
+      "first_name": "Kenneth",
+      "last_name": "Sævik",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "america",
+      "club": "LSS"
+    },
+    {
+      "position": 17,
+      "match_percentage": 61.41,
+      "match_points": 287.7431,
+      "first_name": "Jan Olaus",
+      "last_name": "Aanesland",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "KGP"
+    },
+    {
+      "position": 18,
+      "match_percentage": 57.5,
+      "match_points": 269.4051,
+      "first_name": "Geir",
+      "last_name": "Skjævesland",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "kgp"
+    },
+    {
+      "position": 19,
+      "match_percentage": 52.77,
+      "match_points": 247.2369,
+      "first_name": "Jarnes",
+      "last_name": "Mydland",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "stalker",
+      "club": "Gyland-PK"
+    },
+    {
+      "position": 20,
+      "match_percentage": 52.5,
+      "match_points": 245.9975,
+      "first_name": "Ørjan",
+      "last_name": "Tjørhom",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland PK"
+    },
+    {
+      "position": 21,
+      "match_percentage": 50.04,
+      "match_points": 234.4634,
+      "first_name": "Karl Morgan",
+      "last_name": "Hegelstad",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Lista Sportskyttere"
+    },
+    {
+      "position": 22,
+      "match_percentage": 48.05,
+      "match_points": 225.1446,
+      "first_name": "Øyvind Senum",
+      "last_name": "Oftebro",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "LSS"
+    },
+    {
+      "position": 23,
+      "match_percentage": 46.31,
+      "match_points": 216.9812,
+      "first_name": "Stian",
+      "last_name": "Risnes",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 24,
+      "match_percentage": 45.01,
+      "match_points": 210.8851,
+      "first_name": "Anita Kronstad",
+      "last_name": "Ruud",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "VSS"
+    },
+    {
+      "position": 25,
+      "match_percentage": 44.09,
+      "match_points": 206.5586,
+      "first_name": "Nicholas",
+      "last_name": "Treland",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 26,
+      "match_percentage": 42.38,
+      "match_points": 198.5533,
+      "first_name": "Per Henning",
+      "last_name": "Knabenes",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 27,
+      "match_percentage": 41.72,
+      "match_points": 195.4691,
+      "first_name": "Benjamin",
+      "last_name": "Gaski",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 28,
+      "match_percentage": 40.55,
+      "match_points": 189.9925,
+      "first_name": "Mike",
+      "last_name": "Eikeland Høien",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 29,
+      "match_percentage": 39.24,
+      "match_points": 183.8781,
+      "first_name": "Jan Georg",
+      "last_name": "Lauvåsen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Farris Sportsskyttere"
+    },
+    {
+      "position": 30,
+      "match_percentage": 38.61,
+      "match_points": 180.8973,
+      "first_name": "Jan Tore",
+      "last_name": "Birkeland",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 31,
+      "match_percentage": 38.51,
+      "match_points": 180.4318,
+      "first_name": "Kjetil",
+      "last_name": "Thorbjørnsen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 32,
+      "match_percentage": 37.67,
+      "match_points": 176.5007,
+      "first_name": "Jan Frode",
+      "last_name": "Tønnessen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland pistolklubb"
+    },
+    {
+      "position": 33,
+      "match_percentage": 36.78,
+      "match_points": 172.3525,
+      "first_name": "Morten Andre",
+      "last_name": "Olsen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    },
+    {
+      "position": 34,
+      "match_percentage": 29.45,
+      "match_points": 138.0079,
+      "first_name": "Ola",
+      "last_name": "Stokkeland",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Sssl"
+    },
+    {
+      "position": 35,
+      "match_percentage": 27.27,
+      "match_points": 127.7653,
+      "first_name": "Jan Kaare",
+      "last_name": "Oftedal",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "broderkaare",
+      "club": "LSS"
+    },
+    {
+      "position": 36,
+      "match_percentage": 25.03,
+      "match_points": 117.2908,
+      "first_name": "Alf Magne",
+      "last_name": "Strømland",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": ""
+    },
+    {
+      "position": 37,
+      "match_percentage": 22.1,
+      "match_points": 103.5282,
+      "first_name": "Siv",
+      "last_name": "Vesterhus",
+      "division": "Open-",
+      "category": [
+        "L"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "Gyland Pistolklubb"
+    }
+  ]
+}

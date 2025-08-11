@@ -1,0 +1,605 @@
+{
+  "match_id": 23097,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/23097/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/23097/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/23097/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/23097/div/hg12/",
+      "name": "Classic"
+    },
+    {
+      "url": "/ipsc/results/match/23097/div/hg18/",
+      "name": "Production Optics"
+    },
+    {
+      "url": "/ipsc/results/match/23097/div/hg30/",
+      "name": "Pistol Caliber Carbine Optics"
+    }
+  ],
+  "match_url": "/event/22/23097/",
+  "match_title": "Vinter No.1 - results",
+  "match_level": "Level II",
+  "match_date": "2025-03-22T10:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 485.0966,
+      "first_name": "Mads - Robin",
+      "last_name": "Johannessen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "StorFSK"
+    },
+    {
+      "position": 2,
+      "match_percentage": 87.85,
+      "match_points": 426.1528,
+      "first_name": "Niklas",
+      "last_name": "Vik",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mrvik",
+      "club": "Lxssf"
+    },
+    {
+      "position": 3,
+      "match_percentage": 87.53,
+      "match_points": 424.582,
+      "first_name": "Niklas",
+      "last_name": "Vik",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "mrvik",
+      "club": "Lxssf"
+    },
+    {
+      "position": 4,
+      "match_percentage": 84.65,
+      "match_points": 410.6105,
+      "first_name": "Jörgen",
+      "last_name": "Ömalm",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "sj1640",
+      "club": "NLSC"
+    },
+    {
+      "position": 5,
+      "match_percentage": 83.13,
+      "match_points": 403.2638,
+      "first_name": "Kris Ole",
+      "last_name": "Henriksen",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ollie",
+      "club": "Nsk"
+    },
+    {
+      "position": 6,
+      "match_percentage": 76.11,
+      "match_points": 369.1968,
+      "first_name": "Kent",
+      "last_name": "Säker",
+      "division": "Production Optics-",
+      "category": [
+        "SS"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LXSSF"
+    },
+    {
+      "position": 7,
+      "match_percentage": 73.24,
+      "match_points": 355.2857,
+      "first_name": "Kris Ole",
+      "last_name": "Henriksen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "ollie",
+      "club": "Nsk"
+    },
+    {
+      "position": 8,
+      "match_percentage": 73.13,
+      "match_points": 354.7404,
+      "first_name": "Filip",
+      "last_name": "Jakobsson",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LXSSF"
+    },
+    {
+      "position": 9,
+      "match_percentage": 72.44,
+      "match_points": 351.4128,
+      "first_name": "Patrik",
+      "last_name": "Esberg",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LSSF"
+    },
+    {
+      "position": 10,
+      "match_percentage": 72.41,
+      "match_points": 351.2349,
+      "first_name": "Daniel",
+      "last_name": "Kling",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "NPK/DSS"
+    },
+    {
+      "position": 11,
+      "match_percentage": 69.29,
+      "match_points": 336.1399,
+      "first_name": "Axel",
+      "last_name": "Rönquist",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "axelr",
+      "club": "NLSC"
+    },
+    {
+      "position": 12,
+      "match_percentage": 68.75,
+      "match_points": 333.5097,
+      "first_name": "Axel",
+      "last_name": "Rönquist",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "axelr",
+      "club": "NLSC"
+    },
+    {
+      "position": 13,
+      "match_percentage": 66.1,
+      "match_points": 320.6402,
+      "first_name": "Magnus",
+      "last_name": "Pudas",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laxforsen SSF"
+    },
+    {
+      "position": 14,
+      "match_percentage": 66.08,
+      "match_points": 320.5491,
+      "first_name": "Lars-Johan",
+      "last_name": "Dalhägg",
+      "division": "Production Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LXSSF"
+    },
+    {
+      "position": 15,
+      "match_percentage": 65.87,
+      "match_points": 319.5495,
+      "first_name": "Aleksander",
+      "last_name": "Enoksen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "axe",
+      "club": "IDS"
+    },
+    {
+      "position": 16,
+      "match_percentage": 65.07,
+      "match_points": 315.647,
+      "first_name": "Albert",
+      "last_name": "Kaartokallio",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laxforsens SSF"
+    },
+    {
+      "position": 17,
+      "match_percentage": 65.06,
+      "match_points": 315.5802,
+      "first_name": "Simon",
+      "last_name": "Lind",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laxforsens SSF"
+    },
+    {
+      "position": 18,
+      "match_percentage": 62.18,
+      "match_points": 301.6246,
+      "first_name": "Lars-Johan",
+      "last_name": "Dalhägg",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LXSSF"
+    },
+    {
+      "position": 19,
+      "match_percentage": 60.77,
+      "match_points": 294.8015,
+      "first_name": "Niklas",
+      "last_name": "Dirland",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laxforsens ssf"
+    },
+    {
+      "position": 20,
+      "match_percentage": 59.04,
+      "match_points": 286.4234,
+      "first_name": "Albert",
+      "last_name": "Kaartokallio",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laxforsens SSF"
+    },
+    {
+      "position": 21,
+      "match_percentage": 58.57,
+      "match_points": 284.1202,
+      "first_name": "Filip",
+      "last_name": "Jakobsson",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LXSSF"
+    },
+    {
+      "position": 22,
+      "match_percentage": 55.62,
+      "match_points": 269.8077,
+      "first_name": "Daniel",
+      "last_name": "Hjelm",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Lxssf"
+    },
+    {
+      "position": 23,
+      "match_percentage": 51.16,
+      "match_points": 248.1638,
+      "first_name": "Daniel",
+      "last_name": "Hjelm",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Lxssf"
+    },
+    {
+      "position": 24,
+      "match_percentage": 48.15,
+      "match_points": 233.5617,
+      "first_name": "Jörgen",
+      "last_name": "Ömalm",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "sj1640",
+      "club": "NLSC"
+    },
+    {
+      "position": 25,
+      "match_percentage": 47.18,
+      "match_points": 228.8906,
+      "first_name": "Skule",
+      "last_name": "Karijord",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "StorFSK"
+    },
+    {
+      "position": 26,
+      "match_percentage": 47.03,
+      "match_points": 228.1174,
+      "first_name": "Simon",
+      "last_name": "Lind",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Laxforsens SSF"
+    },
+    {
+      "position": 27,
+      "match_percentage": 46.92,
+      "match_points": 227.6021,
+      "first_name": "Walter",
+      "last_name": "Hansen",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "StorFSK"
+    },
+    {
+      "position": 28,
+      "match_percentage": 46.33,
+      "match_points": 224.7693,
+      "first_name": "Ole-Richard",
+      "last_name": "Berntsen",
+      "division": "Open-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "orb",
+      "club": "Setermoen Sportsskytter Klubb"
+    },
+    {
+      "position": 29,
+      "match_percentage": 44.54,
+      "match_points": 216.0786,
+      "first_name": "Dan",
+      "last_name": "Danell",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Northern lights SC"
+    },
+    {
+      "position": 30,
+      "match_percentage": 44.19,
+      "match_points": 214.3578,
+      "first_name": "Martin",
+      "last_name": "Axelsson",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "axelsson",
+      "club": "NLSC"
+    },
+    {
+      "position": 31,
+      "match_percentage": 43.89,
+      "match_points": 212.9187,
+      "first_name": "Patrik",
+      "last_name": "Törmä",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "LXSSF"
+    },
+    {
+      "position": 32,
+      "match_percentage": 42.22,
+      "match_points": 204.8091,
+      "first_name": "Saane",
+      "last_name": "Berntsen",
+      "division": "Production Optics-",
+      "category": [
+        "J"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "",
+      "club": "SSk"
+    },
+    {
+      "position": 33,
+      "match_percentage": 38.17,
+      "match_points": 185.1823,
+      "first_name": "Henrik",
+      "last_name": "Hultman",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Lssf"
+    },
+    {
+      "position": 34,
+      "match_percentage": 37.69,
+      "match_points": 182.8282,
+      "first_name": "Lukas",
+      "last_name": "Westerlund",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "",
+      "club": "Ads"
+    },
+    {
+      "position": 35,
+      "match_percentage": 37.02,
+      "match_points": 179.5851,
+      "first_name": "Geir K",
+      "last_name": "Hansen",
+      "division": "Pistol Caliber Carbine Optics-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "g1eye",
+      "club": "Nsk"
+    },
+    {
+      "position": 36,
+      "match_percentage": 36.57,
+      "match_points": 177.3773,
+      "first_name": "Geir K",
+      "last_name": "Hansen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "g1eye",
+      "club": "Nsk"
+    },
+    {
+      "position": 37,
+      "match_percentage": 27.39,
+      "match_points": 132.8837,
+      "first_name": "Daniel",
+      "last_name": "Westerlund",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "SWE",
+      "classification": "U",
+      "alias": "dannusw",
+      "club": "ADS"
+    },
+    {
+      "position": 38,
+      "match_percentage": 9.94,
+      "match_points": 48.2239,
+      "first_name": "Tore",
+      "last_name": "Riise",
+      "division": "Production Optics-",
+      "category": [
+        "-"
+      ],
+      "region": "NOR",
+      "classification": "U",
+      "alias": "triise",
+      "club": "Setermoen SSK"
+    }
+  ]
+}

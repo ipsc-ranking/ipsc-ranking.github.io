@@ -1,0 +1,2296 @@
+{
+  "match_id": 2540,
+  "divisions": [
+    {
+      "url": "/ipsc/results/match/2540/div/hg1/",
+      "name": "Open"
+    },
+    {
+      "url": "/ipsc/results/match/2540/div/hg2/",
+      "name": "Standard"
+    },
+    {
+      "url": "/ipsc/results/match/2540/div/hg3/",
+      "name": "Production"
+    },
+    {
+      "url": "/ipsc/results/match/2540/div/hg5/",
+      "name": "Revolver"
+    },
+    {
+      "url": "/ipsc/results/match/2540/div/hg12/",
+      "name": "Classic"
+    }
+  ],
+  "match_url": "/event/22/2540/",
+  "match_title": "Haur Finncup 2015 - results",
+  "match_level": "Level II",
+  "match_date": "2015-08-23T08:00:00",
+  "combined_results": [
+    {
+      "position": 1,
+      "match_percentage": 100.0,
+      "match_points": 628.6038,
+      "first_name": "Tony",
+      "last_name": "Ruohonen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "446",
+      "club": "SäSA"
+    },
+    {
+      "position": 2,
+      "match_percentage": 93.08,
+      "match_points": 585.0908,
+      "first_name": "Pentti",
+      "last_name": "Vainio",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3124",
+      "club": "KSA"
+    },
+    {
+      "position": 3,
+      "match_percentage": 90.46,
+      "match_points": 568.6593,
+      "first_name": "Esa",
+      "last_name": "Marjoniemi",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1195",
+      "club": "KSA"
+    },
+    {
+      "position": 4,
+      "match_percentage": 89.18,
+      "match_points": 560.5909,
+      "first_name": "Tomi",
+      "last_name": "Nyman",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "763",
+      "club": "SSG"
+    },
+    {
+      "position": 5,
+      "match_percentage": 83.26,
+      "match_points": 523.3537,
+      "first_name": "Pekka",
+      "last_name": "Pietikäinen",
+      "division": "Open-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "382",
+      "club": "SSG"
+    },
+    {
+      "position": 6,
+      "match_percentage": 80.55,
+      "match_points": 506.3625,
+      "first_name": "Iiro",
+      "last_name": "Vanne",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3240",
+      "club": "Porkkalan Ampujat"
+    },
+    {
+      "position": 7,
+      "match_percentage": 79.08,
+      "match_points": 497.0871,
+      "first_name": "Jani",
+      "last_name": "Antikainen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3420",
+      "club": "KSA"
+    },
+    {
+      "position": 8,
+      "match_percentage": 77.92,
+      "match_points": 489.8304,
+      "first_name": "Mikko",
+      "last_name": "Kuisma",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1753",
+      "club": "LaSa"
+    },
+    {
+      "position": 9,
+      "match_percentage": 76.91,
+      "match_points": 483.4527,
+      "first_name": "Mikael",
+      "last_name": "Hakkarainen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3093",
+      "club": "HAUR"
+    },
+    {
+      "position": 10,
+      "match_percentage": 76.16,
+      "match_points": 478.716,
+      "first_name": "Timo",
+      "last_name": "Korhonen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3421",
+      "club": "KSA"
+    },
+    {
+      "position": 11,
+      "match_percentage": 75.67,
+      "match_points": 475.6782,
+      "first_name": "Marko",
+      "last_name": "Ahonen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3365",
+      "club": "HVA"
+    },
+    {
+      "position": 12,
+      "match_percentage": 75.5,
+      "match_points": 474.6127,
+      "first_name": "Marika",
+      "last_name": "Koskinen",
+      "division": "Open+",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3431",
+      "club": "KSA"
+    },
+    {
+      "position": 13,
+      "match_percentage": 74.65,
+      "match_points": 469.2696,
+      "first_name": "Vesa",
+      "last_name": "Pulli",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "993",
+      "club": "SSG"
+    },
+    {
+      "position": 14,
+      "match_percentage": 74.09,
+      "match_points": 465.7402,
+      "first_name": "Vesa",
+      "last_name": "Kaunisto",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "904",
+      "club": "KaPra"
+    },
+    {
+      "position": 15,
+      "match_percentage": 72.54,
+      "match_points": 455.999,
+      "first_name": "Kari",
+      "last_name": "Kivistö",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3794",
+      "club": "Lempäälän Ampujat"
+    },
+    {
+      "position": 16,
+      "match_percentage": 71.46,
+      "match_points": 449.1746,
+      "first_name": "Ville",
+      "last_name": "Broman",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3424",
+      "club": "LaSa"
+    },
+    {
+      "position": 17,
+      "match_percentage": 70.24,
+      "match_points": 441.5021,
+      "first_name": "Kai",
+      "last_name": "Turunen",
+      "division": "Open+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "276",
+      "club": "SSG"
+    },
+    {
+      "position": 18,
+      "match_percentage": 69.46,
+      "match_points": 436.6153,
+      "first_name": "Jarno",
+      "last_name": "Paussu",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2983",
+      "club": "WS"
+    },
+    {
+      "position": 19,
+      "match_percentage": 69.41,
+      "match_points": 436.3138,
+      "first_name": "Esa",
+      "last_name": "Blom",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "M",
+      "alias": "3184",
+      "club": "vs-va"
+    },
+    {
+      "position": 20,
+      "match_percentage": 68.62,
+      "match_points": 431.3494,
+      "first_name": "Antero",
+      "last_name": "Keltto",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3281",
+      "club": "pop"
+    },
+    {
+      "position": 21,
+      "match_percentage": 68.61,
+      "match_points": 431.3024,
+      "first_name": "Jussi",
+      "last_name": "Lehto",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1841",
+      "club": "SSG"
+    },
+    {
+      "position": 22,
+      "match_percentage": 68.02,
+      "match_points": 427.5455,
+      "first_name": "Niklas",
+      "last_name": "Laurin",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1857",
+      "club": "West Shooters"
+    },
+    {
+      "position": 23,
+      "match_percentage": 66.1,
+      "match_points": 415.5069,
+      "first_name": "Jari",
+      "last_name": "Tiilikka",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "948",
+      "club": "UAY"
+    },
+    {
+      "position": 24,
+      "match_percentage": 65.8,
+      "match_points": 413.6401,
+      "first_name": "Heikki",
+      "last_name": "Koivisto",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1771",
+      "club": "PoP"
+    },
+    {
+      "position": 25,
+      "match_percentage": 65.57,
+      "match_points": 412.1939,
+      "first_name": "Juha",
+      "last_name": "Toivola",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4974",
+      "club": "HyMAS"
+    },
+    {
+      "position": 26,
+      "match_percentage": 65.37,
+      "match_points": 410.915,
+      "first_name": "Antti-Ville",
+      "last_name": "Uusimäki",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1845",
+      "club": "PAS"
+    },
+    {
+      "position": 27,
+      "match_percentage": 65.36,
+      "match_points": 410.8554,
+      "first_name": "Alexey",
+      "last_name": "Fedotov",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "",
+      "club": "Koiru LSK"
+    },
+    {
+      "position": 28,
+      "match_percentage": 65.18,
+      "match_points": 409.6926,
+      "first_name": "markus",
+      "last_name": "isoaho",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1103",
+      "club": "KSA"
+    },
+    {
+      "position": 29,
+      "match_percentage": 64.9,
+      "match_points": 407.9698,
+      "first_name": "Hannu",
+      "last_name": "Maunula",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "A",
+      "alias": "066",
+      "club": "VS-VA"
+    },
+    {
+      "position": 30,
+      "match_percentage": 64.18,
+      "match_points": 403.4593,
+      "first_name": "Antti",
+      "last_name": "Leivonen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3761",
+      "club": "ATCS"
+    },
+    {
+      "position": 31,
+      "match_percentage": 64.03,
+      "match_points": 402.4806,
+      "first_name": "Jani",
+      "last_name": "Reiman",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4749",
+      "club": ""
+    },
+    {
+      "position": 32,
+      "match_percentage": 62.68,
+      "match_points": 394.0039,
+      "first_name": "Riku",
+      "last_name": "Kalinen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1717",
+      "club": "PAS"
+    },
+    {
+      "position": 33,
+      "match_percentage": 62.09,
+      "match_points": 390.2716,
+      "first_name": "Teemu",
+      "last_name": "Toppila",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3722",
+      "club": "HVA"
+    },
+    {
+      "position": 34,
+      "match_percentage": 62.04,
+      "match_points": 390.0068,
+      "first_name": "Petteri",
+      "last_name": "Piepponen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2237",
+      "club": "HAUR"
+    },
+    {
+      "position": 35,
+      "match_percentage": 61.02,
+      "match_points": 383.5616,
+      "first_name": "Rami",
+      "last_name": "Vuorinen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1667",
+      "club": "SäSa"
+    },
+    {
+      "position": 36,
+      "match_percentage": 60.26,
+      "match_points": 378.8047,
+      "first_name": "Riku",
+      "last_name": "Kärnä",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4304",
+      "club": "PAS"
+    },
+    {
+      "position": 37,
+      "match_percentage": 59.84,
+      "match_points": 376.1751,
+      "first_name": "Petrus",
+      "last_name": "Murola",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3332",
+      "club": "Hmlas"
+    },
+    {
+      "position": 38,
+      "match_percentage": 59.21,
+      "match_points": 372.1674,
+      "first_name": "juha",
+      "last_name": "poikolainen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2538",
+      "club": "ksa"
+    },
+    {
+      "position": 39,
+      "match_percentage": 59.19,
+      "match_points": 372.101,
+      "first_name": "Jarkko",
+      "last_name": "Halkio",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2769",
+      "club": "LL"
+    },
+    {
+      "position": 40,
+      "match_percentage": 59.16,
+      "match_points": 371.8795,
+      "first_name": "Kari",
+      "last_name": "Heino",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4938",
+      "club": "LEA"
+    },
+    {
+      "position": 41,
+      "match_percentage": 59.05,
+      "match_points": 371.2124,
+      "first_name": "Jere",
+      "last_name": "Hakanen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "B",
+      "alias": "2941",
+      "club": "Haur"
+    },
+    {
+      "position": 42,
+      "match_percentage": 59.04,
+      "match_points": 371.1013,
+      "first_name": "Jyri-Pekka",
+      "last_name": "Tähtinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "279",
+      "club": "PorkkA"
+    },
+    {
+      "position": 43,
+      "match_percentage": 58.9,
+      "match_points": 370.2545,
+      "first_name": "Sami",
+      "last_name": "Koivunen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4495",
+      "club": "HVA"
+    },
+    {
+      "position": 44,
+      "match_percentage": 58.28,
+      "match_points": 366.3225,
+      "first_name": "Tero",
+      "last_name": "Ojaranta",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4513",
+      "club": "Salon Seudun Ampujat ry (SaSA)"
+    },
+    {
+      "position": 45,
+      "match_percentage": 58.23,
+      "match_points": 366.0255,
+      "first_name": "Kenny",
+      "last_name": "Lee",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3330",
+      "club": "LeA"
+    },
+    {
+      "position": 46,
+      "match_percentage": 58.15,
+      "match_points": 365.5508,
+      "first_name": "Antti",
+      "last_name": "Saikko",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4586",
+      "club": "Lappeenrannan Siluettiampujat ry"
+    },
+    {
+      "position": 47,
+      "match_percentage": 58.11,
+      "match_points": 365.2971,
+      "first_name": "Eero",
+      "last_name": "Tahvanainen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3976",
+      "club": "Lappeenrannan Siluettiampujat ry"
+    },
+    {
+      "position": 48,
+      "match_percentage": 57.66,
+      "match_points": 362.4547,
+      "first_name": "antti",
+      "last_name": "aapro",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3547",
+      "club": "SSG"
+    },
+    {
+      "position": 49,
+      "match_percentage": 57.59,
+      "match_points": 362.0354,
+      "first_name": "Petri",
+      "last_name": "Kinnunen",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3473",
+      "club": "HAUR"
+    },
+    {
+      "position": 50,
+      "match_percentage": 57.02,
+      "match_points": 358.403,
+      "first_name": "Vesa-Matti",
+      "last_name": "Mäkinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4255",
+      "club": "VirtA"
+    },
+    {
+      "position": 51,
+      "match_percentage": 56.49,
+      "match_points": 355.1234,
+      "first_name": "Lauri",
+      "last_name": "Jantunen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4916",
+      "club": "HVA"
+    },
+    {
+      "position": 52,
+      "match_percentage": 56.08,
+      "match_points": 352.49,
+      "first_name": "Janne",
+      "last_name": "Poikolainen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2537",
+      "club": "SSG"
+    },
+    {
+      "position": 53,
+      "match_percentage": 56.04,
+      "match_points": 352.2588,
+      "first_name": "Jaakko",
+      "last_name": "Hyvätti",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3245",
+      "club": "Haukilahden urheiluampujat HAUR"
+    },
+    {
+      "position": 54,
+      "match_percentage": 55.69,
+      "match_points": 350.0444,
+      "first_name": "Niilo",
+      "last_name": "Tiili",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4159",
+      "club": "PORKKA"
+    },
+    {
+      "position": 55,
+      "match_percentage": 55.23,
+      "match_points": 347.2008,
+      "first_name": "Janne",
+      "last_name": "Hulikkala",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2145",
+      "club": "ssg"
+    },
+    {
+      "position": 56,
+      "match_percentage": 54.5,
+      "match_points": 342.5982,
+      "first_name": "Hannu",
+      "last_name": "Appelsiin",
+      "division": "Classic+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1518",
+      "club": "Tipsc"
+    },
+    {
+      "position": 57,
+      "match_percentage": 54.49,
+      "match_points": 342.4962,
+      "first_name": "Tapani",
+      "last_name": "Niemi",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "B",
+      "alias": "1060",
+      "club": "VirtA"
+    },
+    {
+      "position": 58,
+      "match_percentage": 53.87,
+      "match_points": 338.6541,
+      "first_name": "Timo",
+      "last_name": "Yli-Hemmo",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4148",
+      "club": ""
+    },
+    {
+      "position": 59,
+      "match_percentage": 53.75,
+      "match_points": 337.8903,
+      "first_name": "Aki",
+      "last_name": "Pakka",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2415",
+      "club": "Vs/Va"
+    },
+    {
+      "position": 60,
+      "match_percentage": 53.61,
+      "match_points": 336.9882,
+      "first_name": "Janne",
+      "last_name": "Väliahdet",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4162",
+      "club": "Hymas"
+    },
+    {
+      "position": 61,
+      "match_percentage": 53.47,
+      "match_points": 336.1373,
+      "first_name": "Jouni",
+      "last_name": "Yläjärvi",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "B",
+      "alias": "694",
+      "club": "VirtA"
+    },
+    {
+      "position": 62,
+      "match_percentage": 53.26,
+      "match_points": 334.7915,
+      "first_name": "Marko",
+      "last_name": "Helatie",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3138",
+      "club": "HeiA"
+    },
+    {
+      "position": 63,
+      "match_percentage": 52.8,
+      "match_points": 331.905,
+      "first_name": "Jarkko",
+      "last_name": "Iikkola",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2428",
+      "club": "SSG"
+    },
+    {
+      "position": 64,
+      "match_percentage": 52.73,
+      "match_points": 331.4942,
+      "first_name": "Jouni",
+      "last_name": "Pehkonen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4741",
+      "club": "HAUR"
+    },
+    {
+      "position": 65,
+      "match_percentage": 52.54,
+      "match_points": 330.2634,
+      "first_name": "Veli-Matti",
+      "last_name": "Järvinen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2381",
+      "club": "PorkkA"
+    },
+    {
+      "position": 66,
+      "match_percentage": 51.78,
+      "match_points": 325.4708,
+      "first_name": "Mika",
+      "last_name": "Mäkinen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2820",
+      "club": "Nokian Seudun Ampujat"
+    },
+    {
+      "position": 67,
+      "match_percentage": 51.4,
+      "match_points": 323.117,
+      "first_name": "Timo",
+      "last_name": "Mikkonen",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1049",
+      "club": "HVA"
+    },
+    {
+      "position": 68,
+      "match_percentage": 50.69,
+      "match_points": 318.6427,
+      "first_name": "Panu",
+      "last_name": "Rautiainen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4428",
+      "club": "KaPrA"
+    },
+    {
+      "position": 69,
+      "match_percentage": 50.35,
+      "match_points": 316.5013,
+      "first_name": "Janina",
+      "last_name": "Annala",
+      "division": "Standard+",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3001",
+      "club": "KouMAS"
+    },
+    {
+      "position": 70,
+      "match_percentage": 50.35,
+      "match_points": 316.4863,
+      "first_name": "Juha",
+      "last_name": "Vainio",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4953",
+      "club": "KSA"
+    },
+    {
+      "position": 71,
+      "match_percentage": 50.3,
+      "match_points": 316.1955,
+      "first_name": "Jarno",
+      "last_name": "Yli-Kankahila",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4803",
+      "club": "KarkkA"
+    },
+    {
+      "position": 72,
+      "match_percentage": 49.56,
+      "match_points": 311.5394,
+      "first_name": "Kimmo",
+      "last_name": "Malmborg",
+      "division": "Classic+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "878",
+      "club": "HAUR"
+    },
+    {
+      "position": 73,
+      "match_percentage": 49.22,
+      "match_points": 309.4045,
+      "first_name": "Vesa",
+      "last_name": "Rantasalo",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4514",
+      "club": "Heinolan Ampujat ry"
+    },
+    {
+      "position": 74,
+      "match_percentage": 49.2,
+      "match_points": 309.2588,
+      "first_name": "Jukka",
+      "last_name": "Kanniainen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4103",
+      "club": "JURY"
+    },
+    {
+      "position": 75,
+      "match_percentage": 49.0,
+      "match_points": 308.0227,
+      "first_name": "Elmeri",
+      "last_name": "Kallio",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4727",
+      "club": "VirtA"
+    },
+    {
+      "position": 76,
+      "match_percentage": 48.78,
+      "match_points": 306.6209,
+      "first_name": "Aki",
+      "last_name": "Raitanen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4146",
+      "club": "NOSA"
+    },
+    {
+      "position": 77,
+      "match_percentage": 48.64,
+      "match_points": 305.7416,
+      "first_name": "Heikki",
+      "last_name": "Vine",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3695",
+      "club": "Loimaan laukojat"
+    },
+    {
+      "position": 78,
+      "match_percentage": 48.55,
+      "match_points": 305.1961,
+      "first_name": "Teemu",
+      "last_name": "Makkonen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4672",
+      "club": "Helsingin Varuskunnan ampujat Ry"
+    },
+    {
+      "position": 79,
+      "match_percentage": 48.47,
+      "match_points": 304.7031,
+      "first_name": "Perttu",
+      "last_name": "Turku",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4010",
+      "club": "PorkkA"
+    },
+    {
+      "position": 80,
+      "match_percentage": 47.66,
+      "match_points": 299.5973,
+      "first_name": "Mauri",
+      "last_name": "Sevola",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3631",
+      "club": "VS-VA"
+    },
+    {
+      "position": 81,
+      "match_percentage": 47.54,
+      "match_points": 298.8497,
+      "first_name": "Mikko",
+      "last_name": "Lehto",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1318",
+      "club": "TIPSC"
+    },
+    {
+      "position": 82,
+      "match_percentage": 47.49,
+      "match_points": 298.5086,
+      "first_name": "Heimo",
+      "last_name": "Helokunnas",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1185",
+      "club": "SSG"
+    },
+    {
+      "position": 83,
+      "match_percentage": 46.85,
+      "match_points": 294.4859,
+      "first_name": "Aki",
+      "last_name": "Peltonen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3515",
+      "club": "Haukilahden urheiluampujat HAUR"
+    },
+    {
+      "position": 84,
+      "match_percentage": 46.61,
+      "match_points": 293.0086,
+      "first_name": "Jusa",
+      "last_name": "Niskanen",
+      "division": "Open-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4994",
+      "club": "Kapra"
+    },
+    {
+      "position": 85,
+      "match_percentage": 46.33,
+      "match_points": 291.2207,
+      "first_name": "Tapani",
+      "last_name": "Lokka",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1344",
+      "club": "Jury"
+    },
+    {
+      "position": 86,
+      "match_percentage": 46.25,
+      "match_points": 290.7468,
+      "first_name": "Aino",
+      "last_name": "Oikari",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4434",
+      "club": "PAS"
+    },
+    {
+      "position": 87,
+      "match_percentage": 45.81,
+      "match_points": 287.9626,
+      "first_name": "Petteri",
+      "last_name": "Heinonen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "D",
+      "alias": "4444",
+      "club": "Karkka"
+    },
+    {
+      "position": 88,
+      "match_percentage": 45.62,
+      "match_points": 286.783,
+      "first_name": "Jari",
+      "last_name": "Salmela",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4111",
+      "club": "JURY"
+    },
+    {
+      "position": 89,
+      "match_percentage": 45.58,
+      "match_points": 286.5454,
+      "first_name": "Raimo",
+      "last_name": "Selen",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "484",
+      "club": "Haur"
+    },
+    {
+      "position": 90,
+      "match_percentage": 45.57,
+      "match_points": 286.4861,
+      "first_name": "Matti",
+      "last_name": "Loukkola",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4839",
+      "club": "HAUR"
+    },
+    {
+      "position": 91,
+      "match_percentage": 44.76,
+      "match_points": 281.3476,
+      "first_name": "Jani",
+      "last_name": "Paasovaara",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "4248",
+      "club": "Helsingin Varuskunnan Ampujat ry"
+    },
+    {
+      "position": 92,
+      "match_percentage": 44.25,
+      "match_points": 278.1281,
+      "first_name": "Mika",
+      "last_name": "Riihimaa",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2410",
+      "club": "HAUR"
+    },
+    {
+      "position": 93,
+      "match_percentage": 43.96,
+      "match_points": 276.3599,
+      "first_name": "Timo",
+      "last_name": "Konttinen",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "4128",
+      "club": "PAS"
+    },
+    {
+      "position": 94,
+      "match_percentage": 43.96,
+      "match_points": 276.3198,
+      "first_name": "Pasi",
+      "last_name": "Niikkonen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4679",
+      "club": "KaPra"
+    },
+    {
+      "position": 95,
+      "match_percentage": 43.83,
+      "match_points": 275.4937,
+      "first_name": "Petteri",
+      "last_name": "Salo",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4193",
+      "club": "PorkkA"
+    },
+    {
+      "position": 96,
+      "match_percentage": 43.75,
+      "match_points": 274.9944,
+      "first_name": "Tero",
+      "last_name": "Pietilä",
+      "division": "Revolver+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2432",
+      "club": "HAUR"
+    },
+    {
+      "position": 97,
+      "match_percentage": 43.66,
+      "match_points": 274.4429,
+      "first_name": "Henri",
+      "last_name": "Sipilä",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4794",
+      "club": "West Shooters"
+    },
+    {
+      "position": 98,
+      "match_percentage": 43.55,
+      "match_points": 273.7735,
+      "first_name": "Petri",
+      "last_name": "Piili",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4750",
+      "club": "LeA"
+    },
+    {
+      "position": 99,
+      "match_percentage": 43.33,
+      "match_points": 272.3897,
+      "first_name": "Seppo",
+      "last_name": "Koponen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "4446",
+      "club": "KarkkA"
+    },
+    {
+      "position": 100,
+      "match_percentage": 43.03,
+      "match_points": 270.4833,
+      "first_name": "Markku",
+      "last_name": "Jaaranen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3346",
+      "club": "HAUR"
+    },
+    {
+      "position": 101,
+      "match_percentage": 42.93,
+      "match_points": 269.8785,
+      "first_name": "Hannu",
+      "last_name": "Veijalainen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4743",
+      "club": "Haur"
+    },
+    {
+      "position": 102,
+      "match_percentage": 42.5,
+      "match_points": 267.1786,
+      "first_name": "Sofia",
+      "last_name": "Kirsimaa",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "EST",
+      "classification": "U",
+      "alias": "kirsimaa",
+      "club": "Alpha"
+    },
+    {
+      "position": 103,
+      "match_percentage": 42.33,
+      "match_points": 266.0823,
+      "first_name": "Marko",
+      "last_name": "Alatalo",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "4804",
+      "club": "Porkkalan Ampujat ry."
+    },
+    {
+      "position": 104,
+      "match_percentage": 42.22,
+      "match_points": 265.3686,
+      "first_name": "Matti",
+      "last_name": "Juntunen",
+      "division": "Revolver+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "A",
+      "alias": "2942",
+      "club": "HAUR"
+    },
+    {
+      "position": 105,
+      "match_percentage": 41.91,
+      "match_points": 263.4508,
+      "first_name": "Isto",
+      "last_name": "Lehtinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3082",
+      "club": "Karkkilan Ampujat ry"
+    },
+    {
+      "position": 106,
+      "match_percentage": 41.64,
+      "match_points": 261.7748,
+      "first_name": "ville",
+      "last_name": "pasila",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3931",
+      "club": "HeiA"
+    },
+    {
+      "position": 107,
+      "match_percentage": 41.28,
+      "match_points": 259.4674,
+      "first_name": "Marko",
+      "last_name": "Yli-Paavola",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4740",
+      "club": "HAUR"
+    },
+    {
+      "position": 108,
+      "match_percentage": 41.22,
+      "match_points": 259.125,
+      "first_name": "Mikael",
+      "last_name": "Kaihola",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1113",
+      "club": "HeiA"
+    },
+    {
+      "position": 109,
+      "match_percentage": 40.6,
+      "match_points": 255.2056,
+      "first_name": "Emily",
+      "last_name": "Blom",
+      "division": "Production-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4885",
+      "club": "vs-va"
+    },
+    {
+      "position": 110,
+      "match_percentage": 40.21,
+      "match_points": 252.7754,
+      "first_name": "Mikko",
+      "last_name": "Räfsten",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4339",
+      "club": "HyMas"
+    },
+    {
+      "position": 111,
+      "match_percentage": 40.2,
+      "match_points": 252.6977,
+      "first_name": "Sauli",
+      "last_name": "Painilainen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "4007",
+      "club": "HyMAS"
+    },
+    {
+      "position": 112,
+      "match_percentage": 39.65,
+      "match_points": 249.2521,
+      "first_name": "Timo",
+      "last_name": "Vilen",
+      "division": "Revolver+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "M",
+      "alias": "0728",
+      "club": "PorkkA"
+    },
+    {
+      "position": 113,
+      "match_percentage": 39.54,
+      "match_points": 248.5784,
+      "first_name": "Patrik",
+      "last_name": "Relander",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3109",
+      "club": "TIPSC"
+    },
+    {
+      "position": 114,
+      "match_percentage": 39.02,
+      "match_points": 245.2618,
+      "first_name": "Janne",
+      "last_name": "Raudaskoski",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3479",
+      "club": "HAUR"
+    },
+    {
+      "position": 115,
+      "match_percentage": 38.43,
+      "match_points": 241.5958,
+      "first_name": "Toni",
+      "last_name": "Koljonen",
+      "division": "Classic-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4206",
+      "club": "KSA"
+    },
+    {
+      "position": 116,
+      "match_percentage": 38.38,
+      "match_points": 241.2501,
+      "first_name": "Sami",
+      "last_name": "Miettinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4667",
+      "club": "HVA"
+    },
+    {
+      "position": 117,
+      "match_percentage": 38.15,
+      "match_points": 239.7869,
+      "first_name": "Esa",
+      "last_name": "Jalonen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4671",
+      "club": "HVA"
+    },
+    {
+      "position": 118,
+      "match_percentage": 38.05,
+      "match_points": 239.2047,
+      "first_name": "Tommi",
+      "last_name": "Laitinen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4154",
+      "club": "West Shooters"
+    },
+    {
+      "position": 119,
+      "match_percentage": 37.94,
+      "match_points": 238.4868,
+      "first_name": "Toni",
+      "last_name": "Salminen",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3376",
+      "club": "Järvenpään Urheiluampujat"
+    },
+    {
+      "position": 120,
+      "match_percentage": 37.86,
+      "match_points": 237.9732,
+      "first_name": "Jari",
+      "last_name": "Tuominen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4236",
+      "club": "SSG"
+    },
+    {
+      "position": 121,
+      "match_percentage": 37.51,
+      "match_points": 235.7947,
+      "first_name": "jukka",
+      "last_name": "viljamaa",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "4161",
+      "club": "west shooters"
+    },
+    {
+      "position": 122,
+      "match_percentage": 37.45,
+      "match_points": 235.4295,
+      "first_name": "Kimmo",
+      "last_name": "Mäkinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3371",
+      "club": "JuRy"
+    },
+    {
+      "position": 123,
+      "match_percentage": 37.45,
+      "match_points": 235.3829,
+      "first_name": "Timo",
+      "last_name": "Niskanen",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1986",
+      "club": "Heinolan ampujat (HeiA)"
+    },
+    {
+      "position": 124,
+      "match_percentage": 36.7,
+      "match_points": 230.7287,
+      "first_name": "Antti",
+      "last_name": "Otsamo",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "C",
+      "alias": "2287",
+      "club": "HAUR"
+    },
+    {
+      "position": 125,
+      "match_percentage": 36.07,
+      "match_points": 226.7319,
+      "first_name": "Pasi",
+      "last_name": "Kesäniemi",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4692",
+      "club": "Porkkalan Ampujat"
+    },
+    {
+      "position": 126,
+      "match_percentage": 35.29,
+      "match_points": 221.8052,
+      "first_name": "Tero",
+      "last_name": "Hokkanen",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3956",
+      "club": "Haur"
+    },
+    {
+      "position": 127,
+      "match_percentage": 34.58,
+      "match_points": 217.3516,
+      "first_name": "Arto",
+      "last_name": "Santala",
+      "division": "Classic+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "D",
+      "alias": "4016",
+      "club": "Haukilahden Urheiluampujat"
+    },
+    {
+      "position": 128,
+      "match_percentage": 34.38,
+      "match_points": 216.088,
+      "first_name": "Risto",
+      "last_name": "Viitala",
+      "division": "Production-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4816",
+      "club": "VS-VA"
+    },
+    {
+      "position": 129,
+      "match_percentage": 34.06,
+      "match_points": 214.1066,
+      "first_name": "Kirsi",
+      "last_name": "Järvi",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4474",
+      "club": "SSG"
+    },
+    {
+      "position": 130,
+      "match_percentage": 33.97,
+      "match_points": 213.5621,
+      "first_name": "Tero",
+      "last_name": "Tuoriniemi",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4018",
+      "club": "HAUR"
+    },
+    {
+      "position": 131,
+      "match_percentage": 33.45,
+      "match_points": 210.2628,
+      "first_name": "Jarkko",
+      "last_name": "Kylmäniemi",
+      "division": "Open+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2771",
+      "club": "SaSA"
+    },
+    {
+      "position": 132,
+      "match_percentage": 33.08,
+      "match_points": 207.9305,
+      "first_name": "Mika",
+      "last_name": "Eloranta",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4891",
+      "club": "HAUR"
+    },
+    {
+      "position": 133,
+      "match_percentage": 32.56,
+      "match_points": 204.7018,
+      "first_name": "Kimmo",
+      "last_name": "Veijalainen",
+      "division": "Revolver+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3518",
+      "club": "HAUR"
+    },
+    {
+      "position": 134,
+      "match_percentage": 31.85,
+      "match_points": 200.2218,
+      "first_name": "Jyrki",
+      "last_name": "Enho",
+      "division": "Classic-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "D",
+      "alias": "4687",
+      "club": "PorkkA"
+    },
+    {
+      "position": 135,
+      "match_percentage": 31.65,
+      "match_points": 198.9584,
+      "first_name": "Heikki",
+      "last_name": "Mäkelä",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4730",
+      "club": "VirtA"
+    },
+    {
+      "position": 136,
+      "match_percentage": 31.53,
+      "match_points": 198.179,
+      "first_name": "Kimmo",
+      "last_name": "Kuusela",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4809",
+      "club": "JuRy"
+    },
+    {
+      "position": 137,
+      "match_percentage": 31.32,
+      "match_points": 196.8653,
+      "first_name": "Miia",
+      "last_name": "Sarvikivi",
+      "division": "Classic+",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3377",
+      "club": "Järvenpään urheiluampujat"
+    },
+    {
+      "position": 138,
+      "match_percentage": 30.88,
+      "match_points": 194.1416,
+      "first_name": "Johanna",
+      "last_name": "Herrala",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4690",
+      "club": "Porkkalan ampujat"
+    },
+    {
+      "position": 139,
+      "match_percentage": 30.55,
+      "match_points": 192.014,
+      "first_name": "Harri",
+      "last_name": "Niinivesi",
+      "division": "Standard-",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "2160",
+      "club": "Porkka"
+    },
+    {
+      "position": 140,
+      "match_percentage": 30.01,
+      "match_points": 188.6374,
+      "first_name": "Juha",
+      "last_name": "Sarametsä",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "3384",
+      "club": "TIPSC"
+    },
+    {
+      "position": 141,
+      "match_percentage": 29.56,
+      "match_points": 185.7854,
+      "first_name": "Toni",
+      "last_name": "Hirsimäki",
+      "division": "Standard+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4279",
+      "club": "HAUR"
+    },
+    {
+      "position": 142,
+      "match_percentage": 29.25,
+      "match_points": 183.8893,
+      "first_name": "tuomas",
+      "last_name": "vainio",
+      "division": "Standard+",
+      "category": [
+        "S"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "281",
+      "club": "Haur"
+    },
+    {
+      "position": 143,
+      "match_percentage": 29.21,
+      "match_points": 183.5949,
+      "first_name": "Lasse",
+      "last_name": "Manninen",
+      "division": "Revolver+",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "1766",
+      "club": "PorkkA"
+    },
+    {
+      "position": 144,
+      "match_percentage": 27.5,
+      "match_points": 172.8579,
+      "first_name": "Tiia",
+      "last_name": "Santala",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4894",
+      "club": "Haukilahden urheiluampujat"
+    },
+    {
+      "position": 145,
+      "match_percentage": 26.2,
+      "match_points": 164.6958,
+      "first_name": "Antti",
+      "last_name": "Turpeinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4893",
+      "club": "HAUR"
+    },
+    {
+      "position": 146,
+      "match_percentage": 25.23,
+      "match_points": 158.5768,
+      "first_name": "Andreas",
+      "last_name": "Nordmyr",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4817",
+      "club": "VS-VA"
+    },
+    {
+      "position": 147,
+      "match_percentage": 24.85,
+      "match_points": 156.1874,
+      "first_name": "Ari",
+      "last_name": "Tamminen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4888",
+      "club": "Haukilahden Urheiluampujat"
+    },
+    {
+      "position": 148,
+      "match_percentage": 23.82,
+      "match_points": 149.741,
+      "first_name": "Tomi",
+      "last_name": "Järvinen",
+      "division": "Standard-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4896",
+      "club": "HAUR"
+    },
+    {
+      "position": 149,
+      "match_percentage": 22.89,
+      "match_points": 143.8839,
+      "first_name": "Wille-Matti",
+      "last_name": "Mononen",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4889",
+      "club": "Haur"
+    },
+    {
+      "position": 150,
+      "match_percentage": 18.85,
+      "match_points": 118.522,
+      "first_name": "Esa",
+      "last_name": "Lammi",
+      "division": "Production-",
+      "category": [
+        "-"
+      ],
+      "region": "FIN",
+      "classification": "U",
+      "alias": "4196",
+      "club": "HVA"
+    },
+    {
+      "position": 151,
+      "match_percentage": 18.72,
+      "match_points": 117.6591,
+      "first_name": "Tuulikki",
+      "last_name": "Enho",
+      "division": "Standard-",
+      "category": [
+        "L"
+      ],
+      "region": "FIN",
+      "classification": "D",
+      "alias": "4688",
+      "club": "Porkkalan Ampujat"
+    }
+  ]
+}
