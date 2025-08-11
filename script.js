@@ -128,6 +128,7 @@ class IPSCRanking {
 class RankingPage {
     constructor() {
         this.currentDivision = null;
+        this.currentCategory = null;
         this.allPlayers = [];
         this.filteredPlayers = [];
         this.init();
@@ -135,6 +136,7 @@ class RankingPage {
 
     async init() {
         this.currentDivision = this.getDivisionFromURL();
+        this.currentCategory = this.getCategoryFromURL();
         if (!this.currentDivision) {
             window.location.href = 'index.html';
             return;
@@ -150,6 +152,11 @@ class RankingPage {
         return urlParams.get('division');
     }
 
+    getCategoryFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('category');
+    }
+
     updatePageTitle() {
         const divisions = {
             'combined': 'Kombinerad ranking',
@@ -162,23 +169,62 @@ class RankingPage {
             'pistol_caliber_carbine': 'Pistol Caliber Carbine'
         };
 
+        const categories = {
+            'junior': 'Junior',
+            'super_junior': 'Super Junior',
+            'senior': 'Senior',
+            'super_senior': 'Super Senior',
+            'grand_senior': 'Grand Senior',
+            'lady': 'Lady',
+            'lady_junior': 'Lady Junior',
+            'lady_senior': 'Lady Senior',
+            'lady_super_senior': 'Lady Super Senior',
+            'lady_grand_senior': 'Lady Grand Senior',
+            'international': 'International'
+        };
+
         const divisionName = divisions[this.currentDivision] || this.currentDivision;
-        document.title = `${divisionName} - Svenska IPSC Ranking`;
+        const categoryName = this.currentCategory ? categories[this.currentCategory] || this.currentCategory : null;
+        
+        let title = divisionName;
+        if (categoryName) {
+            title = `${divisionName} ${categoryName}`;
+        }
+        
+        document.title = `${title} - Svenska IPSC Ranking`;
         
         const titleElement = document.querySelector('.ranking-title');
         if (titleElement) {
-            titleElement.textContent = `${divisionName} Ranking`;
+            titleElement.textContent = `${title} Ranking`;
         }
     }
 
     async loadRankingData() {
         try {
-            const response = await fetch(`data/ipsc_ranking_${this.currentDivision}.json`);
+            // Construct filename based on division and category
+            let filename = `data/ipsc_ranking_${this.currentDivision}`;
+            if (this.currentCategory) {
+                filename += `_${this.currentCategory}`;
+            }
+            filename += '.json';
+            
+            const response = await fetch(filename);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             
             this.allPlayers = await response.json();
+            
+            // Filter out non-Swedish shooters for Swedish IPSC Ranking
+            this.allPlayers = this.allPlayers.filter(player => player.region === 'SWE');
+            
+            // For combined division, re-assign sequential ranks after filtering
+            if (this.currentDivision === 'combined') {
+                this.allPlayers.forEach((player, index) => {
+                    player.swedish_combined_rank = index + 1;
+                });
+            }
+            
             this.filteredPlayers = [...this.allPlayers];
             this.renderRankingTable();
             this.updateRankingInfo();
@@ -215,38 +261,100 @@ class RankingPage {
 
     renderRankingTable() {
         const tbody = document.querySelector('#ranking-table tbody');
+        const thead = document.querySelector('#ranking-table thead tr');
         if (!tbody) return;
+
+        // Update table header for combined division
+        if (thead && this.currentDivision === 'combined') {
+            thead.innerHTML = `
+                <th>Rank</th>
+                <th>Skytt</th>
+                <th>Division</th>
+                <th>Rating</th>
+                <th>% av bästa</th>
+                <th>Matcher</th>
+                <th>μ ± σ</th>
+            `;
+        } else if (thead && this.currentDivision !== 'combined') {
+            // Reset to normal header for non-combined divisions
+            thead.innerHTML = `
+                <th>Rank</th>
+                <th>Skytt</th>
+                <th>Rating</th>
+                <th>% av bästa</th>
+                <th>Matcher</th>
+                <th>μ ± σ</th>
+            `;
+        }
 
         tbody.innerHTML = '';
 
         this.filteredPlayers.forEach((player, index) => {
             const row = document.createElement('tr');
             
+            // For category views, use sequential ranking (1, 2, 3...)
+            // For division views, use appropriate rank field
+            let playerRank;
+            if (this.currentCategory) {
+                // Category view: use sequential ranking starting from 1
+                playerRank = index + 1;
+            } else if (this.currentDivision === 'combined') {
+                // Combined division: use swedish_combined_rank (assigned after filtering)
+                playerRank = player.swedish_combined_rank || (index + 1);
+            } else {
+                // Regular division view: use division_rank if available, otherwise use rank
+                playerRank = player.division_rank || player.rank;
+            }
+            
             // Determine rank class for top 3
             let rankClass = '';
-            if (player.division_rank === 1) rankClass = 'rank-1';
-            else if (player.division_rank === 2) rankClass = 'rank-2';
-            else if (player.division_rank === 3) rankClass = 'rank-3';
+            if (playerRank === 1) rankClass = 'rank-1';
+            else if (playerRank === 2) rankClass = 'rank-2';
+            else if (playerRank === 3) rankClass = 'rank-3';
 
-            row.innerHTML = `
-                <td><span class="rank-number ${rankClass}">${player.division_rank}</span></td>
-                <td>
-                    <div class="player-name">${player.first_name} ${player.last_name}</div>
-                    ${player.alias ? `<div class="player-alias">(${player.alias})</div>` : ''}
-                    <div class="player-region">${player.region}</div>
-                </td>
-                <td><span class="rating-value">${player.conservative_rating.toFixed(1)}</span></td>
-                <td>
-                    <div class="percentage-bar">
-                        <div class="percentage-bg">
-                            <div class="percentage-fill" style="width: ${player.percentage_of_best}%"></div>
+            // Build row HTML conditionally based on division
+            if (this.currentDivision === 'combined') {
+                row.innerHTML = `
+                    <td><span class="rank-number ${rankClass}">${playerRank}</span></td>
+                    <td>
+                        <div class="player-name">${player.first_name} ${player.last_name}</div>
+                        ${player.alias ? `<div class="player-alias">(${player.alias})</div>` : ''}
+                        <div class="player-region">${player.region}</div>
+                    </td>
+                    <td><span class="division-name">${player.division}</span></td>
+                    <td><span class="rating-value">${player.conservative_rating.toFixed(1)}</span></td>
+                    <td>
+                        <div class="percentage-bar">
+                            <div class="percentage-bg">
+                                <div class="percentage-fill" style="width: ${player.percentage_of_best}%"></div>
+                            </div>
+                            <span>${player.percentage_of_best.toFixed(1)}%</span>
                         </div>
-                        <span>${player.percentage_of_best.toFixed(1)}%</span>
-                    </div>
-                </td>
-                <td><span class="matches-count">${player.matches_played}</span></td>
-                <td><span class="rating-value">${player.mu.toFixed(1)} ± ${player.sigma.toFixed(1)}</span></td>
-            `;
+                    </td>
+                    <td><span class="matches-count">${player.matches_played}</span></td>
+                    <td><span class="rating-value">${player.mu.toFixed(1)} ± ${player.sigma.toFixed(1)}</span></td>
+                `;
+            } else {
+                row.innerHTML = `
+                    <td><span class="rank-number ${rankClass}">${playerRank}</span></td>
+                    <td>
+                        <div class="player-name">${player.first_name} ${player.last_name}</div>
+                        ${player.alias ? `<div class="player-alias">(${player.alias})</div>` : ''}
+                        <div class="player-region">${player.region}</div>
+                    </td>
+                    <td><span class="rating-value">${player.conservative_rating.toFixed(1)}</span></td>
+                    <td>
+                        <div class="percentage-bar">
+                            <div class="percentage-bg">
+                                <div class="percentage-fill" style="width: ${player.percentage_of_best}%"></div>
+                            </div>
+                            <span>${player.percentage_of_best.toFixed(1)}%</span>
+                        </div>
+                    </td>
+                    <td><span class="matches-count">${player.matches_played}</span></td>
+                    <td><span class="rating-value">${player.mu.toFixed(1)} ± ${player.sigma.toFixed(1)}</span></td>
+                `;
+            }
             
             tbody.appendChild(row);
         });
