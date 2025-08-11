@@ -44,10 +44,9 @@ jobs:
           # python generate_rankings.py
           echo "Scheduled run - rankings would be regenerated here"
           
-      - name: Update website data and static files
+      - name: Update rankings data
         run: |
-          python update_metadata.py
-          python update_website.py --stats
+          python update_rankings.py
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -55,7 +54,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./docs
+          source: ./rankings
           destination: ./_site
           
       - name: Upload artifact
