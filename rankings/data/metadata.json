@@ -1,14 +1,19 @@
 {
-  "last_updated": "2025-08-11T18:21:52.924923",
-  "update_date": "2025-08-11",
-  "update_time": "18:21:52",
+  "last_updated": "2025-08-12T17:45:23.252138",
+  "update_date": "2025-08-12",
+  "update_time": "17:45:23",
   "match_statistics": {
-    "total_match_files": 23559,
-    "matches_with_handgun_data": 2417,
+    "total_match_files": 24626,
+    "matches_with_handgun_data": 3484,
     "matches_without_data": 21142,
-    "data_coverage_percent": 10.3
+    "data_coverage_percent": 14.1
   },
   "data_sources": {
+    "IPSCResults": {
+      "total_files": 1067,
+      "matches_with_data": 1067,
+      "coverage_percent": 100.0
+    },
     "PractiScore": {
       "total_files": 7,
       "matches_with_data": 7,

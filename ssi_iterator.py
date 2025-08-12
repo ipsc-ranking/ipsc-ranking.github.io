@@ -97,8 +97,8 @@ class SSIFileIterator(MatchDataIterator):
                 with open(filepath, 'r', encoding='utf-8') as f:
                     match_data = json.load(f)
                 
-                # Skip if no production optics results
-                if 'production_optics_results' not in match_data or not match_data['production_optics_results']:
+                # Skip if no combined_results 
+                if 'combined_results' not in match_data or not match_data['combined_results']:
                     continue
                 
                 # Filter by match level if specified

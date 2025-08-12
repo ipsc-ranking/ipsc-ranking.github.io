@@ -40,7 +40,7 @@ def get_match_source(filename):
     if '_ssi_' in filename:
         return 'SSI'
     elif '_ipscresults_' in filename:
-        return 'IPSC Results'
+        return 'IPSCResults'
     elif '_practiscore_' in filename:
         return 'PractiScore'
     elif filename.startswith('match_'):
@@ -52,7 +52,18 @@ def count_matches_with_data():
     """Count matches that actually have handgun result data"""
     print("🔍 Counting matches with actual handgun result data...")
     
-    match_files = [f for f in os.listdir('data/matches') if f.endswith('.json')]
+    # Get files from both directories
+    match_files = []
+    
+    # Add files from data/matches (original location)
+    if os.path.exists('data/matches'):
+        data_matches_files = [(f, 'data/matches') for f in os.listdir('data/matches') if f.endswith('.json')]
+        match_files.extend(data_matches_files)
+    
+    # Add files from match_data (new location)
+    if os.path.exists('match_data'):
+        match_data_files = [(f, 'match_data') for f in os.listdir('match_data') if f.endswith('.json')]
+        match_files.extend(match_data_files)
     
     total_files = len(match_files)
     matches_with_data = 0
@@ -60,11 +71,11 @@ def count_matches_with_data():
     source_counts = defaultdict(int)
     source_with_data = defaultdict(int)
     
-    for i, filename in enumerate(match_files):
+    for i, (filename, directory) in enumerate(match_files):
         if i % 1000 == 0:
             print(f"  Progress: {i}/{total_files} files checked")
         
-        filepath = f'data/matches/{filename}'
+        filepath = f'{directory}/{filename}'
         source = get_match_source(filename)
         source_counts[source] += 1
         

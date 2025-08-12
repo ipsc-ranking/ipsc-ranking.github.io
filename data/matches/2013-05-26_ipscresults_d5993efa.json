@@ -1,0 +1,153 @@
+{
+  "match_id": "d5993efa-bc0a-4725-b5ce-8966aa87cb08",
+  "match_title": "III Etapa Sg FTPDF",
+  "match_date": "2013-05-26T10:00:00",
+  "match_level": 3,
+  "club_name": "Brazil",
+  "region": "Brazil",
+  "source": "ipscresults",
+  "divisions": {
+    "Open": {
+      "division_name": "Open",
+      "division_code": 10,
+      "shooters": [
+        {
+          "first_name": "Lamartine",
+          "last_name": "Fernades",
+          "alias": "",
+          "region": "BRA",
+          "division": "Open",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 695.0,
+          "competitor_number": 2
+        }
+      ],
+      "shooter_count": 1
+    },
+    "Standard": {
+      "division_name": "Standard",
+      "division_code": 11,
+      "shooters": [
+        {
+          "first_name": "Sergio",
+          "last_name": "Biscoula",
+          "alias": "",
+          "region": "BRA",
+          "division": "Standard",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 694.7023,
+          "competitor_number": 11
+        },
+        {
+          "first_name": "Ricardo",
+          "last_name": "Gonçalves",
+          "alias": "",
+          "region": "BRA",
+          "division": "Standard",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 60.652,
+          "placement": 2,
+          "match_points": 421.3507,
+          "competitor_number": 12
+        }
+      ],
+      "shooter_count": 2
+    }
+  },
+  "combined_results": [
+    {
+      "first_name": "Lamartine",
+      "last_name": "Fernades",
+      "alias": "",
+      "region": "BRA",
+      "division": "Open",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 695.0,
+      "competitor_number": 2
+    },
+    {
+      "first_name": "Sergio",
+      "last_name": "Biscoula",
+      "alias": "",
+      "region": "BRA",
+      "division": "Standard",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 694.7023,
+      "competitor_number": 11
+    },
+    {
+      "first_name": "Ricardo",
+      "last_name": "Gonçalves",
+      "alias": "",
+      "region": "BRA",
+      "division": "Standard",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 60.652,
+      "placement": 2,
+      "match_points": 421.3507,
+      "competitor_number": 12
+    }
+  ],
+  "total_shooters": 3,
+  "division_count": 2,
+  "api_data": {
+    "match_info": {
+      "ID": "d5993efa-bc0a-4725-b5ce-8966aa87cb08",
+      "Name": "III Etapa Sg FTPDF",
+      "RegionName": "Brazil",
+      "Date": "2013-05-26",
+      "Level": 3,
+      "Discipline": "Shotgun",
+      "State": 1
+    },
+    "match_detail": {
+      "@odata.context": "http://ipscresults.org/odata/$metadata#StatsMatchDetail",
+      "@odata.count": 1,
+      "value": [
+        {
+          "ID": "d5993efa-bc0a-4725-b5ce-8966aa87cb08",
+          "Name": "III Etapa Sg FTPDF",
+          "Date": "2013-05-26",
+          "Level": 3,
+          "State": 1,
+          "Discipline": "Shotgun",
+          "Region": "Brazil",
+          "RegionCode": "BRA",
+          "WebSite": "",
+          "Location": "",
+          "ContactEmail": "",
+          "MatchDirector": "Vagner Brum",
+          "RangeMaster": "Vagner Brum",
+          "StatsDirector": "Natan Brum",
+          "Publisher": "Chris Zielinski",
+          "Finaliazed": true,
+          "Modified": "2017-02-01"
+        }
+      ]
+    },
+    "divisions_fetched": [
+      "Open",
+      "Standard"
+    ]
+  }
+}

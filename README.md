@@ -13,6 +13,10 @@ Currently we only display results for Swedish shooters, but this can be extended
 * We use the combined results to update the skill ratings of the shooters using the OpenSkill algorithm.
 * We use the calculated skill together with the uncertainty to calculate a ranking.
 
+## Deployment
+* The website is deployed using [GitHub Pages](https://pages.github.com/).
+* The website is built using [Jekyll](https://jekyllrb.com/).
+
 ## Data sources
 * [Shoot'n Score It](https://shootnscoreit.com/dashboard/)
 * [IPSC Results](https://ipscresults.org/)

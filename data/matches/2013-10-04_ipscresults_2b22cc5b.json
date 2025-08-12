@@ -1,0 +1,145 @@
+{
+  "match_id": "2b22cc5b-310f-4993-bedf-75048bd07881",
+  "match_title": "Australia National Championship ­ Shotgun",
+  "match_date": "2013-10-04T10:00:00",
+  "match_level": 3,
+  "club_name": "Australia",
+  "region": "Australia",
+  "source": "ipscresults",
+  "divisions": {
+    "Open": {
+      "division_name": "Open",
+      "division_code": 10,
+      "shooters": [
+        {
+          "first_name": "John",
+          "last_name": "Bellman",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 420.0,
+          "competitor_number": 4
+        },
+        {
+          "first_name": "Bruce",
+          "last_name": "Chambers",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 36.2583,
+          "placement": 2,
+          "match_points": 152.285,
+          "competitor_number": 10
+        },
+        {
+          "first_name": "Stephen",
+          "last_name": "Jellie",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 19.1742,
+          "placement": 3,
+          "match_points": 80.5315,
+          "competitor_number": 9
+        }
+      ],
+      "shooter_count": 3
+    }
+  },
+  "combined_results": [
+    {
+      "first_name": "John",
+      "last_name": "Bellman",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 420.0,
+      "competitor_number": 4
+    },
+    {
+      "first_name": "Bruce",
+      "last_name": "Chambers",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 36.2583,
+      "placement": 2,
+      "match_points": 152.285,
+      "competitor_number": 10
+    },
+    {
+      "first_name": "Stephen",
+      "last_name": "Jellie",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 19.1742,
+      "placement": 3,
+      "match_points": 80.5315,
+      "competitor_number": 9
+    }
+  ],
+  "total_shooters": 3,
+  "division_count": 1,
+  "api_data": {
+    "match_info": {
+      "ID": "2b22cc5b-310f-4993-bedf-75048bd07881",
+      "Name": "Australia National Championship ­ Shotgun",
+      "RegionName": "Australia",
+      "Date": "2013-10-04",
+      "Level": 3,
+      "Discipline": "Shotgun",
+      "State": 1
+    },
+    "match_detail": {
+      "@odata.context": "http://ipscresults.org/odata/$metadata#StatsMatchDetail",
+      "@odata.count": 1,
+      "value": [
+        {
+          "ID": "2b22cc5b-310f-4993-bedf-75048bd07881",
+          "Name": "Australia National Championship ­ Shotgun",
+          "Date": "2013-10-04",
+          "Level": 3,
+          "State": 1,
+          "Discipline": "Shotgun",
+          "Region": "Australia",
+          "RegionCode": "AUS",
+          "WebSite": "",
+          "Location": "",
+          "ContactEmail": "",
+          "MatchDirector": "Craig Ford",
+          "RangeMaster": "Des Lilley",
+          "StatsDirector": "Susan Young",
+          "Publisher": "Chris Zielinski",
+          "Finaliazed": true,
+          "Modified": "2017-02-01"
+        }
+      ]
+    },
+    "divisions_fetched": [
+      "Open"
+    ]
+  }
+}

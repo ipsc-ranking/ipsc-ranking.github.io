@@ -1,0 +1,89 @@
+{
+  "match_id": "38096e1d-01c6-4e43-8116-dcaf98fa6973",
+  "match_title": "Rooster Mountain 2023 [ESS]",
+  "match_date": "2023-08-06T10:00:00",
+  "match_level": 3,
+  "club_name": "Denmark",
+  "region": "Denmark",
+  "source": "ipscresults",
+  "divisions": {
+    "Open": {
+      "division_name": "Open",
+      "division_code": 1,
+      "shooters": [
+        {
+          "first_name": "Henrik",
+          "last_name": "Lerfeldt",
+          "alias": "",
+          "region": "DEN",
+          "division": "Open",
+          "category": "Super Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 120.0,
+          "competitor_number": 461
+        }
+      ],
+      "shooter_count": 1
+    }
+  },
+  "combined_results": [
+    {
+      "first_name": "Henrik",
+      "last_name": "Lerfeldt",
+      "alias": "",
+      "region": "DEN",
+      "division": "Open",
+      "category": "Super Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 120.0,
+      "competitor_number": 461
+    }
+  ],
+  "total_shooters": 1,
+  "division_count": 1,
+  "api_data": {
+    "match_info": {
+      "ID": "38096e1d-01c6-4e43-8116-dcaf98fa6973",
+      "Name": "Rooster Mountain 2023 [ESS]",
+      "RegionName": "Denmark",
+      "Date": "2023-08-06",
+      "Level": 3,
+      "Discipline": "Handgun",
+      "State": 1
+    },
+    "match_detail": {
+      "@odata.context": "http://ipscresults.org/odata/$metadata#StatsMatchDetail",
+      "@odata.count": 1,
+      "value": [
+        {
+          "ID": "38096e1d-01c6-4e43-8116-dcaf98fa6973",
+          "Name": "Rooster Mountain 2023 [ESS]",
+          "Date": "2023-08-06",
+          "Level": 3,
+          "State": 1,
+          "Discipline": "Handgun",
+          "Region": "Denmark",
+          "RegionCode": "DEN",
+          "WebSite": "http://www.roostermountain.dk",
+          "Location": "Hanebjerg",
+          "ContactEmail": "henrik@lerfeldt.dk",
+          "MatchDirector": "Claus Henneberg",
+          "RangeMaster": "Rainer Stettnisch",
+          "StatsDirector": "Henrik Lerfeldt",
+          "Publisher": "henrik@lerfeldt.dk",
+          "Finaliazed": false,
+          "Modified": "2023-07-29"
+        }
+      ]
+    },
+    "divisions_fetched": [
+      "Open"
+    ]
+  }
+}

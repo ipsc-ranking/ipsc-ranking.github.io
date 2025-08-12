@@ -1,0 +1,181 @@
+{
+  "match_id": "688e12cb-026e-40a6-8473-dc0e488d45cb",
+  "match_title": "5.11 BALTIC CHALLENGE 2016 ",
+  "match_date": "2016-04-30T10:00:00",
+  "match_level": 3,
+  "club_name": "Lithuania",
+  "region": "Lithuania",
+  "source": "ipscresults",
+  "divisions": {
+    "Open": {
+      "division_name": "Open",
+      "division_code": 1,
+      "shooters": [
+        {
+          "first_name": "Karolis",
+          "last_name": "Simutis",
+          "alias": "",
+          "region": "LTU",
+          "division": "Open",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 205.0,
+          "competitor_number": 135
+        }
+      ],
+      "shooter_count": 1
+    },
+    "Production": {
+      "division_name": "Production",
+      "division_code": 4,
+      "shooters": [
+        {
+          "first_name": "Sergejus",
+          "last_name": "Bykovas",
+          "alias": "",
+          "region": "LTU",
+          "division": "Production",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 943.9419,
+          "competitor_number": 134
+        },
+        {
+          "first_name": "Alexander ,",
+          "last_name": "Shumski",
+          "alias": "",
+          "region": "BLR",
+          "division": "Production",
+          "category": [],
+          "classification": "",
+          "club": "",
+          "match_percentage": 9.3085,
+          "placement": 2,
+          "match_points": 87.8666,
+          "competitor_number": 137
+        },
+        {
+          "first_name": "Eugene ,",
+          "last_name": "Kazlou",
+          "alias": "",
+          "region": "BLR",
+          "division": "Production",
+          "category": [],
+          "classification": "",
+          "club": "",
+          "match_percentage": 4.1805,
+          "placement": 3,
+          "match_points": 39.4614,
+          "competitor_number": 136
+        }
+      ],
+      "shooter_count": 3
+    }
+  },
+  "combined_results": [
+    {
+      "first_name": "Karolis",
+      "last_name": "Simutis",
+      "alias": "",
+      "region": "LTU",
+      "division": "Open",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 205.0,
+      "competitor_number": 135
+    },
+    {
+      "first_name": "Sergejus",
+      "last_name": "Bykovas",
+      "alias": "",
+      "region": "LTU",
+      "division": "Production",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 943.9419,
+      "competitor_number": 134
+    },
+    {
+      "first_name": "Alexander ,",
+      "last_name": "Shumski",
+      "alias": "",
+      "region": "BLR",
+      "division": "Production",
+      "category": [],
+      "classification": "",
+      "club": "",
+      "match_percentage": 9.3085,
+      "placement": 2,
+      "match_points": 87.8666,
+      "competitor_number": 137
+    },
+    {
+      "first_name": "Eugene ,",
+      "last_name": "Kazlou",
+      "alias": "",
+      "region": "BLR",
+      "division": "Production",
+      "category": [],
+      "classification": "",
+      "club": "",
+      "match_percentage": 4.1805,
+      "placement": 3,
+      "match_points": 39.4614,
+      "competitor_number": 136
+    }
+  ],
+  "total_shooters": 4,
+  "division_count": 2,
+  "api_data": {
+    "match_info": {
+      "ID": "688e12cb-026e-40a6-8473-dc0e488d45cb",
+      "Name": "5.11 BALTIC CHALLENGE 2016 ",
+      "RegionName": "Lithuania",
+      "Date": "2016-04-30",
+      "Level": 3,
+      "Discipline": "Handgun",
+      "State": 1
+    },
+    "match_detail": {
+      "@odata.context": "http://ipscresults.org/odata/$metadata#StatsMatchDetail",
+      "@odata.count": 1,
+      "value": [
+        {
+          "ID": "688e12cb-026e-40a6-8473-dc0e488d45cb",
+          "Name": "5.11 BALTIC CHALLENGE 2016 ",
+          "Date": "2016-04-30",
+          "Level": 3,
+          "State": 1,
+          "Discipline": "Handgun",
+          "Region": "Lithuania",
+          "RegionCode": "LTU",
+          "WebSite": "http://www.ipsc.lt",
+          "Location": "Lithuania, Kaunas",
+          "ContactEmail": "vaidas@ipsc.lt",
+          "MatchDirector": "Vitalijus Grinčenko",
+          "RangeMaster": "Linas Karosas",
+          "StatsDirector": "Vaidas Sabaliauskas",
+          "Publisher": "vaidas@ipsc.lt",
+          "Finaliazed": true,
+          "Modified": "2017-02-01"
+        }
+      ]
+    },
+    "divisions_fetched": [
+      "Open",
+      "Production"
+    ]
+  }
+}

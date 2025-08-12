@@ -484,7 +484,7 @@ class PractiscoreLiveIterator(MatchDataIterator):
 class PractiscoreFileIterator(MatchDataIterator):
     """Iterator for Practiscore match data stored in JSON files"""
     
-    def __init__(self, match_data_dir: str = './match_data/', filter_levels: Optional[List[str]] = None):
+    def __init__(self, match_data_dir: str = './match_data/', filter_levels: Optional[List[int]] = None):
         """
         Initialize Practiscore file iterator
         
@@ -543,7 +543,7 @@ class PractiscoreRangeIterator(MatchDataIterator):
     
     def __init__(self, start_match_id: int, end_match_id: int, 
                  client: Optional[PractiScoreClient] = None,
-                 filter_levels: Optional[List[str]] = None):
+                 filter_levels: Optional[List[int]] = None):
         """
         Initialize Practiscore range iterator
         

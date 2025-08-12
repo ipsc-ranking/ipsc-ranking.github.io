@@ -218,12 +218,16 @@ class RankingPage {
             // Filter out non-Swedish shooters for Swedish IPSC Ranking
             this.allPlayers = this.allPlayers.filter(player => player.region === 'SWE');
             
-            // For combined division, re-assign sequential ranks after filtering
-            if (this.currentDivision === 'combined') {
-                this.allPlayers.forEach((player, index) => {
+            // Re-assign sequential Swedish ranks after filtering for all divisions
+            this.allPlayers.forEach((player, index) => {
+                if (this.currentDivision === 'combined') {
                     player.swedish_combined_rank = index + 1;
-                });
-            }
+                } else {
+                    player.swedish_rank = index + 1;
+                }
+            });
+            
+            console.log('RANKING FIX: Applied Swedish ranking to', this.allPlayers.length, 'players');
             
             this.filteredPlayers = [...this.allPlayers];
             this.renderRankingTable();
@@ -302,8 +306,8 @@ class RankingPage {
                 // Combined division: use swedish_combined_rank (assigned after filtering)
                 playerRank = player.swedish_combined_rank || (index + 1);
             } else {
-                // Regular division view: use division_rank if available, otherwise use rank
-                playerRank = player.division_rank || player.rank;
+                // Regular division view: use swedish_rank (assigned after filtering)
+                playerRank = player.swedish_rank || (index + 1);
             }
             
             // Determine rank class for top 3

@@ -1,0 +1,89 @@
+{
+  "match_id": "d8c731aa-6cc3-4e98-9d82-7ee47726c97d",
+  "match_title": "Argentina Open 2020",
+  "match_date": "2020-03-20T10:00:00",
+  "match_level": 3,
+  "club_name": "Argentina",
+  "region": "Argentina",
+  "source": "ipscresults",
+  "divisions": {
+    "Production Optics": {
+      "division_name": "Production Optics",
+      "division_code": 24,
+      "shooters": [
+        {
+          "first_name": "Claudio Alberto",
+          "last_name": "CAPRA",
+          "alias": "",
+          "region": "ARG",
+          "division": "Production Optics",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 0.0,
+          "placement": 1,
+          "match_points": 0.0,
+          "competitor_number": 8
+        }
+      ],
+      "shooter_count": 1
+    }
+  },
+  "combined_results": [
+    {
+      "first_name": "Claudio Alberto",
+      "last_name": "CAPRA",
+      "alias": "",
+      "region": "ARG",
+      "division": "Production Optics",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 0.0,
+      "placement": 1,
+      "match_points": 0.0,
+      "competitor_number": 8
+    }
+  ],
+  "total_shooters": 1,
+  "division_count": 1,
+  "api_data": {
+    "match_info": {
+      "ID": "d8c731aa-6cc3-4e98-9d82-7ee47726c97d",
+      "Name": "Argentina Open 2020",
+      "RegionName": "Argentina",
+      "Date": "2020-03-20",
+      "Level": 3,
+      "Discipline": "Handgun",
+      "State": 1
+    },
+    "match_detail": {
+      "@odata.context": "http://ipscresults.org/odata/$metadata#StatsMatchDetail",
+      "@odata.count": 1,
+      "value": [
+        {
+          "ID": "d8c731aa-6cc3-4e98-9d82-7ee47726c97d",
+          "Name": "Argentina Open 2020",
+          "Date": "2020-03-20",
+          "Level": 3,
+          "State": 1,
+          "Discipline": "Handgun",
+          "Region": "Argentina",
+          "RegionCode": "ARG",
+          "WebSite": "https://www.ipsc.org.ar",
+          "Location": "Mar del Plata - Argentina",
+          "ContactEmail": "ccapra@gmail.com",
+          "MatchDirector": "Flavio Duffo",
+          "RangeMaster": "Capra Claudio",
+          "StatsDirector": "Capra Claudio",
+          "Publisher": "ccapra@gmail.com",
+          "Finaliazed": true,
+          "Modified": "2023-05-29"
+        }
+      ]
+    },
+    "divisions_fetched": [
+      "Production Optics"
+    ]
+  }
+}

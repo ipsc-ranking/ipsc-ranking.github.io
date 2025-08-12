@@ -1,23 +1,19 @@
 [
   {
-    "player_id": "hagbard_paulson_SWE_classic",
+    "player_id": "hagbard_paulson_swe_classic",
     "first_name": "Hagbard",
     "last_name": "Paulson",
     "alias": "hagbard",
     "region": "SWE",
-    "mu": 23.557893677873576,
-    "sigma": 25.50978613364896,
-    "conservative_rating": 2.0883160038907143,
-    "ordinal": -52.9714647230733,
-    "matches_played": 3,
-    "rank": 7673,
-    "percentage_of_best": 100.0,
+    "mu": 24.620030816263125,
+    "sigma": 87.57018827249026,
+    "conservative_rating": -49.08089906184247,
+    "ordinal": -238.09053400120763,
+    "matches_played": 1,
+    "rank": 70736,
+    "percentage_of_best": 0,
     "division": "Classic",
-    "division_matches": 1,
-    "categories": [
-      "Junior"
-    ],
-    "category": "Junior",
+    "category": "j",
     "category_rank": 1
   }
 ]

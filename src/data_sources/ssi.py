@@ -184,18 +184,18 @@ def get_match_info(match_id):
 class SSILiveIterator(MatchDataIterator):
     """Iterator for fetching live SSI match data"""
     
-    def __init__(self, start_match_id: int = 1, end_match_id: int = 23000, filter_levels: Optional[List[str]] = None):
+    def __init__(self, start_match_id: int = 1, end_match_id: int = 23000, filter_levels: Optional[List[int]] = None):
         """
         Initialize SSI live data iterator
         
         Args:
             start_match_id: Starting match ID to fetch
             end_match_id: Ending match ID to fetch
-            filter_levels: List of match levels to include (e.g., ['Level III', 'Level IV', 'Level V'])
+            filter_levels: List of match levels to include (e.g., [3, 4, 5])
         """
         self.start_match_id = start_match_id
         self.end_match_id = end_match_id
-        self.filter_levels = filter_levels or ['Level III', 'Level IV', 'Level V']
+        self.filter_levels = filter_levels or [3, 4, 5]
     
     def __iter__(self) -> Iterator[Dict[str, Any]]:
         """Iterate over SSI matches by fetching live data"""
@@ -208,6 +208,13 @@ class SSILiveIterator(MatchDataIterator):
                 
                 # Filter by match level if specified
                 match_level = match_data.get('match_level')
+                
+                # Normalize string levels to integers
+                if isinstance(match_level, str):
+                    level_map = {'Level I': 1, 'Level II': 2, 'Level III': 3, 'Level IV': 4, 'Level V': 5}
+                    match_level = level_map.get(match_level, 1)  # Default to Level I if unknown
+                    match_data['match_level'] = match_level
+                
                 if self.filter_levels and match_level not in self.filter_levels:
                     continue
                 
@@ -233,13 +240,13 @@ class SSILiveIterator(MatchDataIterator):
 class SSIFileIterator(MatchDataIterator):
     """Iterator for SSI match data stored in JSON files"""
     
-    def __init__(self, match_data_dir: str = './match_data/', filter_levels: Optional[List[str]] = None):
+    def __init__(self, match_data_dir: str = './match_data/', filter_levels: Optional[List[int]] = None):
         """
         Initialize SSI file iterator
         
         Args:
             match_data_dir: Directory containing SSI match JSON files
-            filter_levels: List of match levels to include
+            filter_levels: List of match levels to include (e.g., [3, 4, 5])
         """
         self.match_data_dir = match_data_dir
         self.filter_levels = filter_levels
@@ -268,6 +275,13 @@ class SSIFileIterator(MatchDataIterator):
                 
                 # Filter by match level if specified
                 match_level = match_data.get('match_level')
+                
+                # Normalize string levels to integers
+                if isinstance(match_level, str):
+                    level_map = {'Level I': 1, 'Level II': 2, 'Level III': 3, 'Level IV': 4, 'Level V': 5}
+                    match_level = level_map.get(match_level, 1)  # Default to Level I if unknown
+                    match_data['match_level'] = match_level
+                
                 if self.filter_levels and match_level not in self.filter_levels:
                     continue
                 

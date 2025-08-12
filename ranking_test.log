@@ -1,0 +1,197 @@
+=== IPSC Division Rankings Generator (Handgun Only) ===
+Loading and processing handgun matches...
+Loading matches from data/matches...
+Loading matches from match_data...
+Found 4551 handgun matches after filtering
+Building player-division index...
+Processing match 1/4551
+Error processing match 32: Argument 'teams' must have at least 2 teams, not 1.
+Error processing match 17: Argument 'teams' must have at least 2 teams, not 1.
+Error processing match 397: Argument 'teams' must have at least 2 teams, not 1.
+Processing match 101/4551
+Processing match 201/4551
+Processing match 301/4551
+Processing match 401/4551
+Processing match 501/4551
+Processing match 601/4551
+Processing match 701/4551
+Processing match 801/4551
+Processing match 901/4551
+Processing match 1001/4551
+Processing match 1101/4551
+Processing match 1201/4551
+Processing match 1301/4551
+Processing match 1401/4551
+Processing match 1501/4551
+Processing match 1601/4551
+Processing match 1701/4551
+Processing match 1801/4551
+Processing match 1901/4551
+Processing match 2001/4551
+Processing match 2101/4551
+Processing match 2201/4551
+Processing match 2301/4551
+Processing match 2401/4551
+Processing match 2501/4551
+Processing match 2601/4551
+Processing match 2701/4551
+Processing match 2801/4551
+Processing match 2901/4551
+Processing match 3001/4551
+Processing match 3101/4551
+Processing match 3201/4551
+Processing match 3301/4551
+Processing match 3401/4551
+Processing match 3501/4551
+Processing match 3601/4551
+Processing match 3701/4551
+Processing match 3801/4551
+Processing match 3901/4551
+Error processing match d8c731aa-6cc3-4e98-9d82-7ee47726c97d: Argument 'teams' must have at least 2 teams, not 1.
+Error processing match d8c731aa-6cc3-4e98-9d82-7ee47726c97d: Argument 'teams' must have at least 2 teams, not 1.
+Processing match 4001/4551
+Processing match 4101/4551
+Error processing match 38096e1d-01c6-4e43-8116-dcaf98fa6973: Argument 'teams' must have at least 2 teams, not 1.
+Error processing match 38096e1d-01c6-4e43-8116-dcaf98fa6973: Argument 'teams' must have at least 2 teams, not 1.
+Processing match 4201/4551
+Processing match 4301/4551
+Processing match 4401/4551
+Processing match 4501/4551
+
+Processed 4551 handgun matches
+Total unique players: 62085
+Built index for 62085 players across divisions
+
+Division participation stats:
+  Classic: 25604 results
+  Open: 85364 results
+  PCC: 60 results
+  Pistol Caliber Carbine: 4433 results
+  Production: 175861 results
+  Production Optics: 39250 results
+  Revolver: 11595 results
+  Standard: 135909 results
+
+Available categories by division:
+  Production: SS, LS, Senior, GS, J, Lady, Super Senior, 0, Junior, S, Open, L, -, SJ
+  Open: SS, V, LS, Senior, GS, J, Lady, Super Senior, Junior, S, Open, L, -, SJ
+  Standard: SS, LS, Senior, GS, J, Super Senior, Lady, 0, Junior, S, Open, L, -, SJ
+  Classic: SS, LS, Senior, GS, J, Lady, Super Senior, Junior, S, Open, L, -, SJ
+  Revolver: SS, Senior, GS, J, Lady, Super Senior, Junior, S, Open, L, -
+  Production Optics: SS, V, LS, Senior, GS, J, Super Senior, Lady, 0, Junior, S, Open, L, -, SJ
+  Pistol Caliber Carbine: SS, LS, GS, J, 0, S, L, -, SJ
+  PCC: Senior, Lady, Open
+Generating division-specific rankings using index...
+
+Classic: 4628 players
+
+Open: 13654 players
+
+Standard: 22696 players
+
+Production: 30129 players
+
+Pistol Caliber Carbine: 1397 players
+
+Production Optics: 6375 players
+
+Revolver: 1780 players
+
+PCC: 30 players
+✓ Saved results/ipsc_ranking_open.json (1294 Swedish players, 13654 total calculated)
+✓ Saved results/ipsc_ranking_standard.json (2269 Swedish players, 22696 total calculated)
+✓ Saved results/ipsc_ranking_production.json (4733 Swedish players, 30129 total calculated)
+✓ Saved results/ipsc_ranking_production_optics.json (1683 Swedish players, 6375 total calculated)
+✓ Saved results/ipsc_ranking_classic.json (342 Swedish players, 4628 total calculated)
+✓ Saved results/ipsc_ranking_revolver.json (176 Swedish players, 1780 total calculated)
+✓ Saved results/ipsc_ranking_pistol_caliber_carbine.json (703 Swedish players, 1397 total calculated)
+
+=== Generating Category-Specific Rankings ===
+✓ Saved Open - -: results/ipsc_ranking_open_-.json (991 Swedish players)
+✓ Saved Open - Senior: results/ipsc_ranking_open_senior.json (51 Swedish players)
+✓ Saved Open - S: results/ipsc_ranking_open_s.json (293 Swedish players)
+✓ Saved Open - Lady: results/ipsc_ranking_open_lady.json (13 Swedish players)
+✓ Saved Open - SS: results/ipsc_ranking_open_ss.json (53 Swedish players)
+✓ Saved Open - J: results/ipsc_ranking_open_j.json (15 Swedish players)
+✓ Saved Open - Junior: results/ipsc_ranking_open_junior.json (4 Swedish players)
+✓ Saved Open - SJ: results/ipsc_ranking_open_sj.json (4 Swedish players)
+✓ Saved Open - L: results/ipsc_ranking_open_l.json (52 Swedish players)
+✓ Saved Open - Super Senior: results/ipsc_ranking_open_super_senior.json (16 Swedish players)
+✓ Saved Open - GS: results/ipsc_ranking_open_gs.json (3 Swedish players)
+✓ Saved Open - LS: results/ipsc_ranking_open_ls.json (4 Swedish players)
+✓ Saved Standard - Senior: results/ipsc_ranking_standard_senior.json (76 Swedish players)
+✓ Saved Standard - -: results/ipsc_ranking_standard_-.json (1865 Swedish players)
+✓ Saved Standard - S: results/ipsc_ranking_standard_s.json (483 Swedish players)
+✓ Saved Standard - J: results/ipsc_ranking_standard_j.json (69 Swedish players)
+✓ Saved Standard - Junior: results/ipsc_ranking_standard_junior.json (5 Swedish players)
+✓ Saved Standard - SS: results/ipsc_ranking_standard_ss.json (68 Swedish players)
+✓ Saved Standard - L: results/ipsc_ranking_standard_l.json (124 Swedish players)
+✓ Saved Standard - Super Senior: results/ipsc_ranking_standard_super_senior.json (6 Swedish players)
+✓ Saved Standard - Lady: results/ipsc_ranking_standard_lady.json (21 Swedish players)
+✓ Saved Standard - LS: results/ipsc_ranking_standard_ls.json (2 Swedish players)
+✓ Saved Standard - SJ: results/ipsc_ranking_standard_sj.json (9 Swedish players)
+✓ Saved Standard - GS: results/ipsc_ranking_standard_gs.json (2 Swedish players)
+✓ Saved Production - -: results/ipsc_ranking_production_-.json (3972 Swedish players)
+✓ Saved Production - S: results/ipsc_ranking_production_s.json (825 Swedish players)
+✓ Saved Production - Senior: results/ipsc_ranking_production_senior.json (63 Swedish players)
+✓ Saved Production - L: results/ipsc_ranking_production_l.json (280 Swedish players)
+✓ Saved Production - J: results/ipsc_ranking_production_j.json (90 Swedish players)
+✓ Saved Production - Junior: results/ipsc_ranking_production_junior.json (4 Swedish players)
+✓ Saved Production - Lady: results/ipsc_ranking_production_lady.json (49 Swedish players)
+✓ Saved Production - SS: results/ipsc_ranking_production_ss.json (73 Swedish players)
+✓ Saved Production - Super Senior: results/ipsc_ranking_production_super_senior.json (5 Swedish players)
+✓ Saved Production - SJ: results/ipsc_ranking_production_sj.json (9 Swedish players)
+✓ Saved Production - LS: results/ipsc_ranking_production_ls.json (9 Swedish players)
+✓ Saved Production - GS: results/ipsc_ranking_production_gs.json (3 Swedish players)
+✓ Saved Production Optics - -: results/ipsc_ranking_production_optics_-.json (1239 Swedish players)
+✓ Saved Production Optics - S: results/ipsc_ranking_production_optics_s.json (452 Swedish players)
+✓ Saved Production Optics - Senior: results/ipsc_ranking_production_optics_senior.json (51 Swedish players)
+✓ Saved Production Optics - SS: results/ipsc_ranking_production_optics_ss.json (56 Swedish players)
+✓ Saved Production Optics - J: results/ipsc_ranking_production_optics_j.json (24 Swedish players)
+✓ Saved Production Optics - Super Senior: results/ipsc_ranking_production_optics_super_senior.json (13 Swedish players)
+✓ Saved Production Optics - SJ: results/ipsc_ranking_production_optics_sj.json (7 Swedish players)
+✓ Saved Production Optics - Lady: results/ipsc_ranking_production_optics_lady.json (10 Swedish players)
+✓ Saved Production Optics - L: results/ipsc_ranking_production_optics_l.json (83 Swedish players)
+✓ Saved Production Optics - Junior: results/ipsc_ranking_production_optics_junior.json (2 Swedish players)
+✓ Saved Production Optics - GS: results/ipsc_ranking_production_optics_gs.json (7 Swedish players)
+✓ Saved Production Optics - LS: results/ipsc_ranking_production_optics_ls.json (9 Swedish players)
+✓ Saved Classic - Senior: results/ipsc_ranking_classic_senior.json (13 Swedish players)
+✓ Saved Classic - -: results/ipsc_ranking_classic_-.json (282 Swedish players)
+✓ Saved Classic - S: results/ipsc_ranking_classic_s.json (81 Swedish players)
+✓ Saved Classic - Lady: results/ipsc_ranking_classic_lady.json (1 Swedish players)
+✓ Saved Classic - Super Senior: results/ipsc_ranking_classic_super_senior.json (2 Swedish players)
+✓ Saved Classic - SS: results/ipsc_ranking_classic_ss.json (20 Swedish players)
+✓ Saved Classic - L: results/ipsc_ranking_classic_l.json (6 Swedish players)
+✓ Saved Classic - J: results/ipsc_ranking_classic_j.json (1 Swedish players)
+✓ Saved Classic - SJ: results/ipsc_ranking_classic_sj.json (1 Swedish players)
+✓ Saved Revolver - -: results/ipsc_ranking_revolver_-.json (138 Swedish players)
+✓ Saved Revolver - Senior: results/ipsc_ranking_revolver_senior.json (6 Swedish players)
+✓ Saved Revolver - S: results/ipsc_ranking_revolver_s.json (40 Swedish players)
+✓ Saved Revolver - SS: results/ipsc_ranking_revolver_ss.json (9 Swedish players)
+✓ Saved Revolver - Lady: results/ipsc_ranking_revolver_lady.json (2 Swedish players)
+✓ Saved Revolver - L: results/ipsc_ranking_revolver_l.json (2 Swedish players)
+✓ Saved Pistol Caliber Carbine - -: results/ipsc_ranking_pistol_caliber_carbine_-.json (514 Swedish players)
+✓ Saved Pistol Caliber Carbine - S: results/ipsc_ranking_pistol_caliber_carbine_s.json (167 Swedish players)
+✓ Saved Pistol Caliber Carbine - SS: results/ipsc_ranking_pistol_caliber_carbine_ss.json (25 Swedish players)
+✓ Saved Pistol Caliber Carbine - J: results/ipsc_ranking_pistol_caliber_carbine_j.json (9 Swedish players)
+✓ Saved Pistol Caliber Carbine - SJ: results/ipsc_ranking_pistol_caliber_carbine_sj.json (1 Swedish players)
+✓ Saved Pistol Caliber Carbine - L: results/ipsc_ranking_pistol_caliber_carbine_l.json (25 Swedish players)
+✓ Saved Pistol Caliber Carbine - LS: results/ipsc_ranking_pistol_caliber_carbine_ls.json (4 Swedish players)
+✓ Saved Pistol Caliber Carbine - GS: results/ipsc_ranking_pistol_caliber_carbine_gs.json (4 Swedish players)
+✓ Saved results/ipsc_ranking_open_international.json (13654 international players)
+✓ Saved results/ipsc_ranking_standard_international.json (22696 international players)
+✓ Saved results/ipsc_ranking_production_international.json (30129 international players)
+✓ Saved results/ipsc_ranking_production_optics_international.json (6375 international players)
+✓ Saved results/ipsc_ranking_classic_international.json (4628 international players)
+✓ Saved results/ipsc_ranking_revolver_international.json (1780 international players)
+✓ Saved results/ipsc_ranking_pistol_caliber_carbine_international.json (1397 international players)
+✓ Saved results/ipsc_ranking_combined.json (4118 active Swedish players)
+  Filtered out 2352 inactive Swedish players (no matches in 4+ years)
+  Total calculated: 62085 international players
+✓ Saved results/ipsc_ranking_all_divisions.json (80689 total entries)
+
+✅ Successfully generated handgun-only division rankings!
+
+📊 Updating metadata with processed match count: 4551
+✅ Updated docs/data/metadata.json with processed match count: 4551
+✅ Updated data/metadata.json with processed match count: 4551

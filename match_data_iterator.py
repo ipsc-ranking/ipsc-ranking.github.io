@@ -142,12 +142,12 @@ def create_file_based_iterator(source_type: str, match_data_dir: str = './match_
         from practiscore_iterator import PractiscoreFileIterator
         return PractiscoreFileIterator(match_data_dir, filter_levels)
     elif source_type == 'ipscresults':
-        from ipscresults_iterator import IPSCResultsFileIterator
+        from src.data_sources.ipscresults import IPSCResultsFileIterator
         return IPSCResultsFileIterator(match_data_dir, filter_levels)
     elif source_type == 'all':
         from ssi_iterator import SSIFileIterator
         from practiscore_iterator import PractiscoreFileIterator
-        from ipscresults_iterator import IPSCResultsFileIterator
+        from src.data_sources.ipscresults import IPSCResultsFileIterator
         return CombinedMatchDataIterator([
             SSIFileIterator(match_data_dir, filter_levels),
             PractiscoreFileIterator(match_data_dir, filter_levels),
@@ -175,12 +175,12 @@ def create_live_iterator(source_type: str, **kwargs) -> MatchDataIterator:
         from practiscore_iterator import PractiscoreLiveIterator
         return PractiscoreLiveIterator(**kwargs)
     elif source_type == 'ipscresults':
-        from ipscresults_iterator import IPSCResultsLiveIterator
+        from src.data_sources.ipscresults import IPSCResultsLiveIterator
         return IPSCResultsLiveIterator(**kwargs)
     elif source_type == 'all':
         from ssi_iterator import SSILiveIterator  
         from practiscore_iterator import PractiscoreLiveIterator
-        from ipscresults_iterator import IPSCResultsLiveIterator
+        from src.data_sources.ipscresults import IPSCResultsLiveIterator
         
         # Split kwargs for different iterator types
         ssi_kwargs = {k: v for k, v in kwargs.items() if k in ['start_match_id', 'end_match_id', 'filter_levels']}

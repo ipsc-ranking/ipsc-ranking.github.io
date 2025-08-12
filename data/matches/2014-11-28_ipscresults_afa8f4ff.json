@@ -1,0 +1,201 @@
+{
+  "match_id": "afa8f4ff-7f22-44d8-ba82-1e5574d52cc6",
+  "match_title": "National ­ Shotgun",
+  "match_date": "2014-11-28T10:00:00",
+  "match_level": 3,
+  "club_name": "Australia",
+  "region": "Australia",
+  "source": "ipscresults",
+  "divisions": {
+    "Open": {
+      "division_name": "Open",
+      "division_code": 10,
+      "shooters": [
+        {
+          "first_name": "Bill",
+          "last_name": "Wood",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 100.0,
+          "placement": 1,
+          "match_points": 361.7669,
+          "competitor_number": 6
+        },
+        {
+          "first_name": "Gary",
+          "last_name": "Tueno",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": [],
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 91.3411,
+          "placement": 2,
+          "match_points": 330.4419,
+          "competitor_number": 29
+        },
+        {
+          "first_name": "John",
+          "last_name": "Bellman",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 76.4548,
+          "placement": 3,
+          "match_points": 276.5881,
+          "competitor_number": 19
+        },
+        {
+          "first_name": "Bruce",
+          "last_name": "Chambers",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 44.7498,
+          "placement": 4,
+          "match_points": 161.8899,
+          "competitor_number": 8
+        },
+        {
+          "first_name": "Russell",
+          "last_name": "Miller",
+          "alias": "",
+          "region": "AUS",
+          "division": "Open",
+          "category": "Senior",
+          "classification": "Region",
+          "club": "",
+          "match_percentage": 38.5734,
+          "placement": 5,
+          "match_points": 139.5458,
+          "competitor_number": 3
+        }
+      ],
+      "shooter_count": 5
+    }
+  },
+  "combined_results": [
+    {
+      "first_name": "Bill",
+      "last_name": "Wood",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 100.0,
+      "placement": 1,
+      "match_points": 361.7669,
+      "competitor_number": 6
+    },
+    {
+      "first_name": "Gary",
+      "last_name": "Tueno",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": [],
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 91.3411,
+      "placement": 2,
+      "match_points": 330.4419,
+      "competitor_number": 29
+    },
+    {
+      "first_name": "John",
+      "last_name": "Bellman",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 76.4548,
+      "placement": 3,
+      "match_points": 276.5881,
+      "competitor_number": 19
+    },
+    {
+      "first_name": "Bruce",
+      "last_name": "Chambers",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 44.7498,
+      "placement": 4,
+      "match_points": 161.8899,
+      "competitor_number": 8
+    },
+    {
+      "first_name": "Russell",
+      "last_name": "Miller",
+      "alias": "",
+      "region": "AUS",
+      "division": "Open",
+      "category": "Senior",
+      "classification": "Region",
+      "club": "",
+      "match_percentage": 38.5734,
+      "placement": 5,
+      "match_points": 139.5458,
+      "competitor_number": 3
+    }
+  ],
+  "total_shooters": 5,
+  "division_count": 1,
+  "api_data": {
+    "match_info": {
+      "ID": "afa8f4ff-7f22-44d8-ba82-1e5574d52cc6",
+      "Name": "National ­ Shotgun",
+      "RegionName": "Australia",
+      "Date": "2014-11-28",
+      "Level": 3,
+      "Discipline": "Shotgun",
+      "State": 1
+    },
+    "match_detail": {
+      "@odata.context": "http://ipscresults.org/odata/$metadata#StatsMatchDetail",
+      "@odata.count": 1,
+      "value": [
+        {
+          "ID": "afa8f4ff-7f22-44d8-ba82-1e5574d52cc6",
+          "Name": "National ­ Shotgun",
+          "Date": "2014-11-28",
+          "Level": 3,
+          "State": 1,
+          "Discipline": "Shotgun",
+          "Region": "Australia",
+          "RegionCode": "AUS",
+          "WebSite": "",
+          "Location": "",
+          "ContactEmail": "",
+          "MatchDirector": "Sebastian Ziccone",
+          "RangeMaster": "Sebastian Ziccone",
+          "StatsDirector": "Jayne Moon",
+          "Publisher": "christopher.zielinski@hotmail.com",
+          "Finaliazed": true,
+          "Modified": "2017-02-01"
+        }
+      ]
+    },
+    "divisions_fetched": [
+      "Open"
+    ]
+  }
+}

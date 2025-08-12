@@ -34,11 +34,11 @@
   '';
 
   scripts.serve-docs.exec = ''
-    cd docs && bundle exec jekyll serve --host 0.0.0.0 --port 4000
+    cd rankings && bundle exec jekyll serve --host 0.0.0.0 --port 4000
   '';
 
   scripts.setup-jekyll.exec = ''
-    cd docs && bundle install
+    bundle install
   '';
 
   enterShell = ''

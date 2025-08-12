@@ -1,0 +1,77 @@
+=== IPSC Division Rankings Generator (Handgun Only) ===
+Loading and processing handgun matches...
+Discipline filtering: 2256 handgun matches from 2417 total matches
+Found 2256 handgun matches after filtering
+Processing match 1/2256
+Skipping match 32 - insufficient participants (1)
+Skipping match 17 - insufficient participants (1)
+Skipping match 397 - insufficient participants (1)
+Processing match 101/2256
+Processing match 201/2256
+Processing match 301/2256
+Processing match 401/2256
+Processing match 501/2256
+Processing match 601/2256
+Processing match 701/2256
+Processing match 801/2256
+Processing match 901/2256
+Processing match 1001/2256
+Processing match 1101/2256
+Processing match 1201/2256
+Processing match 1301/2256
+Processing match 1401/2256
+Processing match 1501/2256
+Processing match 1601/2256
+Processing match 1701/2256
+Processing match 1801/2256
+Processing match 1901/2256
+Processing match 2001/2256
+Processing match 2101/2256
+Processing match 2201/2256
+
+Processed 2256 handgun matches
+Total unique players: 22064
+
+Division participation stats:
+  Classic: 6283 results
+  Open: 15845 results
+  Pistol Caliber Carbine: 3408 results
+  Production: 56412 results
+  Production Optics: 18545 results
+  Revolver: 2127 results
+  Standard: 29596 results
+
+Available categories by division:
+  Production: S, J, L, GS, SS, SJ, -, LS, 0
+  Open: S, J, L, V, GS, SS, SJ, -, LS
+  Standard: S, J, L, GS, SS, SJ, -, LS, 0
+  Classic: S, J, L, GS, SS, SJ, -, LS
+  Revolver: S, J, L, GS, SS, -
+  Production Optics: S, J, L, V, GS, SS, SJ, -, LS, 0
+  Pistol Caliber Carbine: S, J, L, GS, SS, SJ, -, LS
+⚠ No players found for division: Open
+⚠ No players found for division: Standard
+⚠ No players found for division: Production
+⚠ No players found for division: Production Optics
+⚠ No players found for division: Classic
+⚠ No players found for division: Revolver
+⚠ No players found for division: Pistol Caliber Carbine
+
+=== Generating Category-Specific Rankings ===
+⚠ No players found for division: Open
+⚠ No players found for division: Standard
+⚠ No players found for division: Production
+⚠ No players found for division: Production Optics
+⚠ No players found for division: Classic
+⚠ No players found for division: Revolver
+⚠ No players found for division: Pistol Caliber Carbine
+✓ Saved results/ipsc_ranking_combined.json (6116 active Swedish players)
+  Filtered out 4105 inactive Swedish players (no matches in 4+ years)
+  Total calculated: 22064 international players
+✓ Saved results/ipsc_ranking_all_divisions.json (0 total entries)
+
+✅ Successfully generated handgun-only division rankings!
+
+📊 Updating metadata with processed match count: 2256
+✅ Updated docs/data/metadata.json with processed match count: 2256
+✅ Updated data/metadata.json with processed match count: 2256

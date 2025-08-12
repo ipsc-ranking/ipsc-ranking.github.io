@@ -1,6 +1,7 @@
 import json
 import os
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 from collections import defaultdict, Counter
@@ -9,8 +10,9 @@ from scipy import optimize
 from scipy.stats import norm
 import openskill
 import openskill.models
-from combined_skill import IPSCRankingSystem, START_MU, START_SIGMA, PERCENTILE
-from division_normalizer import normalize_division_name
+from multiprocessing import Pool, cpu_count
+import functools
+from generate_all_rankings import IPSCRankingSystem, START_MU, START_SIGMA, PERCENTILE
 
 class SigmaDecayOptimizer:
     def __init__(self):
@@ -20,11 +22,16 @@ class SigmaDecayOptimizer:
         self.temporal_gaps = []
         self.match_dates = []
         
+        # Pandas DataFrames for fast vectorized operations
+        self.matches_df = None
+        self.results_df = None
+        self.player_stats_df = None
+        
     def load_and_analyze_data(self):
         """Load all match data and analyze temporal patterns"""
         print("Loading match data for analysis...")
         
-        match_files_location = './match_data/'
+        match_files_location = './data/matches/'
         for filename in os.listdir(match_files_location):
             if filename.endswith('.json'):
                 filepath = os.path.join(match_files_location, filename)
@@ -42,8 +49,84 @@ class SigmaDecayOptimizer:
         
         print(f"Loaded {len(self.match_data)} matches from {self.match_dates[0].date()} to {self.match_dates[-1].date()}")
         
+        # Create optimized pandas DataFrames
+        self._create_dataframes()
+        
         self._analyze_player_activity_patterns()
         self._analyze_temporal_gaps()
+    
+    def _create_dataframes(self):
+        """Create optimized pandas DataFrames from match data for vectorized operations"""
+        print("Creating optimized DataFrames...")
+        
+        # Flatten all match results into a single DataFrame
+        results_data = []
+        matches_data = []
+        
+        for match in self.match_data:
+            match_date = datetime.fromisoformat(match['match_date'].replace('Z', '+00:00'))
+            match_id = match.get('match_id', 'unknown')
+            match_level = match.get('match_level', 2)
+            
+            matches_data.append({
+                'match_id': match_id,
+                'match_date': match_date,
+                'match_level': match_level,
+                'match_title': match.get('match_title', 'Unknown')
+            })
+            
+            # Process all shooters in this match
+            if 'combined_results' in match:
+                shooters = match['combined_results']
+            elif 'shooters' in match:
+                shooters = match['shooters']
+            else:
+                continue
+                
+            for shooter in shooters:
+                division = shooter.get('division', 'Unknown')
+                player_id = f"{shooter['first_name']}_{shooter['last_name']}_{shooter.get('region', 'Unknown')}_{division}".lower().replace(' ', '_')
+                
+                results_data.append({
+                    'match_id': match_id,
+                    'match_date': match_date,
+                    'match_level': match_level,
+                    'player_id': player_id,
+                    'first_name': shooter['first_name'],
+                    'last_name': shooter['last_name'],
+                    'region': shooter.get('region', 'Unknown'),
+                    'division': division,
+                    'match_percentage': shooter.get('match_percentage', 0),
+                    'placement': shooter.get('placement', 999)
+                })
+        
+        # Create DataFrames
+        self.matches_df = pd.DataFrame(matches_data)
+        self.results_df = pd.DataFrame(results_data)
+        
+        # Create player statistics DataFrame using vectorized operations
+        self.player_stats_df = self.results_df.groupby('player_id').agg({
+            'match_date': ['min', 'max', 'count'],
+            'match_percentage': ['mean', 'std', 'min', 'max'],
+            'placement': 'mean'
+        }).round(3)
+        
+        # Flatten column names
+        self.player_stats_df.columns = ['first_match', 'last_match', 'total_matches', 
+                                       'avg_percentage', 'std_percentage', 'min_percentage', 'max_percentage',
+                                       'avg_placement']
+        
+        # Calculate days between first and last match
+        self.player_stats_df['days_active'] = (self.player_stats_df['last_match'] - self.player_stats_df['first_match']).dt.days
+        
+        # Calculate days since last match (from current date)
+        current_date = datetime.now()
+        self.player_stats_df['days_inactive'] = (current_date - self.player_stats_df['last_match']).dt.days
+        
+        # Calculate consistency (coefficient of variation)
+        self.player_stats_df['consistency'] = self.player_stats_df['std_percentage'] / self.player_stats_df['avg_percentage']
+        
+        print(f"Created DataFrames: {len(self.matches_df)} matches, {len(self.results_df)} results, {len(self.player_stats_df)} unique players")
         
     def _analyze_player_activity_patterns(self):
         """Analyze how often players compete and their consistency"""
@@ -57,7 +140,7 @@ class SigmaDecayOptimizer:
             
             for result in match['combined_results']:
                 # Create player identifier
-                division = normalize_division_name(result.get('division', 'Unknown'))
+                division = result.get('division', 'Unknown')
                 player_id = f"{result['first_name']}_{result['last_name']}_{result.get('region', 'Unknown')}_{division}".lower().replace(' ', '_')
                 
                 player_matches[player_id].append(match_date)
@@ -189,26 +272,182 @@ class SigmaDecayOptimizer:
             {'name': 'Adaptive High', 'type': 'adaptive', 'base_decay': 0.015, 'consistency_factor': 1.5, 'max_multiplier': 2.0},
         ]
         
-        results = []
+        # Use multiprocessing to test models in parallel
+        print(f"Testing {len(decay_models)} models using {cpu_count()} CPU cores...")
         
-        for model in decay_models:
-            print(f"Testing {model['name']}...")
-            
-            # Create a custom ranking system with this decay model
-            ranking_system = self._create_custom_ranking_system(model)
-            
-            # Process all matches
-            for match in self.match_data:
-                ranking_system.process_match(match)
-            
-            # Evaluate the model
-            evaluation = self._evaluate_model(ranking_system, model)
-            results.append(evaluation)
+        # Create a partial function with the match data
+        test_model_partial = functools.partial(self._test_single_model, self.match_data)
+        
+        # Run in parallel
+        with Pool(processes=cpu_count()) as pool:
+            results = pool.map(test_model_partial, decay_models)
         
         # Print results
         self._print_model_comparison(results)
         
         return results
+    
+    def fast_simulate_decay_models(self):
+        """Fast simulation using pandas vectorization - much faster than full ranking simulation"""
+        print("\n" + "="*80)
+        print("FAST SIMULATING DECAY MODELS (PANDAS VECTORIZED)")
+        print("="*80)
+        
+        # Fine-grained optimization around the best performing range (0.04-0.06)
+        decay_models = []
+        
+        # Extended search range to see if it keeps climbing or peaks
+        for i, decay_value in enumerate([
+            0.050, 0.055, 0.060, 0.065, 0.070, 0.075, 0.080, 0.085, 0.090, 0.095,
+            0.100, 0.110, 0.120, 0.130, 0.140, 0.150, 0.160, 0.170, 0.180, 0.190,
+            0.200, 0.220, 0.240, 0.260, 0.280, 0.300
+        ]):
+            decay_models.append({
+                'name': f'Decay_{decay_value:.3f}',
+                'type': 'constant',
+                'decay_per_day': decay_value,
+                'max_multiplier': 2.0
+            })
+        
+        # Use multiprocessing with the fast evaluation method
+        print(f"Fast testing {len(decay_models)} models using {cpu_count()} CPU cores...")
+        
+        # Create a partial function with the pandas-based method
+        fast_test_partial = functools.partial(self._fast_evaluate_decay_model)
+        
+        # Run in parallel using the fast method
+        with Pool(processes=cpu_count()) as pool:
+            results = pool.map(fast_test_partial, decay_models)
+        
+        # Print results
+        self._print_fast_model_comparison(results)
+        
+        return results
+    
+    def _print_fast_model_comparison(self, results):
+        """Print comparison of fast model evaluation results"""
+        print("\n" + "="*80)
+        print("FAST MODEL EVALUATION RESULTS")
+        print("="*80)
+        
+        # Sort by rating separation (higher is better)
+        results_sorted = sorted(results, key=lambda x: x['rating_separation'], reverse=True)
+        
+        print(f"{'Model':<20} {'Rating Sep':<12} {'Active Avg':<12} {'Inactive Avg':<13} {'Corr':<8} {'Active Players':<14}")
+        print("-" * 85)
+        
+        for result in results_sorted:
+            print(f"{result['model']['name']:<20} "
+                  f"{result['rating_separation']:<12.3f} "
+                  f"{result['active_avg_rating']:<12.1f} "
+                  f"{result['inactive_avg_rating']:<13.1f} "
+                  f"{result['performance_correlation']:<8.3f} "
+                  f"{result['active_players']:<14}")
+        
+        # Find the best model
+        best_model = results_sorted[0]
+        print(f"\n🏆 BEST MODEL: {best_model['model']['name']}")
+        print(f"   Rating separation: {best_model['rating_separation']:.3f}")
+        print(f"   Performance correlation: {best_model['performance_correlation']:.3f}")
+        print(f"   Recommended tau: {best_model['model'].get('decay_per_day', 'N/A')}")
+        
+        return best_model
+    
+    def _test_single_model(self, match_data, model):
+        """Test a single decay model - worker function for parallel processing"""
+        print(f"Testing {model['name']}...")
+        
+        # Create a custom ranking system with this decay model
+        ranking_system = self._create_custom_ranking_system(model)
+        
+        # Process all matches
+        for match in match_data:
+            ranking_system.process_match(match)
+        
+        # Apply inactivity decay
+        ranking_system.adjust_for_inactivity(datetime.now())
+        
+        # Evaluate the model
+        evaluation = self._evaluate_model(ranking_system, model)
+        
+        print(f"Completed {model['name']}")
+        return evaluation
+    
+    def _fast_evaluate_decay_model(self, model):
+        """Fast pandas-based evaluation of decay model without full ranking simulation"""
+        print(f"Fast testing {model['name']}...")
+        
+        # Create a copy of player stats for this model
+        player_stats = self.player_stats_df.copy()
+        
+        # Apply decay based on model type
+        if model['type'] == 'constant':
+            # Simple constant decay per day
+            decay_per_day = model['decay_per_day']
+            additional_sigma = player_stats['days_inactive'] * decay_per_day
+            
+        elif model['type'] == 'logarithmic':
+            # Logarithmic decay (slower for long periods)
+            base_decay = model['base_decay']
+            log_factor = model['log_factor']
+            additional_sigma = base_decay * np.log1p(player_stats['days_inactive'] * log_factor)
+            
+        elif model['type'] == 'exponential':
+            # Exponential decay (faster for long periods)
+            base_decay = model['base_decay']
+            exp_factor = model['exp_factor']
+            additional_sigma = base_decay * (1 - np.exp(-player_stats['days_inactive'] * exp_factor))
+            
+        elif model['type'] == 'adaptive':
+            # Adaptive decay based on player consistency
+            base_decay = model['base_decay']
+            consistency_factor = model['consistency_factor']
+            # Players with lower consistency (higher CV) get more decay
+            adaptive_multiplier = 1 + (player_stats['consistency'] * consistency_factor)
+            additional_sigma = player_stats['days_inactive'] * base_decay * adaptive_multiplier
+        
+        # Cap the additional sigma
+        max_additional = model.get('max_multiplier', 2.0) * START_SIGMA
+        additional_sigma = np.minimum(additional_sigma, max_additional)
+        
+        # Calculate new conservative ratings (approximation)
+        # Assume base mu=START_MU and base sigma=START_SIGMA for all players
+        base_mu = START_MU
+        base_sigma = START_SIGMA
+        new_sigma = base_sigma + additional_sigma
+        conservative_rating = base_mu - 3 * new_sigma
+        
+        # Calculate evaluation metrics using vectorized operations
+        active_players = player_stats[player_stats['days_inactive'] <= 365]  # Active in last year
+        inactive_players = player_stats[player_stats['days_inactive'] > 365]  # Inactive over a year
+        
+        # Evaluation metrics
+        active_avg_rating = conservative_rating[player_stats['days_inactive'] <= 365].mean()
+        inactive_avg_rating = conservative_rating[player_stats['days_inactive'] > 365].mean()
+        rating_separation = active_avg_rating - inactive_avg_rating
+        
+        # Correlation with recent performance (for active players)
+        if len(active_players) > 10:
+            recent_performance_correlation = np.corrcoef(
+                active_players['avg_percentage'],
+                conservative_rating[player_stats['days_inactive'] <= 365]
+            )[0, 1]
+        else:
+            recent_performance_correlation = 0
+        
+        evaluation = {
+            'model': model,
+            'rating_separation': rating_separation,
+            'active_avg_rating': active_avg_rating,
+            'inactive_avg_rating': inactive_avg_rating,
+            'performance_correlation': recent_performance_correlation,
+            'total_players': len(player_stats),
+            'active_players': len(active_players),
+            'inactive_players': len(inactive_players)
+        }
+        
+        print(f"Completed {model['name']} - Rating separation: {rating_separation:.2f}")
+        return evaluation
     
     def _create_custom_ranking_system(self, model):
         """Create a ranking system with custom decay model"""
@@ -399,11 +638,14 @@ def main():
     # Print activity analysis
     optimizer.print_activity_analysis()
     
-    # Simulate different decay models
-    results = optimizer.simulate_decay_models()
+    # Fast simulate different decay models using pandas
+    fast_results = optimizer.fast_simulate_decay_models()
     
-    # Recommend optimal parameters
-    best_model = optimizer.recommend_optimal_parameters(results)
+    # Also run the traditional method on best candidates for validation (optional)
+    # results = optimizer.simulate_decay_models()
+    
+    # The fast method already identifies the best model
+    best_model = fast_results[0] if fast_results else None
     
     print(f"\n" + "="*80)
     print("ANALYSIS COMPLETE")

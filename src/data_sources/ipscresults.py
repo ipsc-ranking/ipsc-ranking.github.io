@@ -242,18 +242,31 @@ class IPSCResultsLiveIterator(MatchDataIterator):
             for i, result in enumerate(results):
                 # Parse competitor name
                 full_name = result.get('CompetitorName', '').strip()
-                name_parts = full_name.split() if full_name else ['Unknown', 'Shooter']
                 
-                if len(name_parts) >= 2:
-                    first_name = name_parts[0]
-                    last_name = ' '.join(name_parts[1:])
+                # Handle "Last, First" format
+                if ',' in full_name:
+                    parts = full_name.split(',', 1)
+                    if len(parts) == 2:
+                        last_name = parts[0].strip()
+                        first_name = parts[1].strip()
+                    else:
+                        # Fallback
+                        name_parts = full_name.split() if full_name else ['Unknown', 'Shooter']
+                        first_name = name_parts[0] if name_parts else 'Unknown'
+                        last_name = ' '.join(name_parts[1:]) if len(name_parts) > 1 else 'Shooter'
                 else:
-                    first_name = name_parts[0] if name_parts else 'Unknown'
-                    last_name = 'Shooter'
+                    # Handle "First Last" format
+                    name_parts = full_name.split() if full_name else ['Unknown', 'Shooter']
+                    if len(name_parts) >= 2:
+                        first_name = name_parts[0]
+                        last_name = ' '.join(name_parts[1:])
+                    else:
+                        first_name = name_parts[0] if name_parts else 'Unknown'
+                        last_name = 'Shooter'
                 
                 shooter = {
-                    'first_name': first_name,
-                    'last_name': last_name,
+                    'first_name': first_name.strip(),
+                    'last_name': last_name.strip(),
                     'alias': '',
                     'region': self._normalize_region(result.get('Region', region)),
                     'division': division_name,
@@ -313,7 +326,7 @@ class IPSCResultsLiveIterator(MatchDataIterator):
 class IPSCResultsFileIterator(MatchDataIterator):
     """Iterator for IPSCResults match data stored in JSON files"""
     
-    def __init__(self, match_data_dir: str = './match_data/', filter_levels: Optional[List[str]] = None):
+    def __init__(self, match_data_dir: str = './match_data/', filter_levels: Optional[List[int]] = None):
         """
         Initialize IPSCResults file iterator
         
@@ -405,18 +418,30 @@ class IPSCResultsMatchFetcher:
                 if not handgun_divisions:
                     return None
             
-            # Build match info from detail (approximate)
+            # We need to get the Level from the match list since match_detail doesn't have it
+            # First try to find this match in the match list to get proper level
+            match_list = self.client.get_match_list()
+            actual_match_info = None
+            for list_match in match_list:
+                if list_match.get('ID') == match_id:
+                    actual_match_info = list_match
+                    break
+            
+            # Build match info from detail and list data
             match_info = {
                 'ID': match_id,  # Use the ID we passed in
                 'Name': match_detail.get('Name', 'Unknown Match'),
                 'Date': match_detail.get('Date', '')[:10] if match_detail.get('Date') else datetime.now().strftime('%Y-%m-%d'),
-                'Level': match_detail.get('Level', 2),
-                'RegionName': match_detail.get('Region', 'Unknown')
+                'Level': actual_match_info.get('Level', 2) if actual_match_info else 2,  # Get from match list
+                'RegionName': match_detail.get('Region', actual_match_info.get('RegionName', 'Unknown') if actual_match_info else 'Unknown')
             }
             
-            # Build match data for each division
-            matches = []
+            # Build combined match data with all divisions
             iterator = IPSCResultsLiveIterator(self.client)
+            
+            # Collect all divisions and their results
+            all_divisions = {}
+            combined_results = []
             
             for division_info in handgun_divisions:
                 division_code = division_info['code']
@@ -427,12 +452,82 @@ class IPSCResultsMatchFetcher:
                 if not results:
                     continue
                 
-                # Build match data
-                match_data = iterator._build_match_data(match_info, match_detail, results, div_name)
-                if match_data:
-                    matches.append(match_data)
+                # Process shooters for this division
+                division_shooters = []
+                for i, result in enumerate(results):
+                    # Parse competitor name
+                    full_name = result.get('CompetitorName', '').strip()
+                    
+                    # Handle "Last, First" format
+                    if ',' in full_name:
+                        parts = full_name.split(',', 1)
+                        if len(parts) == 2:
+                            last_name = parts[0].strip()
+                            first_name = parts[1].strip()
+                        else:
+                            # Fallback
+                            name_parts = full_name.split() if full_name else ['Unknown', 'Shooter']
+                            first_name = name_parts[0] if name_parts else 'Unknown'
+                            last_name = ' '.join(name_parts[1:]) if len(name_parts) > 1 else 'Shooter'
+                    else:
+                        # Handle "First Last" format
+                        name_parts = full_name.split() if full_name else ['Unknown', 'Shooter']
+                        if len(name_parts) >= 2:
+                            first_name = name_parts[0]
+                            last_name = ' '.join(name_parts[1:])
+                        else:
+                            first_name = name_parts[0] if name_parts else 'Unknown'
+                            last_name = 'Shooter'
+                    
+                    shooter = {
+                        'first_name': first_name,
+                        'last_name': last_name,
+                        'alias': '',
+                        'region': iterator._normalize_region(result.get('Region', match_info.get('RegionName', 'Unknown'))),
+                        'division': div_name,
+                        'category': result.get('Category', []) if result.get('Category') else [],
+                        'classification': result.get('Recognition', ''),
+                        'club': '',  # Not available in IPSCResults.org
+                        'match_percentage': float(result.get('MatchPercent', 0)),
+                        'placement': int(result.get('Rank', i + 1)),
+                        'match_points': float(result.get('Points', 0)),
+                        'competitor_number': result.get('CompetitorNumber', ''),
+                    }
+                    division_shooters.append(shooter)
+                    combined_results.append(shooter)
+                
+                # Store division results
+                all_divisions[div_name] = {
+                    'division_name': div_name,
+                    'division_code': division_code,
+                    'shooters': division_shooters,
+                    'shooter_count': len(division_shooters)
+                }
             
-            return matches if matches else None
+            if not all_divisions:
+                return None
+            
+            # Build complete match data with all divisions
+            match_data = {
+                'match_id': match_id,
+                'match_title': match_info['Name'],
+                'match_date': f"{match_info['Date']}T10:00:00" if match_info.get('Date') else datetime.now().isoformat(),
+                'match_level': int(match_info.get('Level', 2)),  # Normalize to integer
+                'club_name': match_detail.get('Location', match_info.get('RegionName', 'Unknown')),
+                'region': match_info.get('RegionName', 'Unknown'),
+                'source': iterator.get_source_name(),
+                'divisions': all_divisions,
+                'combined_results': combined_results,  # All shooters from all divisions
+                'total_shooters': len(combined_results),
+                'division_count': len(all_divisions),
+                'api_data': {
+                    'match_info': match_info,
+                    'match_detail': match_detail,
+                    'divisions_fetched': list(all_divisions.keys())
+                }
+            }
+            
+            return [match_data]  # Return as list for compatibility
             
         except Exception as e:
             print(f"Error fetching IPSCResults match {match_id}: {e}")
@@ -464,7 +559,7 @@ class IPSCResultsMatchFetcher:
                 return match_date.split('T')[0]
             elif '-' in match_date and len(match_date) >= 10:
                 return match_date[:10]
-        except:
+        except (ValueError, IndexError, TypeError):
             pass
         
         return datetime.now().strftime('%Y-%m-%d')
