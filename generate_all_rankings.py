@@ -176,8 +176,9 @@ class IPSCRankingSystem:
     def adjust_for_inactivity(self, current_date):
         """Adjust ratings for player inactivity using exponential decay"""
         import math
-        # Exponential decay rate (optimized for realistic time scales)
-        decay_rate = 0.003  # Exponential decay rate per day
+        # Exponential decay rate: after 4 years (1461 days), 99% of uncertainty has decayed
+        # decay_rate = -ln(0.01) / 1461 = 4.605 / 1461 ≈ 0.00315
+        decay_rate = 4.605 / 1461  # Exponential decay rate per day
         
         for player_id, player_data in self.players.items():
             if player_id in self.player_last_match:
@@ -350,7 +351,9 @@ class IPSCRankingSystem:
         
     def generate_ranking(self, sweden_only=False):
         """Generate the final ranking of all players"""
+        from datetime import datetime
         rankings = []
+        current_date = datetime.now()
         
         for player_id, player_data in self.players.items():
             # Skip non-Swedish players if sweden_only is True
@@ -358,6 +361,12 @@ class IPSCRankingSystem:
             if sweden_only and ('region' not in player_data or player_data['region'] != 'SWE'):
                 continue
             #print(player_data['region'])
+            
+            # Skip players inactive for 4+ years (1461+ days)
+            if player_id in self.player_last_match:
+                days_since_last_match = (current_date - self.player_last_match[player_id]).days
+                if days_since_last_match >= 1461:  # 4 years
+                    continue
                 
             rating = player_data['rating']
             conservative_rating = self.calculate_conservative_rating(rating)
