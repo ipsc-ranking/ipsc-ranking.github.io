@@ -176,7 +176,7 @@ class IPSCRankingSystem:
     def adjust_for_inactivity(self, current_date):
         """Adjust ratings for player inactivity using simple constant decay"""
         # Simple constant decay per day (optimized from data analysis)
-        decay_per_day = 0.075  # Optimal value: rating separation 154.393
+        decay_per_day = 0.150  # Optimal value from temporal validation: MAE 92.899
         
         for player_id, player_data in self.players.items():
             if player_id in self.player_last_match:
@@ -187,12 +187,8 @@ class IPSCRankingSystem:
                     # Simple linear decay
                     additional_sigma = days_since_last_match * decay_per_day
                     
-                    # Cap the additional sigma at 2x the starting sigma
-                    max_additional = 2.0 * START_SIGMA
-                    additional_sigma = min(additional_sigma, max_additional)
-                    
-                    # Apply decay
-                    new_sigma = current_rating.sigma + additional_sigma
+                    # Apply decay and cap total sigma at START_SIGMA (validated optimal)
+                    new_sigma = min(current_rating.sigma + additional_sigma, START_SIGMA)
                     
                     # Create a new rating with updated sigma
                     try:

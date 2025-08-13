@@ -293,21 +293,39 @@ class SigmaDecayOptimizer:
         print("FAST SIMULATING DECAY MODELS (PANDAS VECTORIZED)")
         print("="*80)
         
-        # Fine-grained optimization around the best performing range (0.04-0.06)
+        # Optimize constants for uncapped scenario since no-cap performs much better
         decay_models = []
         
-        # Extended search range to see if it keeps climbing or peaks
-        for i, decay_value in enumerate([
-            0.050, 0.055, 0.060, 0.065, 0.070, 0.075, 0.080, 0.085, 0.090, 0.095,
-            0.100, 0.110, 0.120, 0.130, 0.140, 0.150, 0.160, 0.170, 0.180, 0.190,
-            0.200, 0.220, 0.240, 0.260, 0.280, 0.300
-        ]):
+        # Test fine-grained decay rates without caps
+        decay_rates = [
+            0.020, 0.030, 0.040, 0.050, 0.055, 0.060, 0.065, 0.070, 0.075, 
+            0.080, 0.083, 0.085, 0.090, 0.095, 0.100, 0.110, 0.120, 0.130, 0.140, 0.150
+        ]
+        
+        for decay_rate in decay_rates:
             decay_models.append({
-                'name': f'Decay_{decay_value:.3f}',
-                'type': 'constant',
-                'decay_per_day': decay_value,
-                'max_multiplier': 2.0
+                'name': f'NoCap_{decay_rate:.3f}',
+                'type': 'constant_no_cap',
+                'decay_per_day': decay_rate,
             })
+        
+        # Also test confidence-based without caps for comparison
+        for base_decay in [0.040, 0.050, 0.060, 0.070]:
+            for sigma_factor in [1.0, 1.5, 2.0]:
+                decay_models.append({
+                    'name': f'Confidence_NoCap_{base_decay:.3f}_f{sigma_factor:.1f}',
+                    'type': 'confidence_based_no_cap',
+                    'base_decay': base_decay,
+                    'sigma_factor': sigma_factor,
+                })
+        
+        # Keep current capped model for comparison
+        decay_models.append({
+            'name': f'CURRENT_0.083_Capped',
+            'type': 'constant',
+            'decay_per_day': 0.083,
+            'max_multiplier': 1.0  # Current actual cap at START_SIGMA
+        })
         
         # Use multiprocessing with the fast evaluation method
         print(f"Fast testing {len(decay_models)} models using {cpu_count()} CPU cores...")
@@ -386,6 +404,41 @@ class SigmaDecayOptimizer:
             decay_per_day = model['decay_per_day']
             additional_sigma = player_stats['days_inactive'] * decay_per_day
             
+        elif model['type'] == 'constant_no_cap':
+            # Constant decay with no cap (unlimited growth)
+            decay_per_day = model['decay_per_day']
+            additional_sigma = player_stats['days_inactive'] * decay_per_day
+            # Skip the cap logic below for this type
+            
+        elif model['type'] == 'square_root':
+            # Square root decay - fast initial decay, then plateau
+            base_decay = model['base_decay']
+            additional_sigma = base_decay * np.sqrt(player_stats['days_inactive'])
+            
+        elif model['type'] == 'sigmoid':
+            # Sigmoid/logistic decay - slow → rapid → plateau
+            steepness = model['steepness']
+            midpoint = model['midpoint']
+            max_decay = model['max_decay']
+            # Sigmoid function: max_decay / (1 + exp(-steepness * (days - midpoint)))
+            additional_sigma = max_decay / (1 + np.exp(-steepness * (player_stats['days_inactive'] - midpoint)))
+            
+        elif model['type'] == 'confidence_based':
+            # Confidence-based decay - players with low uncertainty decay faster
+            base_decay = model['base_decay']
+            sigma_factor = model['sigma_factor']
+            # Assume base sigma for calculation (we don't have current sigma in fast method)
+            # Players with lower assumed uncertainty get more decay
+            confidence_multiplier = sigma_factor * (START_SIGMA / (START_SIGMA + 0.1))  # Approximation
+            additional_sigma = player_stats['days_inactive'] * base_decay * confidence_multiplier
+            
+        elif model['type'] == 'confidence_based_no_cap':
+            # Confidence-based decay without cap
+            base_decay = model['base_decay']
+            sigma_factor = model['sigma_factor']
+            confidence_multiplier = sigma_factor * (START_SIGMA / (START_SIGMA + 0.1))  # Approximation
+            additional_sigma = player_stats['days_inactive'] * base_decay * confidence_multiplier
+            
         elif model['type'] == 'logarithmic':
             # Logarithmic decay (slower for long periods)
             base_decay = model['base_decay']
@@ -406,9 +459,10 @@ class SigmaDecayOptimizer:
             adaptive_multiplier = 1 + (player_stats['consistency'] * consistency_factor)
             additional_sigma = player_stats['days_inactive'] * base_decay * adaptive_multiplier
         
-        # Cap the additional sigma
-        max_additional = model.get('max_multiplier', 2.0) * START_SIGMA
-        additional_sigma = np.minimum(additional_sigma, max_additional)
+        # Cap the additional sigma (unless it's a no-cap model)
+        if model['type'] not in ['constant_no_cap', 'confidence_based_no_cap']:
+            max_additional = model.get('max_multiplier', 2.0) * START_SIGMA
+            additional_sigma = np.minimum(additional_sigma, max_additional)
         
         # Calculate new conservative ratings (approximation)
         # Assume base mu=START_MU and base sigma=START_SIGMA for all players
@@ -468,6 +522,22 @@ class SigmaDecayOptimizer:
                             # Calculate decay based on model type
                             if self.decay_model['type'] == 'constant':
                                 additional_sigma = self.decay_model['decay_per_day'] * days_since_last_match
+                            
+                            elif self.decay_model['type'] == 'square_root':
+                                additional_sigma = self.decay_model['base_decay'] * np.sqrt(days_since_last_match)
+                            
+                            elif self.decay_model['type'] == 'sigmoid':
+                                steepness = self.decay_model['steepness']
+                                midpoint = self.decay_model['midpoint']
+                                max_decay = self.decay_model['max_decay']
+                                additional_sigma = max_decay / (1 + np.exp(-steepness * (days_since_last_match - midpoint)))
+                            
+                            elif self.decay_model['type'] == 'confidence_based':
+                                base_decay = self.decay_model['base_decay']
+                                sigma_factor = self.decay_model['sigma_factor']
+                                # Higher uncertainty = slower decay, lower uncertainty = faster decay
+                                confidence_multiplier = sigma_factor * (START_SIGMA / current_rating.sigma)
+                                additional_sigma = base_decay * days_since_last_match * confidence_multiplier
                             
                             elif self.decay_model['type'] == 'logarithmic':
                                 additional_sigma = (self.decay_model['base_decay'] * days_since_last_match + 
