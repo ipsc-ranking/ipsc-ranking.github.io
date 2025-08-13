@@ -20,7 +20,7 @@ MATCH_FILES_LOCATION = './data/matches/'
 
 OPENSKILL_MODEL = openskill.models.BradleyTerryPart
 
-START_MU = 25
+START_MU = 50
 
 PERCENTILE = 80
 
@@ -174,9 +174,10 @@ class IPSCRankingSystem:
         return player_id
     
     def adjust_for_inactivity(self, current_date):
-        """Adjust ratings for player inactivity using simple constant decay"""
-        # Simple constant decay per day (optimized from data analysis)
-        decay_per_day = 0.150  # Optimal value from temporal validation: MAE 92.899
+        """Adjust ratings for player inactivity using exponential decay"""
+        import math
+        # Exponential decay rate (optimized for realistic time scales)
+        decay_rate = 0.003  # Exponential decay rate per day
         
         for player_id, player_data in self.players.items():
             if player_id in self.player_last_match:
@@ -184,11 +185,9 @@ class IPSCRankingSystem:
                 if days_since_last_match > 0:
                     current_rating = player_data['rating']
                     
-                    # Simple linear decay
-                    additional_sigma = days_since_last_match * decay_per_day
-                    
-                    # Apply decay and cap total sigma at START_SIGMA (validated optimal)
-                    new_sigma = min(current_rating.sigma + additional_sigma, START_SIGMA)
+                    # Exponential decay: sigma_adjusted = max(current_sigma, START_SIGMA - (START_SIGMA - current_sigma) * exp(-decay_rate * days_inactive))
+                    decay_factor = math.exp(-decay_rate * days_since_last_match)
+                    new_sigma = max(current_rating.sigma, START_SIGMA - (START_SIGMA - current_rating.sigma) * decay_factor)
                     
                     # Create a new rating with updated sigma
                     try:
@@ -483,7 +482,8 @@ def main():
         'Production Optics': 'ipsc_ranking_production_optics.json',
         'Classic': 'ipsc_ranking_classic.json',
         'Revolver': 'ipsc_ranking_revolver.json',
-        'Pistol Caliber Carbine': 'ipsc_ranking_pistol_caliber_carbine.json'
+        'Pistol Caliber Carbine': 'ipsc_ranking_pistol_caliber_carbine.json',
+        'Combined': 'ipsc_ranking_combined.json'
     }
     
     for division, filename in division_files.items():
@@ -517,6 +517,15 @@ def main():
     
     with open('results/ipsc_ranking_combined.json', 'w', encoding='utf-8') as f:
         json.dump(combined_rankings, f, indent=2, ensure_ascii=False)
+    
+    # Add combined division to category processing by extracting categories from player data
+    for player in combined_rankings:
+        player_id = player['player_id']
+        categories = player_categories.get(player_id, set())
+        for category in categories:
+            category_player = player.copy()
+            category_player['category'] = category
+            division_category_rankings['combined'][category].append(category_player)
     
     # Generate category-specific rankings
     print(f"\nGenerating category-specific rankings...")
