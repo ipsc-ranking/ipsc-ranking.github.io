@@ -293,7 +293,7 @@ class IPSCRankingSystem:
         except Exception as e:
             print(f"Error processing match {match_id}: {e}")
     
-    def calculate_conservative_rating(self, rating, percentile=80.0):
+    def calculate_conservative_rating(self, rating, percentile=70.0):
         """Calculate conservative rating using specified percentile"""
         from scipy.stats import norm
         alpha = 1

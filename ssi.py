@@ -185,13 +185,13 @@ def main():
     """Main function to iterate over match IDs and save data"""
     # You can adjust this range based on your needs
     # Start from a reasonable number and go up to current matches
-    start_match_id = 1  # Adjust as needed
-    end_match_id = 23000    # Adjust as needed
+    start_match_id = 24691  # Start from the latest known ID + 1
+    end_match_id = 24750    # Check 60 new IDs
     
     # Or you can provide a specific list of match IDs
     # match_ids = [22747, 22748, 22749]  # Example specific IDs
     
-    output_dir = "match_data"
+    output_dir = "data/matches"
     
     print(f"Starting to process matches from {start_match_id} to {end_match_id}")
     print(f"Output directory: {output_dir}")

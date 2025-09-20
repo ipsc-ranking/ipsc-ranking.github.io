@@ -29,6 +29,15 @@ z_score = abs(norm.ppf(PERCENTILE / 100.0))
 
 START_SIGMA = START_MU/z_score
 
+LEVEL2_BETA = 22
+LEVEL3_BETA = 20    
+LEVEL4_BETA = 18  
+LEVEL5_BETA = 16 
+
+
+
+
+
 
 
 class IPSCRankingSystem:
@@ -37,7 +46,7 @@ class IPSCRankingSystem:
         self.model = OPENSKILL_MODEL(
             mu=START_MU,  # Default skill level
             sigma=START_SIGMA,  # Default uncertainty
-            beta=START_MU/12,  # Default for L2 matches, will be adjusted per match level
+            beta=START_MU/3,  # Default for L2 matches, will be adjusted per match level
             tau=START_MU/300,  # Skill decay rate per day
             #draw_probability=0.00001  # Very low draw probability for IPSC
         )
@@ -52,11 +61,14 @@ class IPSCRankingSystem:
         self.match_details = []
         
         # Beta values for different match levels
+        # Higher beta = more uncertainty/less weight
+        # L2 matches are local/regional with smaller fields, should have higher uncertainty
+        # L5 matches are World Championships with strongest fields, should have lower uncertainty
         self.beta_values = {
-            2: START_MU/12,
-            3: START_MU/6,
-            4: START_MU/3,
-            5: START_MU/1.5
+            2: LEVEL2_BETA,   
+            3: LEVEL3_BETA,   
+            4: LEVEL4_BETA,    # Continental championships - lower uncertainty
+            5: LEVEL5_BETA    # World Championships - lowest uncertainty
         }
     
     def load_matches(self):
@@ -210,7 +222,7 @@ class IPSCRankingSystem:
         match_title = match_data.get('match_title', 'Unknown Match')
         
         # Temporarily adjust the main model's beta
-        self.model.beta = self.beta_values.get(match_level, START_MU/12)  # Default to Level II beta
+        self.model.beta = self.beta_values.get(match_level, LEVEL2_BETA)  # Default to Level II beta
         
         # Prepare teams using existing ratings directly and store pre-match data
         teams = []
@@ -320,7 +332,7 @@ class IPSCRankingSystem:
         except Exception as e:
             print(f"Error processing match {match_id}: {e}")
     
-    def calculate_conservative_rating(self, rating, percentile=80.0):
+    def calculate_conservative_rating(self, rating, percentile=75.0):
         """Calculate conservative rating using specified percentile"""
         from scipy.stats import norm
         alpha = 1
